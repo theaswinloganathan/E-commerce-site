@@ -109,7 +109,7 @@ export default function Navbar() {
                 <img src="/logo.png" alt="Lakshmi Fashion Logo" className="h-10 sm:h-12 w-auto object-contain transition-transform duration-500 group-hover:scale-110" onError={(e) => e.target.style.display = 'none'} />
               </div>
               <span className="text-xl sm:text-2xl font-serif font-bold tracking-wider text-brand-950 ml-2 uppercase hidden sm:block">Lakshmi Fashion</span>
-              <span className="text-xl font-serif font-bold tracking-wider text-brand-950 ml-2 uppercase sm:hidden">LF</span>
+              <span className="text-lg font-serif font-bold tracking-wider text-brand-950 ml-2 uppercase sm:hidden">Lakshmi Fashion</span>
             </Link>
 
             {/* Desktop Nav */}
@@ -336,7 +336,7 @@ export default function Navbar() {
                 <div className="p-5 flex items-center justify-between border-b border-brand-50">
                   <div className="flex items-center min-w-0 mr-4">
                     <img src="/logo.png" alt="Lakshmi Fashion Logo" className="h-7 w-auto mr-2 shrink-0" />
-                    <span className="text-base font-serif font-bold text-brand-950 uppercase truncate">Lakshmi Fashion</span>
+                    <span className="text-base font-serif font-bold text-brand-950 uppercase">Lakshmi Fashion</span>
                   </div>
                   <button onClick={() => setIsMobileMenuOpen(false)} className="p-2 hover:bg-brand-50 rounded-full transition-colors shrink-0">
                     <X size={20} />
