@@ -70,6 +70,17 @@ export default function Navbar() {
     setIsMobileMenuOpen(false)
   }, [location.pathname])
 
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = 'unset'
+    }
+    return () => {
+      document.body.style.overflow = 'unset'
+    }
+  }, [isMobileMenuOpen])
+
   return (
     <>
       <header
@@ -315,85 +326,86 @@ export default function Navbar() {
           </div>
         </div>
 
-        {/* Mobile Menu Overlay */}
-        <AnimatePresence>
-          {isMobileMenuOpen && (
-            <>
-              <motion.div 
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                className="fixed inset-0 bg-black/40 backdrop-blur-sm z-[60] lg:hidden"
-                onClick={() => setIsMobileMenuOpen(false)}
-              />
-              <motion.div
-                initial={{ x: '-100%' }}
-                animate={{ x: 0 }}
-                exit={{ x: '-100%' }}
-                transition={{ type: 'spring', damping: 25, stiffness: 200 }}
-                className="fixed top-0 left-0 bottom-0 w-[80%] max-w-[320px] bg-white z-[70] lg:hidden shadow-2xl flex flex-col"
-              >
-                <div className="p-5 flex items-center justify-between border-b border-brand-50">
-                  <div className="flex items-center min-w-0 mr-4">
-                    <img src="/logo.png" alt="Lakshmi Fashion Logo" className="h-10 w-auto mr-2 shrink-0 object-contain" onError={(e) => e.target.style.display = 'none'} />
-                    <span className="text-base font-serif font-bold text-brand-950 uppercase">Lakshmi Fashion</span>
-                  </div>
-                  <button onClick={() => setIsMobileMenuOpen(false)} className="p-2 hover:bg-brand-50 rounded-full transition-colors shrink-0">
-                    <X size={20} />
-                  </button>
-                </div>
-                
-                <div className="flex-1 overflow-y-auto py-6 px-6 space-y-1">
-                  <p className="text-[10px] font-bold text-brand-400 uppercase tracking-[0.2em] mb-4">Navigation</p>
-                  <Link to="/" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium">Home <ChevronRight size={16}/></Link>
-                  <Link to="/shop" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium">Shop Collection <ChevronRight size={16}/></Link>
-                  <Link to="/shop?category=women" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium">Women <ChevronRight size={16}/></Link>
-                  <Link to="/shop?category=men" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium">Men <ChevronRight size={16}/></Link>
-                  <Link to="/shop?category=kids" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium">Kids <ChevronRight size={16}/></Link>
-                  
-                  <p className="text-[10px] font-bold text-brand-400 uppercase tracking-[0.2em] mt-8 mb-4">Account</p>
-                  {user ? (
-                    <div className="space-y-1">
-                      <div className="flex items-center p-3 space-x-3 mb-4 bg-brand-50 rounded-2xl">
-                        <div className="w-10 h-10 bg-brand-950 text-white rounded-full flex items-center justify-center font-bold shadow-md">
-                          {user.email[0].toUpperCase()}
-                        </div>
-                        <div className="truncate">
-                          <p className="text-sm font-bold text-brand-950">{user.user_metadata?.full_name || 'User'}</p>
-                          <p className="text-xs text-brand-500 truncate">{user.email}</p>
-                        </div>
-                      </div>
-                      <Link to="/profile" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium" onClick={() => setIsMobileMenuOpen(false)}>My Profile</Link>
-                      <Link to="/orders" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium" onClick={() => setIsMobileMenuOpen(false)}>My Orders</Link>
-                      <Link to="/wishlist" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium" onClick={() => setIsMobileMenuOpen(false)}>Wishlist</Link>
-                      <button
-                        onClick={async () => {
-                          await supabase.auth.signOut();
-                          setUser(null);
-                          navigate('/');
-                          setIsMobileMenuOpen(false);
-                        }}
-                        className="w-full text-left p-3 text-red-600 font-bold hover:bg-red-50 rounded-xl transition-colors mt-4"
-                      >
-                        Sign Out
-                      </button>
-                    </div>
-                  ) : (
-                    <Link to="/login" className="flex items-center justify-center p-4 bg-brand-950 text-white rounded-xl font-bold transition-all active:scale-95 shadow-lg shadow-brand-900/20" onClick={() => setIsMobileMenuOpen(false)}>
-                      <User size={18} className="mr-2" />
-                      Sign In / Register
-                    </Link>
-                  )}
-                </div>
-                
-                <div className="p-6 border-t border-brand-50 bg-brand-50/50">
-                   <p className="text-[10px] text-center text-brand-400 font-medium">© 2026 Lakshmi Fashion. Premium Quality.</p>
-                </div>
-              </motion.div>
-            </>
-          )}
-        </AnimatePresence>
       </header>
+
+      {/* Mobile Menu Overlay */}
+      <AnimatePresence>
+        {isMobileMenuOpen && (
+          <>
+            <motion.div 
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              className="fixed inset-0 bg-black/60 backdrop-blur-sm z-[9998] lg:hidden"
+              onClick={() => setIsMobileMenuOpen(false)}
+            />
+            <motion.div
+              initial={{ x: '-100%' }}
+              animate={{ x: 0 }}
+              exit={{ x: '-100%' }}
+              transition={{ type: 'spring', damping: 25, stiffness: 200 }}
+              className="fixed top-0 left-0 bottom-0 w-[85%] max-w-[340px] bg-white z-[9999] lg:hidden shadow-2xl flex flex-col"
+            >
+              <div className="p-5 flex items-center justify-between border-b border-brand-50">
+                <div className="flex items-center min-w-0 mr-4">
+                  <img src="/logo.png" alt="Lakshmi Fashion Logo" className="h-10 w-auto mr-2 shrink-0 object-contain" onError={(e) => e.target.style.display = 'none'} />
+                  <span className="text-base font-serif font-bold text-brand-950 uppercase">Lakshmi Fashion</span>
+                </div>
+                <button onClick={() => setIsMobileMenuOpen(false)} className="p-2 hover:bg-brand-50 rounded-full transition-colors shrink-0">
+                  <X size={20} />
+                </button>
+              </div>
+              
+              <div className="flex-1 overflow-y-auto py-6 px-6 space-y-1">
+                <p className="text-[10px] font-bold text-brand-400 uppercase tracking-[0.2em] mb-4">Navigation</p>
+                <Link to="/" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium">Home <ChevronRight size={16}/></Link>
+                <Link to="/shop" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium">Shop Collection <ChevronRight size={16}/></Link>
+                <Link to="/shop?category=women" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium">Women <ChevronRight size={16}/></Link>
+                <Link to="/shop?category=men" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium">Men <ChevronRight size={16}/></Link>
+                <Link to="/shop?category=kids" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium">Kids <ChevronRight size={16}/></Link>
+                
+                <p className="text-[10px] font-bold text-brand-400 uppercase tracking-[0.2em] mt-8 mb-4">Account</p>
+                {user ? (
+                  <div className="space-y-1">
+                    <div className="flex items-center p-3 space-x-3 mb-4 bg-brand-50 rounded-2xl">
+                      <div className="w-10 h-10 bg-brand-950 text-white rounded-full flex items-center justify-center font-bold shadow-md">
+                        {user.email[0].toUpperCase()}
+                      </div>
+                      <div className="truncate">
+                        <p className="text-sm font-bold text-brand-950">{user.user_metadata?.full_name || 'User'}</p>
+                        <p className="text-xs text-brand-500 truncate">{user.email}</p>
+                      </div>
+                    </div>
+                    <Link to="/profile" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium" onClick={() => setIsMobileMenuOpen(false)}>My Profile</Link>
+                    <Link to="/orders" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium" onClick={() => setIsMobileMenuOpen(false)}>My Orders</Link>
+                    <Link to="/wishlist" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium" onClick={() => setIsMobileMenuOpen(false)}>Wishlist</Link>
+                    <button
+                      onClick={async () => {
+                        await supabase.auth.signOut();
+                        setUser(null);
+                        navigate('/');
+                        setIsMobileMenuOpen(false);
+                      }}
+                      className="w-full text-left p-3 text-red-600 font-bold hover:bg-red-50 rounded-xl transition-colors mt-4"
+                    >
+                      Sign Out
+                    </button>
+                  </div>
+                ) : (
+                  <Link to="/login" className="flex items-center justify-center p-4 bg-brand-950 text-white rounded-xl font-bold transition-all active:scale-95 shadow-lg shadow-brand-900/20" onClick={() => setIsMobileMenuOpen(false)}>
+                    <User size={18} className="mr-2" />
+                    Sign In / Register
+                  </Link>
+                )}
+              </div>
+              
+              <div className="p-6 border-t border-brand-50 bg-brand-50/50">
+                 <p className="text-[10px] text-center text-brand-400 font-medium">© 2026 Lakshmi Fashion. Premium Quality.</p>
+              </div>
+            </motion.div>
+          </>
+        )}
+      </AnimatePresence>
       <LocationModal isOpen={isLocationModalOpen} onClose={() => setIsLocationModalOpen(false)} />
     </>
   )
