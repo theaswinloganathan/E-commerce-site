@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useNavigate, useLocation } from 'react-router-dom'
 import { supabase } from '../lib/supabase'
 import { useStore } from '../store/useStore'
-import { Loader2 } from 'lucide-react'
+import { Loader2, Info, CheckCircle2 } from 'lucide-react'
+import { motion, AnimatePresence } from 'framer-motion'
 
 export default function LoginPage() {
   const [email, setEmail] = useState('')
@@ -11,6 +12,8 @@ export default function LoginPage() {
   const [error, setError] = useState('')
   const setUser = useStore((state) => state.setUser)
   const navigate = useNavigate()
+  const location = useLocation()
+  const signupSuccess = location.state?.signupSuccess
 
   const handleLogin = async (e) => {
     e.preventDefault()
@@ -57,7 +60,30 @@ export default function LoginPage() {
         </Link>
         <div className="max-w-sm w-full mx-auto">
           <h1 className="text-3xl font-serif font-bold mb-2">Welcome Back</h1>
-          <p className="text-brand-500 mb-8 text-sm">Please sign in to your account.</p>
+          <p className="text-brand-500 mb-6 text-sm">Please sign in to your account.</p>
+
+          <AnimatePresence>
+            {signupSuccess && (
+              <motion.div 
+                initial={{ opacity: 0, y: -10 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="bg-green-50 p-4 rounded-xl border border-green-100 mb-6 flex items-start gap-3"
+              >
+                <CheckCircle2 size={18} className="text-green-600 mt-0.5 shrink-0" />
+                <p className="text-[11px] leading-relaxed text-green-700 font-medium">
+                  Account created successfully! Please verify your email before signing in.
+                </p>
+              </motion.div>
+            )}
+          </AnimatePresence>
+
+          <div className="bg-brand-50/50 p-4 rounded-xl border border-brand-100 mb-8 flex items-start gap-3">
+            <Info size={18} className="text-brand-400 mt-0.5 shrink-0" />
+            <p className="text-[11px] leading-relaxed text-brand-600">
+              If you are new, please <Link to="/signup" className="text-brand-950 font-bold hover:underline hover:text-brand-800 transition-all">create an account</Link> first. 
+              After signing up, verify your email, then sign in to continue.
+            </p>
+          </div>
           
           <form className="space-y-4" onSubmit={handleLogin}>
             {error && (
@@ -107,7 +133,7 @@ export default function LoginPage() {
           </form>
           
           <div className="mt-8 text-center text-sm text-brand-500">
-            Don't have an account? <Link to="/signup" className="text-brand-950 font-medium hover:underline">Sign up</Link>
+            Don't have an account? <Link to="/signup" className="text-brand-950 font-bold hover:text-brand-700 transition-all hover:underline underline-offset-4 ml-1">Sign up here</Link>
           </div>
         </div>
       </div>

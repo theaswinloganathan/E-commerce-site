@@ -157,7 +157,7 @@ export default function SignupPage() {
                 Please check your inbox to activate your account.
               </p>
               <div className="space-y-4">
-                <Link to="/login" className="btn-primary w-full shadow-lg">Proceed to Login</Link>
+                <Link to="/login" state={{ signupSuccess: true }} className="btn-primary w-full shadow-lg">Proceed to Login</Link>
                 <Link to="/" className="text-brand-500 hover:text-brand-950 text-sm font-bold uppercase tracking-widest block py-2 transition-colors">Back to Home</Link>
               </div>
             </motion.div>
