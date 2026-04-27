@@ -17,7 +17,7 @@ const getLocalStorage = (key, defaultValue) => {
 }
 
 export const useCartStore = create((set, get) => ({
-  items: getLocalStorage('velora-cart', []),
+  items: getLocalStorage('lakshmi-fashion-cart', []),
   
   addItem: async (product, size, color, quantity = 1) => {
     set((state) => {
@@ -36,7 +36,7 @@ export const useCartStore = create((set, get) => ({
         newItems = [...state.items, { id: Math.random().toString(36).substr(2, 9), product, size, color, quantity }]
       }
       
-      localStorage.setItem('velora-cart', JSON.stringify(newItems))
+      localStorage.setItem('lakshmi-fashion-cart', JSON.stringify(newItems))
       return { items: newItems }
     })
 
@@ -54,7 +54,7 @@ export const useCartStore = create((set, get) => ({
   removeItem: async (id) => {
     set((state) => {
       const newItems = state.items.filter((item) => item.id !== id)
-      localStorage.setItem('velora-cart', JSON.stringify(newItems))
+      localStorage.setItem('lakshmi-fashion-cart', JSON.stringify(newItems))
       return { items: newItems }
     })
 
@@ -68,7 +68,7 @@ export const useCartStore = create((set, get) => ({
   updateQuantity: async (id, quantity) => {
     set((state) => {
       const newItems = state.items.map((item) => (item.id === id ? { ...item, quantity } : item))
-      localStorage.setItem('velora-cart', JSON.stringify(newItems))
+      localStorage.setItem('lakshmi-fashion-cart', JSON.stringify(newItems))
       return { items: newItems }
     })
 
@@ -80,7 +80,7 @@ export const useCartStore = create((set, get) => ({
   },
 
   clearCart: async () => {
-    localStorage.removeItem('velora-cart')
+    localStorage.removeItem('lakshmi-fashion-cart')
     set({ items: [] })
     const user = useStore.getState().user
     if (user) await supabase.from('cart_items').delete().eq('user_id', user.id)
@@ -104,7 +104,7 @@ export const useCartStore = create((set, get) => ({
             combined.push(dbItem)
           }
         })
-        localStorage.setItem('velora-cart', JSON.stringify(combined))
+        localStorage.setItem('lakshmi-fashion-cart', JSON.stringify(combined))
         return { items: combined }
       })
     }
@@ -115,23 +115,23 @@ export const useCartStore = create((set, get) => ({
 }))
 
 export const useStore = create((set, get) => ({
-  wishlist: getLocalStorage('velora-wishlist', []),
-  orders: getLocalStorage('velora-orders', []),
-  user: getLocalStorage('velora-user', null),
-  deliveryLocation: getLocalStorage('velora-delivery-location', null),
+  wishlist: getLocalStorage('lakshmi-fashion-wishlist', []),
+  orders: getLocalStorage('lakshmi-fashion-orders', []),
+  user: getLocalStorage('lakshmi-fashion-user', null),
+  deliveryLocation: getLocalStorage('lakshmi-fashion-delivery-location', null),
   isLoadingOrders: false,
   orderError: null,
 
   setDeliveryLocation: (location) => {
     set({ deliveryLocation: location })
-    localStorage.setItem('velora-delivery-location', JSON.stringify(location))
+    localStorage.setItem('lakshmi-fashion-delivery-location', JSON.stringify(location))
   },
 
   toggleWishlist: async (product) => {
     set((state) => {
       const exists = state.wishlist.some(p => p.id === product.id)
       const newList = exists ? state.wishlist.filter(p => p.id !== product.id) : [...state.wishlist, product]
-      localStorage.setItem('velora-wishlist', JSON.stringify(newList))
+      localStorage.setItem('lakshmi-fashion-wishlist', JSON.stringify(newList))
       return { wishlist: newList }
     })
     
@@ -179,7 +179,7 @@ export const useStore = create((set, get) => ({
       // Update local state only after successful Supabase insert
       set((state) => {
         const newOrders = [newOrder, ...state.orders]
-        localStorage.setItem('velora-orders', JSON.stringify(newOrders))
+        localStorage.setItem('lakshmi-fashion-orders', JSON.stringify(newOrders))
         return { orders: newOrders }
       })
 
@@ -224,7 +224,7 @@ export const useStore = create((set, get) => ({
           trackingSteps: o.tracking_steps || [o.status || o.order_status]
         }))
         set({ orders: dbOrders, orderError: null })
-        localStorage.setItem('velora-orders', JSON.stringify(dbOrders))
+        localStorage.setItem('lakshmi-fashion-orders', JSON.stringify(dbOrders))
       }
     } catch (err) {
       console.error('Unexpected error in fetchOrders:', err);
@@ -236,7 +236,7 @@ export const useStore = create((set, get) => ({
 
   setUser: (user) => {
     set({ user })
-    localStorage.setItem('velora-user', JSON.stringify(user))
+    localStorage.setItem('lakshmi-fashion-user', JSON.stringify(user))
     if (user) {
       useCartStore.getState().fetchCart(user.id)
       get().fetchWishlist(user.id)
@@ -244,8 +244,8 @@ export const useStore = create((set, get) => ({
     } else {
       useCartStore.getState().clearCart()
       set({ wishlist: [], orders: [] })
-      localStorage.removeItem('velora-wishlist')
-      localStorage.removeItem('velora-orders')
+      localStorage.removeItem('lakshmi-fashion-wishlist')
+      localStorage.removeItem('lakshmi-fashion-orders')
     }
   },
 
@@ -256,7 +256,7 @@ export const useStore = create((set, get) => ({
       set((state) => {
         const combined = [...state.wishlist]
         dbList.forEach(item => { if (!combined.some(p => p.id === item.id)) combined.push(item) })
-        localStorage.setItem('velora-wishlist', JSON.stringify(combined))
+        localStorage.setItem('lakshmi-fashion-wishlist', JSON.stringify(combined))
         return { wishlist: combined }
       })
     }

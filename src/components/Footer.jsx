@@ -11,7 +11,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
-            <h3 className="text-2xl font-serif font-bold tracking-wider">DA Fassion</h3>
+            <h3 className="text-2xl font-serif font-bold tracking-wider">Lakshmi Fashion</h3>
             <p className="text-brand-400 text-sm leading-relaxed max-w-xs">
               Premium Style for Every Occasion. Discover elegant styles, trending looks, and timeless outfits.
             </p>
@@ -84,7 +84,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-brand-800 pt-8 flex flex-col md:flex-row items-center justify-between text-brand-500 text-sm flex-wrap gap-4">
-          <p>© {new Date().getFullYear()} DA Fassion. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Lakshmi Fashion. All rights reserved.</p>
           <div className="flex flex-col md:flex-row items-center gap-6">
             <div className="flex items-center space-x-3 text-brand-400 opacity-80 mr-0 md:mr-8">
               <CreditCard size={24} />

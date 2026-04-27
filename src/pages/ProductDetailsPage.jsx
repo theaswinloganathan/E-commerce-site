@@ -225,7 +225,7 @@ export default function ProductDetailsPage() {
           {/* Right Column: Product Details */}
           <div className="flex flex-col">
             <div className="mb-10">
-              <p className="text-[10px] font-black text-brand-400 uppercase tracking-[0.3em] mb-4">{product.brand || 'DA FASSION'}</p>
+              <p className="text-[10px] font-black text-brand-400 uppercase tracking-[0.3em] mb-4">{product.brand || 'LAKSHMI FASHION'}</p>
               <h1 className="text-4xl md:text-6xl font-serif font-black text-brand-950 mb-6 tracking-tight leading-tight uppercase">{product.name}</h1>
               
               <div className="flex items-center gap-6 mb-8">

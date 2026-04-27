@@ -133,13 +133,13 @@ export default function SignupPage() {
       {/* Form side */}
       <div className="flex-1 flex flex-col justify-center px-6 md:px-16 lg:px-24 py-12 relative bg-white order-2 lg:order-1 overflow-y-auto">
         <Link to="/" className="absolute top-8 left-6 md:left-16 lg:left-24 flex items-center group">
-          <span className="text-2xl font-serif font-black tracking-tighter text-brand-950 group-hover:scale-105 transition-transform">DA FASSION</span>
+          <span className="text-2xl font-serif font-black tracking-tighter text-brand-950 group-hover:scale-105 transition-transform">LAKSHMI FASHION</span>
         </Link>
 
         <div className="max-w-md w-full mx-auto mt-8">
           <div className="mb-10 text-center lg:text-left">
             <h1 className="text-4xl font-serif font-bold mb-3 tracking-tight">Create Your Account</h1>
-            <p className="text-brand-500 font-medium">Join DA Fassion for a premium shopping experience.</p>
+            <p className="text-brand-500 font-medium">Join Lakshmi Fashion for a premium shopping experience.</p>
           </div>
           
           {success ? (

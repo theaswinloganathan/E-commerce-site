@@ -29,14 +29,14 @@ const PageContainer = ({ title, children, subtitle }) => (
 export const ContactPage = () => (
   <PageContainer 
     title="Get In Touch" 
-    subtitle="We are here to ensure your experience with DA Fassion is as seamless as our fabrics."
+    subtitle="We are here to ensure your experience with Lakshmi Fashion is as seamless as our fabrics."
   >
     <div className="grid md:grid-cols-2 gap-20 items-start">
       <div className="space-y-12">
         <div className="space-y-8">
           {[
             { label: 'Corporate Office', value: '123 Fashion Street, Bandra West, Mumbai 400050', icon: <MapPin size={20} /> },
-            { label: 'Electronic Mail', value: 'concierge@dafassion.com', icon: <Mail size={20} /> },
+            { label: 'Electronic Mail', value: 'concierge@lakshmifashion.com', icon: <Mail size={20} /> },
             { label: 'Client Support', value: '+91 98765 43210', icon: <Phone size={20} /> }
           ].map((item, i) => (
             <div key={i} className="flex gap-6 items-start group">
@@ -141,7 +141,7 @@ export const ShippingPage = () => (
 export const SizeGuidePage = () => (
   <PageContainer 
     title="Size Guide"
-    subtitle="Ensure the perfect silhouette with our comprehensive sizing chart for DA Fassion collections."
+    subtitle="Ensure the perfect silhouette with our comprehensive sizing chart for Lakshmi Fashion collections."
   >
     <div className="bg-white rounded-[3rem] overflow-hidden border-2 border-brand-50 shadow-2xl shadow-brand-900/5">
       <table className="w-full text-left">
@@ -176,7 +176,7 @@ export const SizeGuidePage = () => (
 
 export const PrivacyPage = () => (
   <PageContainer title="Privacy Policy">
-    <p>At DA Fassion, we value your privacy. This policy explains how we collect, use, and protect your personal information.</p>
+    <p>At Lakshmi Fashion, we value your privacy. This policy explains how we collect, use, and protect your personal information.</p>
     <div className="mt-8 space-y-6">
       <h4 className="font-bold text-brand-950">Information Collection</h4>
       <p>We collect information when you register on our site, place an order, or subscribe to our newsletter.</p>
@@ -191,9 +191,9 @@ export const TermsPage = () => (
     <p>By using our website, you agree to comply with the following terms and conditions.</p>
     <div className="mt-8 space-y-6">
       <h4 className="font-bold text-brand-950">Intellectual Property</h4>
-      <p>All content on this site is the property of DA Fassion.</p>
+      <p>All content on this site is the property of Lakshmi Fashion.</p>
       <h4 className="font-bold text-brand-950">Limitation of Liability</h4>
-      <p>DA Fassion shall not be liable for any damages that result from the use of our products.</p>
+      <p>Lakshmi Fashion shall not be liable for any damages that result from the use of our products.</p>
     </div>
   </PageContainer>
 )

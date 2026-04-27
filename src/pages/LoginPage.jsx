@@ -53,7 +53,7 @@ export default function LoginPage() {
       {/* Form side */}
       <div className="flex-1 flex flex-col justify-center px-8 md:px-20 py-12 relative bg-white">
         <Link to="/" className="absolute top-12 left-8 md:left-20 text-xl font-serif font-bold tracking-wider text-brand-950">
-          DA FASSION
+          LAKSHMI FASHION
         </Link>
         <div className="max-w-sm w-full mx-auto">
           <h1 className="text-3xl font-serif font-bold mb-2">Welcome Back</h1>

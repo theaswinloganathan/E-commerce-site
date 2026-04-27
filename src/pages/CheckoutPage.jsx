@@ -147,7 +147,7 @@ export default function CheckoutPage() {
         key: razorpayKey,
         amount: order.amount,
         currency: order.currency,
-        name: "DA Fassion",
+        name: "Lakshmi Fashion",
         description: "Premium Fashion Order",
         order_id: order.id,
         handler: async function (res) {
@@ -411,7 +411,7 @@ export default function CheckoutPage() {
                       <img src={item.product.images?.[0]} alt={item.product.name} className="w-full h-full object-cover" />
                     </div>
                     <div className="flex-1 flex flex-col py-1">
-                      <p className="premium-label mb-1">{item.product.brand || 'DA FASSION'}</p>
+                      <p className="premium-label mb-1">{item.product.brand || 'LAKSHMI FASHION'}</p>
                       <p className="font-serif font-black text-brand-950 line-clamp-1 leading-tight mb-2 uppercase tracking-tighter">{item.product.name}</p>
                       <div className="flex justify-between items-end mt-auto">
                         <span className="text-[10px] font-bold text-brand-500 uppercase tracking-widest bg-brand-50 px-2 py-1 rounded">Qty: {item.quantity}</span>

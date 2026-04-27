@@ -76,7 +76,7 @@ export default function AdminDashboard() {
       {/* Sidebar */}
       <aside className="w-64 bg-brand-950 text-white flex flex-col flex-shrink-0">
         <div className="h-16 flex items-center px-6 border-b border-brand-800">
-          <Link to="/" className="text-xl font-serif font-bold tracking-wider text-white">VELORA ADMIN</Link>
+          <Link to="/" className="text-xl font-serif font-bold tracking-wider text-white">LAKSHMI ADMIN</Link>
         </div>
         
         <nav className="flex-1 px-4 py-8 space-y-2">

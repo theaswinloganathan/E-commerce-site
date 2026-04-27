@@ -108,8 +108,8 @@ export default function Navbar() {
               <div className="relative overflow-hidden rounded-lg">
                 <img src="/logo.png" alt="Lakshmi Fashion Logo" className="h-10 sm:h-12 w-auto object-contain transition-transform duration-500 group-hover:scale-110" onError={(e) => e.target.style.display = 'none'} />
               </div>
-              <span className="text-xl sm:text-2xl font-serif font-bold tracking-wider text-brand-950 ml-2 uppercase hidden sm:block">DA Fassion</span>
-              <span className="text-xl font-serif font-bold tracking-wider text-brand-950 ml-2 uppercase sm:hidden">DA</span>
+              <span className="text-xl sm:text-2xl font-serif font-bold tracking-wider text-brand-950 ml-2 uppercase hidden sm:block">Lakshmi Fashion</span>
+              <span className="text-xl font-serif font-bold tracking-wider text-brand-950 ml-2 uppercase sm:hidden">LF</span>
             </Link>
 
             {/* Desktop Nav */}
@@ -336,7 +336,7 @@ export default function Navbar() {
                 <div className="p-6 flex items-center justify-between border-b border-brand-50">
                   <div className="flex items-center">
                     <img src="/logo.png" alt="Lakshmi Fashion Logo" className="h-8 w-auto mr-2" />
-                    <span className="text-lg font-serif font-bold text-brand-950 uppercase">DA Fassion</span>
+                    <span className="text-lg font-serif font-bold text-brand-950 uppercase">Lakshmi Fashion</span>
                   </div>
                   <button onClick={() => setIsMobileMenuOpen(false)} className="p-2 hover:bg-brand-50 rounded-full transition-colors">
                     <X size={20} />
@@ -387,7 +387,7 @@ export default function Navbar() {
                 </div>
                 
                 <div className="p-6 border-t border-brand-50 bg-brand-50/50">
-                   <p className="text-[10px] text-center text-brand-400 font-medium">© 2026 DA Fassion. Premium Quality.</p>
+                   <p className="text-[10px] text-center text-brand-400 font-medium">© 2026 Lakshmi Fashion. Premium Quality.</p>
                 </div>
               </motion.div>
             </>
