@@ -333,12 +333,12 @@ export default function Navbar() {
                 transition={{ type: 'spring', damping: 25, stiffness: 200 }}
                 className="fixed top-0 left-0 bottom-0 w-[80%] max-w-[320px] bg-white z-[70] lg:hidden shadow-2xl flex flex-col"
               >
-                <div className="p-6 flex items-center justify-between border-b border-brand-50">
-                  <div className="flex items-center">
-                    <img src="/logo.png" alt="Lakshmi Fashion Logo" className="h-8 w-auto mr-2" />
-                    <span className="text-lg font-serif font-bold text-brand-950 uppercase">Lakshmi Fashion</span>
+                <div className="p-5 flex items-center justify-between border-b border-brand-50">
+                  <div className="flex items-center min-w-0 mr-4">
+                    <img src="/logo.png" alt="Lakshmi Fashion Logo" className="h-7 w-auto mr-2 shrink-0" />
+                    <span className="text-base font-serif font-bold text-brand-950 uppercase truncate">Lakshmi Fashion</span>
                   </div>
-                  <button onClick={() => setIsMobileMenuOpen(false)} className="p-2 hover:bg-brand-50 rounded-full transition-colors">
+                  <button onClick={() => setIsMobileMenuOpen(false)} className="p-2 hover:bg-brand-50 rounded-full transition-colors shrink-0">
                     <X size={20} />
                   </button>
                 </div>

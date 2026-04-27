@@ -4,6 +4,7 @@ import { useCartStore, useStore } from '../store/useStore'
 import { formatPrice, cn } from '../lib/utils'
 import { Shield, ChevronLeft, CreditCard, Banknote, Phone, Truck, CheckCircle } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { API_URL } from '../config'
 
 export default function CheckoutPage() {
   const items = useCartStore((state) => state.items)
@@ -131,7 +132,7 @@ export default function CheckoutPage() {
       if (!razorpayKey) throw new Error("Razorpay Key ID is missing");
 
       // 1. Create order on backend
-      const response = await fetch('http://localhost:5000/api/create-order', {
+      const response = await fetch(`${API_URL}/api/create-order`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ amount: total, currency: 'INR' }),
@@ -153,7 +154,7 @@ export default function CheckoutPage() {
         handler: async function (res) {
           try {
             // 3. Verify payment on backend
-            const verifyRes = await fetch('http://localhost:5000/api/verify-payment', {
+            const verifyRes = await fetch(`${API_URL}/api/verify-payment`, {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({
