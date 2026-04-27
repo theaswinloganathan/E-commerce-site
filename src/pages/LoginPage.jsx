@@ -77,14 +77,6 @@ export default function LoginPage() {
             )}
           </AnimatePresence>
 
-          <div className="bg-brand-50/50 p-4 rounded-xl border border-brand-100 mb-8 flex items-start gap-3">
-            <Info size={18} className="text-brand-400 mt-0.5 shrink-0" />
-            <p className="text-[11px] leading-relaxed text-brand-600">
-              If you are new, please <Link to="/signup" className="text-brand-950 font-bold hover:underline hover:text-brand-800 transition-all">create an account</Link> first. 
-              After signing up, verify your email, then sign in to continue.
-            </p>
-          </div>
-          
           <form className="space-y-4" onSubmit={handleLogin}>
             {error && (
               <div className="p-3 bg-red-50 border border-red-100 text-red-600 text-xs rounded-md mb-4">
@@ -131,8 +123,16 @@ export default function LoginPage() {
               {isLoading ? 'Signing In...' : 'Sign In'}
             </button>
           </form>
+
+          <div className="bg-brand-50/50 p-4 rounded-xl border border-brand-100 mt-10 mb-6 flex items-start gap-3">
+            <Info size={18} className="text-brand-400 mt-0.5 shrink-0" />
+            <p className="text-[11px] leading-relaxed text-brand-600">
+              If you are new, please <Link to="/signup" className="text-brand-950 font-bold hover:underline hover:text-brand-800 transition-all">create an account</Link> first. 
+              After signing up, verify your email, then sign in to continue.
+            </p>
+          </div>
           
-          <div className="mt-8 text-center text-sm text-brand-500">
+          <div className="text-center text-sm text-brand-500">
             Don't have an account? <Link to="/signup" className="text-brand-950 font-bold hover:text-brand-700 transition-all hover:underline underline-offset-4 ml-1">Sign up here</Link>
           </div>
         </div>
