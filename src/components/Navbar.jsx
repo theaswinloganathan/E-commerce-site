@@ -335,7 +335,7 @@ export default function Navbar() {
               >
                 <div className="p-5 flex items-center justify-between border-b border-brand-50">
                   <div className="flex items-center min-w-0 mr-4">
-                    <img src="/logo.png" alt="Lakshmi Fashion Logo" className="h-7 w-auto mr-2 shrink-0" />
+                    <img src="/logo.png" alt="Lakshmi Fashion Logo" className="h-10 w-auto mr-2 shrink-0 object-contain" onError={(e) => e.target.style.display = 'none'} />
                     <span className="text-base font-serif font-bold text-brand-950 uppercase">Lakshmi Fashion</span>
                   </div>
                   <button onClick={() => setIsMobileMenuOpen(false)} className="p-2 hover:bg-brand-50 rounded-full transition-colors shrink-0">
