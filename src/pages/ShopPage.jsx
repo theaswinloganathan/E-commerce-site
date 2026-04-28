@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useSearchParams, Link, useParams, useNavigate } from 'react-router-dom'
 import { SlidersHorizontal, X, Star, Search } from 'lucide-react'
 import ProductCard from '../components/ProductCard'
-import { largeProducts as allProducts } from '../lib/largeProducts'
+import { products as allProducts } from '../lib/mockData'
 import { cn } from '../lib/utils'
 import { motion, AnimatePresence } from 'framer-motion'
 import FilterSidebar from '../components/shop/FilterSidebar'
@@ -127,25 +127,26 @@ export default function ShopPage() {
         
         // Base category filtering - make it more precise
         if (slug !== 'all') {
+          const normalizedSlug = slug.replace(/\s+/g, '');
           localResults = localResults.filter(p => {
-            const cat = p?.category?.toLowerCase()?.replace(/-/g, ' ') || '';
-            const sub = p?.subcategory?.toLowerCase()?.replace(/-/g, ' ') || '';
-            const type = p?.type?.toLowerCase()?.replace(/-/g, ' ') || '';
-            const name = p?.name?.toLowerCase()?.replace(/-/g, ' ') || '';
+            const cat = p?.category?.toLowerCase()?.replace(/[-\s]/g, '') || '';
+            const sub = p?.subcategory?.toLowerCase()?.replace(/[-\s]/g, '') || '';
+            const type = p?.type?.toLowerCase()?.replace(/[-\s]/g, '') || '';
+            const name = p?.name?.toLowerCase()?.replace(/[-\s]/g, '') || '';
             
             // Check for exact matches in hierarchy first, then name
-            return cat === slug || sub === slug || type === slug || name.includes(slug);
+            return cat === normalizedSlug || sub === normalizedSlug || type === normalizedSlug || name.includes(normalizedSlug);
           });
         }
 
         if (activeSubcategory !== 'All' && activeSubcategory.toLowerCase() !== slug) {
-          const sub = activeSubcategory.toLowerCase().replace(/-/g, ' ');
-          localResults = localResults.filter(p => (p?.subcategory?.toLowerCase()?.replace(/-/g, ' ') === sub));
+          const subNorm = activeSubcategory.toLowerCase().replace(/[-\s]/g, '');
+          localResults = localResults.filter(p => (p?.subcategory?.toLowerCase()?.replace(/[-\s]/g, '') === subNorm));
         }
 
         if (activeType !== 'All' && activeType.toLowerCase() !== slug) {
-          const t = activeType.toLowerCase().replace(/-/g, ' ');
-          localResults = localResults.filter(p => (p?.type?.toLowerCase()?.replace(/-/g, ' ') === t));
+          const tNorm = activeType.toLowerCase().replace(/[-\s]/g, '');
+          localResults = localResults.filter(p => (p?.type?.toLowerCase()?.replace(/[-\s]/g, '') === tNorm));
         }
 
         if (searchQuery) {
