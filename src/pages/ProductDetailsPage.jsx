@@ -8,6 +8,7 @@ import { formatPrice, cn } from '../lib/utils'
 import { useCartStore, useStore } from '../store/useStore'
 import { motion } from 'framer-motion'
 import ProductCard from '../components/ProductCard'
+import SizeGuideModal from '../components/shop/SizeGuideModal'
 
 const products = [...mockProducts, ...largeProducts]
 
@@ -24,6 +25,7 @@ export default function ProductDetailsPage() {
   const [quantity, setQuantity] = useState(1)
   const [activeTab, setActiveTab] = useState('description')
   const [isAdded, setIsAdded] = useState(false)
+  const [isSizeGuideOpen, setIsSizeGuideOpen] = useState(false)
 
   const addItem = useCartStore((state) => state.addItem)
   const toggleWishlist = useStore((state) => state.toggleWishlist)
@@ -259,7 +261,12 @@ export default function ProductDetailsPage() {
                      <h4 className={cn("text-[10px] font-black uppercase tracking-[0.2em]", sizeError ? "text-red-500" : "text-brand-950")}>
                         Select Size {sizeError && <span className="text-red-400 ml-2">(Selection Required)</span>}
                      </h4>
-                     <button className="text-[10px] font-bold text-brand-400 uppercase tracking-widest hover:text-brand-950 transition-colors">Size Guide</button>
+                     <button 
+                       onClick={() => setIsSizeGuideOpen(true)}
+                       className="text-[10px] font-bold text-brand-400 uppercase tracking-widest hover:text-brand-950 transition-colors"
+                     >
+                       Size Guide
+                     </button>
                   </div>
                   <div className="flex flex-wrap gap-4">
                     {product.sizes.map(size => (
@@ -538,6 +545,7 @@ export default function ProductDetailsPage() {
           </div>
         )}
       </div>
+      <SizeGuideModal isOpen={isSizeGuideOpen} onClose={() => setIsSizeGuideOpen(false)} />
     </div>
   )
 }
