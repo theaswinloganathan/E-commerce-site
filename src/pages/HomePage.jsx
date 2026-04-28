@@ -15,9 +15,9 @@ const customCategories = [
 ];
 
 const heroSlides = [
-  "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&q=80&w=2000",
-  "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&q=80&w=2000",
-  "https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&q=80&w=2000"
+  "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format,compress&fit=crop&q=60&w=1400",
+  "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format,compress&fit=crop&q=60&w=1400",
+  "https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format,compress&fit=crop&q=60&w=1400"
 ];
 
 export default function HomePage() {
@@ -264,9 +264,10 @@ export default function HomePage() {
           >
             <div className="absolute inset-0 z-0">
               <img 
-                src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&q=80&w=2000" 
+                src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format,compress&fit=crop&q=60&w=1400" 
                 alt="Summer Sale" 
                 className="w-full h-full object-cover object-center transition-transform duration-1000 group-hover:scale-105"
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-r from-brand-950/80 to-transparent mix-blend-multiply" />
             </div>

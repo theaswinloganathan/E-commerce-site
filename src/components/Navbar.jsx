@@ -59,12 +59,19 @@ export default function Navbar() {
   }, [setUser])
 
   useEffect(() => {
+    let ticking = false;
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 20)
-    }
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          setIsScrolled(window.scrollY > 20);
+          ticking = false;
+        });
+        ticking = true;
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   useEffect(() => {
     setIsMobileMenuOpen(false)
@@ -227,7 +234,7 @@ export default function Navbar() {
                   {isSearchOpen && (
                     <motion.form
                       initial={{ width: 0, opacity: 0 }}
-                      animate={{ width: 200, opacity: 1 }}
+                      animate={{ width: typeof window !== 'undefined' && window.innerWidth < 640 ? 160 : 200, opacity: 1 }}
                       exit={{ width: 0, opacity: 0 }}
                       onSubmit={(e) => {
                         e.preventDefault()
@@ -236,13 +243,13 @@ export default function Navbar() {
                           setIsSearchOpen(false)
                         }
                       }}
-                      className="absolute right-full mr-2 hidden sm:block"
+                      className="absolute right-full mr-2 flex items-center z-[60]"
                     >
                       <input
                         type="text"
                         autoFocus
-                        placeholder="Search collection..."
-                        className="w-full bg-brand-50 border-2 border-brand-100 rounded-full py-2 px-5 text-sm focus:outline-none focus:border-brand-950 transition-all shadow-sm"
+                        placeholder="Search..."
+                        className="w-full bg-brand-50 border-2 border-brand-100 rounded-full py-2 px-4 text-sm focus:outline-none focus:border-brand-950 transition-all shadow-sm"
                         value={searchQuery}
                         onChange={(e) => setSearchQuery(e.target.value)}
                       />
@@ -357,6 +364,27 @@ export default function Navbar() {
               </div>
               
               <div className="flex-1 overflow-y-auto py-6 px-6 space-y-1">
+                {/* Mobile Search */}
+                <form 
+                  onSubmit={(e) => {
+                    e.preventDefault();
+                    if (searchQuery.trim()) {
+                      navigate(`/shop?search=${encodeURIComponent(searchQuery.trim())}`);
+                      setIsMobileMenuOpen(false);
+                    }
+                  }}
+                  className="relative mb-6"
+                >
+                  <Search className="absolute left-3 top-1/2 -translate-y-1/2 text-brand-400" size={18} />
+                  <input
+                    type="text"
+                    placeholder="Search collection..."
+                    className="w-full bg-brand-50 border-none rounded-xl py-3 pl-10 pr-4 text-sm focus:ring-2 focus:ring-brand-950/10 transition-all"
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                  />
+                </form>
+
                 <p className="text-[10px] font-bold text-brand-400 uppercase tracking-[0.2em] mb-4">Navigation</p>
                 <Link to="/" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium">Home <ChevronRight size={16}/></Link>
                 <Link to="/shop" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium">Shop Collection <ChevronRight size={16}/></Link>
