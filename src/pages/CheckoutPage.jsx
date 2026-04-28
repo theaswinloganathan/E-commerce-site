@@ -128,8 +128,16 @@ export default function CheckoutPage() {
 
     // Razorpay Integration
     try {
+      // Get key from Vite environment variables
       const razorpayKey = import.meta.env.VITE_RAZORPAY_KEY_ID;
-      if (!razorpayKey) throw new Error("Razorpay Key ID is missing");
+      
+      if (!razorpayKey) {
+        throw new Error("Razorpay Key ID is missing. Please ensure VITE_RAZORPAY_KEY_ID is set in your .env file and restart your development server.");
+      }
+
+      if (typeof window.Razorpay === 'undefined') {
+        throw new Error("Razorpay SDK failed to load. Please check your internet connection.");
+      }
 
       // 1. Create order on backend
       const response = await fetch(`${API_URL}/api/create-order`, {
