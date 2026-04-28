@@ -387,7 +387,7 @@ export default function ProductDetailsPage() {
         {/* Tabs & Information */}
         <div className="mb-32">
           <div className="flex items-center justify-center gap-12 border-b border-brand-50 mb-16 overflow-x-auto hide-scrollbar">
-            {['description', 'specifications', 'reviews'].map(tab => (
+            {['description', 'reviews'].map(tab => (
               <button
                 key={tab}
                 onClick={() => setActiveTab(tab)}
