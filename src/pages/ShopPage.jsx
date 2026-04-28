@@ -59,23 +59,24 @@ export default function ShopPage() {
     
     let baseProducts = [...allProducts];
     if (slug !== 'all') {
+      const normalizedSlug = slug.replace(/\s+/g, '');
       baseProducts = baseProducts.filter(p => {
-        const cat = p?.category?.toLowerCase()?.replace(/-/g, ' ') || '';
-        const sub = p?.subcategory?.toLowerCase()?.replace(/-/g, ' ') || '';
-        const type = p?.type?.toLowerCase()?.replace(/-/g, ' ') || '';
-        const name = p?.name?.toLowerCase()?.replace(/-/g, ' ') || '';
-        return cat === slug || sub === slug || type === slug || name.includes(slug);
+        const cat = p?.category?.toLowerCase()?.replace(/[-\s]/g, '') || '';
+        const sub = p?.subcategory?.toLowerCase()?.replace(/[-\s]/g, '') || '';
+        const type = p?.type?.toLowerCase()?.replace(/[-\s]/g, '') || '';
+        const name = p?.name?.toLowerCase()?.replace(/[-\s]/g, '') || '';
+        return cat === normalizedSlug || sub === normalizedSlug || type === normalizedSlug || name.includes(normalizedSlug);
       });
     }
 
     if (activeSubcategory !== 'All' && activeSubcategory.toLowerCase() !== slug) {
-      const sub = activeSubcategory.toLowerCase().replace(/-/g, ' ');
-      baseProducts = baseProducts.filter(p => (p?.subcategory?.toLowerCase()?.replace(/-/g, ' ') === sub));
+      const subNorm = activeSubcategory.toLowerCase().replace(/[-\s]/g, '');
+      baseProducts = baseProducts.filter(p => (p?.subcategory?.toLowerCase()?.replace(/[-\s]/g, '') === subNorm));
     }
 
     if (activeType !== 'All' && activeType.toLowerCase() !== slug) {
-      const t = activeType.toLowerCase().replace(/-/g, ' ');
-      baseProducts = baseProducts.filter(p => (p?.type?.toLowerCase()?.replace(/-/g, ' ') === t));
+      const tNorm = activeType.toLowerCase().replace(/[-\s]/g, '');
+      baseProducts = baseProducts.filter(p => (p?.type?.toLowerCase()?.replace(/[-\s]/g, '') === tNorm));
     }
 
     // Extract unique values
