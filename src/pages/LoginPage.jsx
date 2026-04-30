@@ -42,7 +42,7 @@ export default function LoginPage() {
       {/* Visual side */}
       <div className="hidden lg:block w-1/2 relative bg-brand-100">
         <img 
-          src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&q=80&w=1500" 
+          src="/images/men/clothing/formal-shirts/fshirt1.webp" 
           alt="Fashion" 
           className="absolute inset-0 w-full h-full object-cover"
         />

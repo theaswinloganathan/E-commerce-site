@@ -12,10 +12,17 @@ export const largeProducts = [
     "type": "Casual Shirts",
     "rating": 4.5,
     "review_count": 299,
-    "images": ["/images/men/clothing/casual-shirts/shirt1.webp"],
+    "images": [
+      "/images/men/clothing/casual-shirts/shirt1.webp"
+    ],
     "image": "/images/men/clothing/casual-shirts/shirt1.webp",
     "description": "Premium linen shirt for ultimate comfort.",
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "stock": 12,
     "featured": true
   },
@@ -32,10 +39,16 @@ export const largeProducts = [
     "type": "Casual Shirts",
     "rating": 4.8,
     "review_count": 27,
-    "images": ["/images/men/clothing/casual-shirts/shirt10.webp"],
+    "images": [
+      "/images/men/clothing/casual-shirts/shirt10.webp"
+    ],
     "image": "/images/men/clothing/casual-shirts/shirt10.webp",
     "description": "Elegant beige shirt with a perfect fit.",
-    "sizes": ["M", "L", "XL"],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
     "stock": 15,
     "featured": true
   },
@@ -52,9 +65,16 @@ export const largeProducts = [
     "type": "Casual Shirts",
     "rating": 4.6,
     "review_count": 276,
-    "images": ["/images/men/clothing/casual-shirts/shirt2.webp"],
+    "images": [
+      "/images/men/clothing/casual-shirts/shirt2.webp"
+    ],
     "description": "Premium cotton shirt for a classic look.",
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "stock": 5,
     "isLimitedStock": true
   },
@@ -71,9 +91,15 @@ export const largeProducts = [
     "type": "Casual Shirts",
     "rating": 4.7,
     "review_count": 418,
-    "images": ["/images/men/clothing/casual-shirts/shirt3.webp"],
+    "images": [
+      "/images/men/clothing/casual-shirts/shirt3.webp"
+    ],
     "description": "Modern black shirt for any occasion.",
-    "sizes": ["M", "L", "XL"],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
     "stock": 10,
     "featured": true
   },
@@ -90,9 +116,15 @@ export const largeProducts = [
     "type": "Casual Shirts",
     "rating": 4.9,
     "review_count": 68,
-    "images": ["/images/men/clothing/casual-shirts/shirt4.webp"],
+    "images": [
+      "/images/men/clothing/casual-shirts/shirt4.webp"
+    ],
     "description": "Premium casual shirt for daily wear.",
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "stock": 14,
     "bestseller": true
   },
@@ -109,9 +141,15 @@ export const largeProducts = [
     "type": "Casual Shirts",
     "rating": 4.7,
     "review_count": 473,
-    "images": ["/images/men/clothing/casual-shirts/shirt5.webp"],
+    "images": [
+      "/images/men/clothing/casual-shirts/shirt5.webp"
+    ],
     "description": "Stylish and comfortable casual shirt.",
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "stock": 3,
     "isLimitedStock": true,
     "new_arrival": true
@@ -129,9 +167,15 @@ export const largeProducts = [
     "type": "Formal Shirts",
     "rating": 4.6,
     "review_count": 182,
-    "images": ["/images/men/clothing/formal-shirts/fshirt6.webp"],
+    "images": [
+      "/images/men/clothing/formal-shirts/fshirt6.webp"
+    ],
     "description": "Elegant formal shirt for men.",
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "stock": 9,
     "featured": true
   },
@@ -148,9 +192,16 @@ export const largeProducts = [
     "type": "Casual Shirts",
     "rating": 4.8,
     "review_count": 481,
-    "images": ["/images/men/clothing/casual-shirts/shirt7.webp"],
+    "images": [
+      "/images/men/clothing/casual-shirts/shirt7.webp"
+    ],
     "description": "Classic casual shirt from Levis.",
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "stock": 7,
     "bestseller": true
   },
@@ -167,9 +218,15 @@ export const largeProducts = [
     "type": "Casual Shirts",
     "rating": 4.9,
     "review_count": 207,
-    "images": ["/images/men/clothing/casual-shirts/shirt8.webp"],
+    "images": [
+      "/images/men/clothing/casual-shirts/shirt8.webp"
+    ],
     "description": "Clean white casual shirt for any event.",
-    "sizes": ["XS", "S", "M"],
+    "sizes": [
+      "XS",
+      "S",
+      "M"
+    ],
     "stock": 13,
     "featured": true
   },
@@ -186,9 +243,15 @@ export const largeProducts = [
     "type": "Casual Shirts",
     "rating": 4.5,
     "review_count": 100,
-    "images": ["/images/men/clothing/casual-shirts/shirt9.webp"],
+    "images": [
+      "/images/men/clothing/casual-shirts/shirt9.webp"
+    ],
     "description": "Stylish red casual shirt.",
-    "sizes": ["M", "L", "XL"],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
     "stock": 2,
     "isLimitedStock": true,
     "new_arrival": true
@@ -204,11 +267,18 @@ export const largeProducts = [
     "brand": "Zara",
     "color": "Navy",
     "type": "Formal Shirts",
-    "rating": 5.0,
+    "rating": 5,
     "review_count": 48,
-    "images": ["/images/men/clothing/formal-shirts/fshirt1.webp"],
+    "images": [
+      "/images/men/clothing/formal-shirts/fshirt1.webp"
+    ],
     "description": "Luxurious formal shirt for special events.",
-    "sizes": ["XS", "S", "M", "L"],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
     "stock": 5,
     "featured": true
   },
@@ -225,9 +295,15 @@ export const largeProducts = [
     "type": "Formal Shirts",
     "rating": 4.7,
     "review_count": 187,
-    "images": ["/images/men/clothing/formal-shirts/fshirt10.webp"],
+    "images": [
+      "/images/men/clothing/formal-shirts/fshirt10.webp"
+    ],
     "description": "Premium formal shirt.",
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "stock": 15,
     "featured": false
   },
@@ -244,9 +320,15 @@ export const largeProducts = [
     "type": "Formal Shirts",
     "rating": 4.8,
     "review_count": 420,
-    "images": ["/images/men/clothing/formal-shirts/fshirt2.webp"],
+    "images": [
+      "/images/men/clothing/formal-shirts/fshirt2.webp"
+    ],
     "description": "High-quality ethnic formal wear.",
-    "sizes": ["M", "L", "XL"],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
     "stock": 6,
     "featured": true
   },
@@ -263,9 +345,15 @@ export const largeProducts = [
     "type": "Formal Shirts",
     "rating": 3.7,
     "review_count": 321,
-    "images": ["/images/men/clothing/formal-shirts/fshirt3.webp"],
+    "images": [
+      "/images/men/clothing/formal-shirts/fshirt3.webp"
+    ],
     "description": "Sharp formal shirt for work.",
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "stock": 7,
     "bestseller": true
   },
@@ -280,11 +368,17 @@ export const largeProducts = [
     "brand": "Puma",
     "color": "Black",
     "type": "Formal Shirts",
-    "rating": 5.0,
+    "rating": 5,
     "review_count": 450,
-    "images": ["/images/men/clothing/formal-shirts/fshirt4.webp"],
+    "images": [
+      "/images/men/clothing/formal-shirts/fshirt4.webp"
+    ],
     "description": "Clean black formal shirt.",
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "stock": 3,
     "isLimitedStock": true
   },
@@ -301,9 +395,15 @@ export const largeProducts = [
     "type": "Formal Shirts",
     "rating": 4.8,
     "review_count": 216,
-    "images": ["/images/men/clothing/formal-shirts/fshirt5.webp"],
+    "images": [
+      "/images/men/clothing/formal-shirts/fshirt5.webp"
+    ],
     "description": "Modern fit formal shirt.",
-    "sizes": ["S", "M", "L"],
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
     "stock": 11,
     "featured": false
   },
@@ -320,9 +420,15 @@ export const largeProducts = [
     "type": "Jeans",
     "rating": 4.4,
     "review_count": 133,
-    "images": ["/images/men/clothing/jeans/jeans1.webp"],
+    "images": [
+      "/images/men/clothing/jeans/jeans1.webp"
+    ],
     "description": "Stylish slim fit jeans.",
-    "sizes": ["30", "32", "34"],
+    "sizes": [
+      "30",
+      "32",
+      "34"
+    ],
     "stock": 12,
     "featured": true
   },
@@ -339,9 +445,16 @@ export const largeProducts = [
     "type": "Jeans",
     "rating": 4.8,
     "review_count": 850,
-    "images": ["/images/men/clothing/jeans/jeans10.webp"],
+    "images": [
+      "/images/men/clothing/jeans/jeans10.webp"
+    ],
     "description": "The classic 511 slim fit.",
-    "sizes": ["30", "32", "34", "36"],
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
     "stock": 25,
     "bestseller": true
   },
@@ -358,9 +471,16 @@ export const largeProducts = [
     "type": "T-Shirts",
     "rating": 4.7,
     "review_count": 120,
-    "images": ["/images/men/clothing/tshirts/tshirts1.webp"],
+    "images": [
+      "/images/men/clothing/tshirts/tshirts1.webp"
+    ],
     "description": "Breathable sport T-shirt.",
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "stock": 15,
     "new_arrival": true
   },
@@ -377,89 +497,17 @@ export const largeProducts = [
     "type": "Track Pants",
     "rating": 4.9,
     "review_count": 360,
-    "images": ["/images/men/clothing/track-pants/tpants1.webp"],
+    "images": [
+      "/images/men/clothing/track-pants/tpants1.webp"
+    ],
     "description": "Comfortable track pants for workouts.",
-    "sizes": ["M", "L", "XL"],
+    "sizes": [
+      "M",
+      "L",
+      "XL"
+    ],
     "stock": 9,
     "featured": true
-  },
-  {
-    "id": "local_p_21",
-    "name": "Biba Jeans",
-    "slug": "biba-jeans-22",
-    "price": 621,
-    "originalPrice": 1130,
-    "discount_price": 621,
-    "discount": 45,
-    "discountPercentage": 45,
-    "category": "Men",
-    "subcategory": "Clothing",
-    "brand": "Biba",
-    "color": "Grey",
-    "fabric": "Chiffon",
-    "type": "Jeans",
-    "pattern": "Solid",
-    "fit": "Slim Fit",
-    "occasion": "Festive",
-    "collar": null,
-    "rating": 4.3,
-    "review_count": 219,
-    "images": [
-      "/images/men/clothing/jeans/jeans1.webp"
-    ],
-    "image": "/images/men/clothing/jeans/jeans1.webp",
-    "description": "A premium jeans designed for style and comfort.",
-    "sizes": [
-      "28",
-      "30",
-      "32",
-      "34"
-    ],
-    "size": "28",
-    "stock": 6,
-    "isLimitedStock": false,
-    "featured": false,
-    "bestseller": false,
-    "new_arrival": false
-  },
-  {
-    "id": "local_p_22",
-    "name": "Biba Jeans",
-    "slug": "biba-jeans-23",
-    "price": 1966,
-    "originalPrice": 3390,
-    "discount_price": 1966,
-    "discount": 42,
-    "discountPercentage": 42,
-    "category": "Men",
-    "subcategory": "Clothing",
-    "brand": "Biba",
-    "color": "Teal",
-    "fabric": "Nylon",
-    "type": "Jeans",
-    "pattern": "Striped",
-    "fit": "Relaxed Fit",
-    "occasion": "Formal",
-    "collar": null,
-    "rating": 4.4,
-    "review_count": 168,
-    "images": [
-      "/images/men/clothing/jeans/jeans10.webp"
-    ],
-    "image": "/images/men/clothing/jeans/jeans10.webp",
-    "description": "A premium jeans designed for style and comfort.",
-    "sizes": [
-      "28",
-      "30",
-      "32",
-      "34"
-    ],
-    "size": "28",
-    "stock": 11,
-    "isLimitedStock": false,
-    "featured": false,
-    "bestseller": false,
-    "new_arrival": false
   },
   {
     "id": "local_p_23",
@@ -1188,48 +1236,6 @@ export const largeProducts = [
     "new_arrival": false
   },
   {
-    "id": "local_p_41",
-    "name": "W for Woman Track Pants",
-    "slug": "w-for woman-track-pants-42",
-    "price": 1764,
-    "originalPrice": 3330,
-    "discount_price": 1764,
-    "discount": 47,
-    "discountPercentage": 47,
-    "category": "Men",
-    "subcategory": "Clothing",
-    "brand": "W for Woman",
-    "color": "Olive",
-    "fabric": "Polyester",
-    "type": "Track Pants",
-    "pattern": "Embroidered",
-    "fit": "Oversized",
-    "occasion": "Formal",
-    "collar": null,
-    "rating": 4.6,
-    "review_count": 137,
-    "images": [
-      "/images/men/clothing/track-pants/tpants1.webp"
-    ],
-    "image": "/images/men/clothing/track-pants/tpants1.webp",
-    "description": "A premium track pants designed for style and comfort.",
-    "sizes": [
-      "28",
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40"
-    ],
-    "size": "28",
-    "stock": 5,
-    "isLimitedStock": true,
-    "featured": false,
-    "bestseller": true,
-    "new_arrival": false
-  },
-  {
     "id": "local_p_42",
     "name": "Levis Track Pants",
     "slug": "levis-track-pants-43",
@@ -1592,46 +1598,6 @@ export const largeProducts = [
     "isLimitedStock": true,
     "featured": false,
     "bestseller": false,
-    "new_arrival": false
-  },
-  {
-    "id": "local_p_51",
-    "name": "H&M Tshirts",
-    "slug": "h&m-tshirts-52",
-    "price": 586,
-    "originalPrice": 850,
-    "discount_price": 586,
-    "discount": 31,
-    "discountPercentage": 31,
-    "category": "Men",
-    "subcategory": "Clothing",
-    "brand": "H&M",
-    "color": "Navy",
-    "fabric": "Velvet",
-    "type": "Tshirts",
-    "pattern": "Solid",
-    "fit": "Loose Fit",
-    "occasion": "Work",
-    "collar": "Spread",
-    "rating": 4.4,
-    "review_count": 58,
-    "images": [
-      "/images/men/clothing/tshirts/tshirts1.webp"
-    ],
-    "image": "/images/men/clothing/tshirts/tshirts1.webp",
-    "description": "A premium tshirts designed for style and comfort.",
-    "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "size": "XS",
-    "stock": 13,
-    "isLimitedStock": false,
-    "featured": false,
-    "bestseller": true,
     "new_arrival": false
   },
   {

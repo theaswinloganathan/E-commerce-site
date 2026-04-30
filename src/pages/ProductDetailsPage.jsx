@@ -2,15 +2,12 @@ import React, { useState, useEffect } from 'react'
 import { supabase } from '../lib/supabase'
 import { useParams, Link } from 'react-router-dom'
 import { Star, Truck, Shield, RotateCcw, Heart, Share2, Plus, Minus, ShoppingBag, Search, MapPin, ArrowRight } from 'lucide-react'
-import { products as mockProducts } from '../lib/mockData'
-import { largeProducts } from '../lib/largeProducts'
+import { products } from '../lib/mockData'
 import { formatPrice, cn } from '../lib/utils'
 import { useCartStore, useStore } from '../store/useStore'
 import { motion } from 'framer-motion'
 import ProductCard from '../components/ProductCard'
 import SizeGuideModal from '../components/shop/SizeGuideModal'
-
-const products = [...mockProducts, ...largeProducts]
 
 export default function ProductDetailsPage() {
   const { id } = useParams()

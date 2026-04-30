@@ -370,7 +370,7 @@ export default function SignupPage() {
           initial={{ scale: 1.1, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 1.5, ease: "easeOut" }}
-          src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&q=80&w=1000" 
+          src="/images/men/clothing/formal-shirts/fshirt2.webp" 
           alt="Premium Fashion" 
           className="absolute inset-0 w-full h-full object-cover object-center"
         />

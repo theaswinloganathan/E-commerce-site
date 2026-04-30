@@ -6,19 +6,20 @@ import ProductCard from '../components/ProductCard'
 import { largeProducts } from '../lib/largeProducts'
 
 const customCategories = [
-  { id: 1, name: 'Women', slug: 'women', image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&q=80&w=800' },
+  { id: 1, name: 'Women', slug: 'women', image: '/images/men/clothing/formal-shirts/fshirt1.webp' },
   { id: 2, name: 'Men', slug: 'men', image: '/images/men/clothing/casual-shirts/shirt1.webp' },
-  { id: 3, name: 'Kids', slug: 'kids', image: 'https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?auto=format&fit=crop&q=80&w=800' },
-  { id: 4, name: 'Party Wear', slug: 'party-wear', image: 'https://images.unsplash.com/photo-1566737236500-c8ac43014a67?auto=format&fit=crop&q=80&w=800' },
-  { id: 5, name: 'New Arrivals', slug: 'new', image: 'https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format&fit=crop&q=80&w=800' },
-  { id: 6, name: 'Offers', slug: 'offers', image: 'https://images.unsplash.com/photo-1607083206968-13611e3d76db?auto=format&fit=crop&q=80&w=800' },
+  { id: 3, name: 'Kids', slug: 'kids', image: '/images/men/clothing/casual-shirts/shirt10.webp' },
+  { id: 4, name: 'Party Wear', slug: 'party-wear', image: '/images/men/clothing/formal-shirts/fshirt2.webp' },
+  { id: 5, name: 'New Arrivals', slug: 'new', image: '/images/men/clothing/casual-shirts/shirt2.webp' },
+  { id: 6, name: 'Offers', slug: 'offers', image: '/images/men/clothing/formal-shirts/fshirt3.webp' },
 ];
 
 const heroSlides = [
-  "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format,compress&fit=crop&q=60&w=1400",
-  "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format,compress&fit=crop&q=60&w=1400",
-  "https://images.unsplash.com/photo-1445205170230-053b83016050?auto=format,compress&fit=crop&q=60&w=1400"
+  "/images/men/clothing/casual-shirts/shirt3.webp",
+  "/images/men/clothing/formal-shirts/fshirt4.webp",
+  "/images/men/clothing/casual-shirts/shirt4.webp"
 ];
+
 
 export default function HomePage() {
   const trendingProducts = largeProducts.filter(p => p.rating > 4).slice(0, 8);
@@ -264,7 +265,7 @@ export default function HomePage() {
           >
             <div className="absolute inset-0 z-0">
               <img 
-                src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format,compress&fit=crop&q=60&w=1400" 
+                src="/images/men/clothing/casual-shirts/shirt6.webp" 
                 alt="Summer Sale" 
                 className="w-full h-full object-cover object-center transition-transform duration-1000 group-hover:scale-105"
                 loading="lazy"
