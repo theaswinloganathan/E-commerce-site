@@ -15,9 +15,9 @@ const customCategories = [
 ];
 
 const heroSlides = [
-  "/images/men/clothing/casual-shirts/shirt3.webp",
-  "/images/men/clothing/formal-shirts/fshirt4.webp",
-  "/images/men/clothing/casual-shirts/shirt4.webp"
+  "/images/hero/hero-1.jpg",
+  "/images/hero/hero-2.jpg",
+  "/images/hero/hero-3.jpg"
 ];
 
 
@@ -38,7 +38,7 @@ export default function HomePage() {
   return (
     <div className="pb-0">
       {/* Hero Section */}
-      <section className="relative h-[80vh] md:h-[100vh] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[100vh] flex items-center justify-center overflow-hidden">
         <AnimatePresence initial={false}>
           <motion.img
             key={currentSlide}
@@ -48,7 +48,7 @@ export default function HomePage() {
             exit={{ opacity: 0 }}
             transition={{ duration: 1.2, ease: "easeInOut" }}
             alt="Premium Fashion Banner" 
-            className="absolute inset-0 w-full h-full object-cover object-top md:object-[center_20%] z-0"
+            className="absolute inset-0 w-full h-full object-cover object-[center_20%] z-0"
           />
         </AnimatePresence>
         
