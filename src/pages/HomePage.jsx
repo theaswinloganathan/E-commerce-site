@@ -38,7 +38,7 @@ export default function HomePage() {
   return (
     <div className="pb-0">
       {/* Hero Section */}
-      <section className="relative h-[100vh] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[100svh] min-h-[600px] flex items-center justify-center overflow-hidden">
         <AnimatePresence initial={false}>
           <motion.img
             key={currentSlide}
@@ -48,14 +48,14 @@ export default function HomePage() {
             exit={{ opacity: 0 }}
             transition={{ duration: 1.2, ease: "easeInOut" }}
             alt="Premium Fashion Banner" 
-            className="absolute inset-0 w-full h-full object-cover object-[center_20%] z-0"
+            className="absolute inset-0 w-full h-full object-cover object-top md:object-[center_20%] z-0"
           />
         </AnimatePresence>
         
         {/* Dark Overlay for better text visibility */}
         <div className="absolute inset-0 bg-black/40 z-0" />
         
-        <div className="container relative z-10 mx-auto px-4 md:px-8 mt-20">
+        <div className="container relative z-10 mx-auto px-4 md:px-8 mt-16 md:mt-20">
           <div className="max-w-3xl text-white text-center md:text-left mx-auto md:mx-0">
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
@@ -71,7 +71,7 @@ export default function HomePage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-5xl md:text-7xl lg:text-8xl font-serif font-bold mb-6 leading-tight drop-shadow-xl"
+              className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-serif font-bold mb-4 md:mb-6 leading-tight drop-shadow-xl"
             >
               Premium Fashion Collection
             </motion.h1>
@@ -79,7 +79,7 @@ export default function HomePage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.6 }}
-              className="text-lg md:text-xl text-white/90 mb-10 max-w-2xl font-medium drop-shadow-md mx-auto md:mx-0"
+              className="text-sm md:text-xl text-white/90 mb-7 md:mb-10 max-w-2xl font-medium drop-shadow-md mx-auto md:mx-0"
             >
               Discover elegant styles, trending looks, and timeless outfits for every occasion. Curated exclusively for you.
             </motion.p>
@@ -88,7 +88,7 @@ export default function HomePage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.8 }}
             >
-              <Link to="/shop" className="group w-full sm:w-auto inline-flex items-center justify-center bg-white text-brand-950 hover:bg-brand-950 hover:text-white border-2 border-transparent hover:border-white transition-all duration-500 rounded-full px-12 py-4 uppercase tracking-[0.2em] text-sm font-bold shadow-[0_8px_30px_rgb(255,255,255,0.15)] hover:shadow-[0_8px_40px_rgb(255,255,255,0.3)] hover:-translate-y-1">
+              <Link to="/shop" className="group w-full sm:w-auto inline-flex items-center justify-center bg-white text-brand-950 hover:bg-brand-950 hover:text-white border-2 border-transparent hover:border-white transition-all duration-500 rounded-full px-8 md:px-12 py-3 md:py-4 uppercase tracking-[0.2em] text-xs md:text-sm font-bold shadow-[0_8px_30px_rgb(255,255,255,0.15)] hover:shadow-[0_8px_40px_rgb(255,255,255,0.3)] hover:-translate-y-1">
                 Shop Now <ArrowRight size={18} className="ml-3 transform group-hover:translate-x-2 transition-transform duration-500" />
               </Link>
             </motion.div>
@@ -144,7 +144,7 @@ export default function HomePage() {
             <Link 
               key={category.id} 
               to={`/shop?category=${category.slug}`}
-              className="group relative h-[250px] md:h-[350px] overflow-hidden rounded-xl block shadow-sm hover:shadow-xl transition-all duration-500 cursor-pointer"
+              className="group relative h-[200px] sm:h-[250px] md:h-[350px] overflow-hidden rounded-xl block shadow-sm hover:shadow-xl transition-all duration-500 cursor-pointer"
             >
               <img 
                 src={category.image} 
