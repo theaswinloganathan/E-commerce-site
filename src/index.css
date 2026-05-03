@@ -126,3 +126,25 @@
   0% { background-position: -200% 0; }
   100% { background-position: 200% 0; }
 }
+
+@media (max-width: 768px) {
+  .hero-section {
+    height: 75vh;
+  }
+
+  .hero-section img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .hero-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    text-align: center;
+  }
+}

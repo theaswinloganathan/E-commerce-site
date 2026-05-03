@@ -38,7 +38,7 @@ export default function HomePage() {
   return (
     <div className="pb-0">
       {/* Hero Section */}
-      <section className="relative h-[50svh] md:h-[100svh] min-h-[300px] md:min-h-[600px] flex items-center justify-center overflow-hidden">
+      <section className="hero-section relative h-[50svh] md:h-[100svh] min-h-[300px] md:min-h-[600px] flex items-center justify-center overflow-hidden">
         <AnimatePresence initial={false}>
           <motion.img
             key={currentSlide}
@@ -55,7 +55,7 @@ export default function HomePage() {
         {/* Dark Overlay for better text visibility */}
         <div className="absolute inset-0 bg-black/40 z-0" />
         
-        <div className="container relative z-10 mx-auto px-4 md:px-8 mt-16 md:mt-20">
+        <div className="hero-content container relative z-10 mx-auto px-4 md:px-8 mt-16 md:mt-20">
           <div className="max-w-3xl text-white text-center md:text-left mx-auto md:mx-0">
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
