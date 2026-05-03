@@ -38,7 +38,7 @@ export default function HomePage() {
   return (
     <div className="pb-0">
       {/* Hero Section */}
-      <section className="relative h-[100svh] min-h-[600px] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[50svh] md:h-[100svh] min-h-[300px] md:min-h-[600px] flex items-center justify-center overflow-hidden">
         <AnimatePresence initial={false}>
           <motion.img
             key={currentSlide}
