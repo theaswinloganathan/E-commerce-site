@@ -159,7 +159,7 @@ export default function ShopPage() {
             const name = p?.name?.toLowerCase()?.replace(/[-\s]/g, '') || '';
             
             // Check for exact matches in hierarchy first, then name
-            return cat === normalizedSlug || sub === normalizedSlug || type === normalizedSlug || name.includes(normalizedSlug);
+            return cat === normalizedSlug || sub === normalizedSlug || type === normalizedSlug;
           });
         }
 

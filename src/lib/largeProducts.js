@@ -6,16 +6,16 @@ export const largeProducts = [
     "price": 1044,
     "originalPrice": 1800,
     "discountPercentage": 42,
-    "category": "Women",
+    "category": "Men",
     "brand": "Biba",
     "color": "Blue",
     "type": "Casual Shirts",
     "rating": 4.5,
     "review_count": 299,
     "images": [
-      "/images/women/western-wear/skirts/skirt1.jpg"
+      "/images/men/clothing/casual-shirts/shirt1.webp"
     ],
-    "image": "/images/women/indian-fusion-wear/kurtas/kurta1.jpg",
+    "image": "/images/men/clothing/casual-shirts/shirt1.webp",
     "description": "Premium linen shirt for ultimate comfort.",
     "sizes": [
       "S",
@@ -33,16 +33,16 @@ export const largeProducts = [
     "price": 3153,
     "originalPrice": 3710,
     "discountPercentage": 15,
-    "category": "Women",
+    "category": "Men",
     "brand": "Allen Solly",
     "color": "Beige",
     "type": "Casual Shirts",
     "rating": 4.8,
     "review_count": 27,
     "images": [
-      "/images/women/western-wear/dresses/dress1.jpg"
+      "/images/men/clothing/casual-shirts/shirt10.webp"
     ],
-    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
+    "image": "/images/men/clothing/casual-shirts/shirt10.webp",
     "description": "Elegant beige shirt with a perfect fit.",
     "sizes": [
       "M",
@@ -59,14 +59,14 @@ export const largeProducts = [
     "price": 1251,
     "originalPrice": 1840,
     "discountPercentage": 32,
-    "category": "Women",
+    "category": "Men",
     "brand": "Biba",
     "color": "White",
     "type": "Casual Shirts",
     "rating": 4.6,
     "review_count": 276,
     "images": [
-      "/images/women/western-wear/tshirts/tshirt1.jpg"
+      "/images/men/clothing/casual-shirts/shirt2.webp"
     ],
     "description": "Premium cotton shirt for a classic look.",
     "sizes": [
@@ -85,14 +85,14 @@ export const largeProducts = [
     "price": 750,
     "originalPrice": 1250,
     "discountPercentage": 40,
-    "category": "Women",
+    "category": "Men",
     "brand": "Zara",
     "color": "Black",
     "type": "Casual Shirts",
     "rating": 4.7,
     "review_count": 418,
     "images": [
-      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
+      "/images/men/clothing/casual-shirts/shirt3.webp"
     ],
     "description": "Modern black shirt for any occasion.",
     "sizes": [
@@ -110,14 +110,14 @@ export const largeProducts = [
     "price": 2649,
     "originalPrice": 2880,
     "discountPercentage": 8,
-    "category": "Women",
+    "category": "Men",
     "brand": "Zara",
     "color": "Green",
     "type": "Casual Shirts",
     "rating": 4.9,
     "review_count": 68,
     "images": [
-      "/images/women/indian-fusion-wear/kurtas/kurta1.jpg"
+      "/images/men/clothing/casual-shirts/shirt4.webp"
     ],
     "description": "Premium casual shirt for daily wear.",
     "sizes": [
@@ -135,14 +135,14 @@ export const largeProducts = [
     "price": 3312,
     "originalPrice": 4040,
     "discountPercentage": 18,
-    "category": "Women",
+    "category": "Men",
     "brand": "Puma",
     "color": "White",
     "type": "Casual Shirts",
     "rating": 4.7,
     "review_count": 473,
     "images": [
-      "/images/women/western-wear/dresses/dress1.jpg"
+      "/images/men/clothing/casual-shirts/shirt5.webp"
     ],
     "description": "Stylish and comfortable casual shirt.",
     "sizes": [
@@ -168,7 +168,7 @@ export const largeProducts = [
     "rating": 4.6,
     "review_count": 182,
     "images": [
-      "/images/women/western-wear/tshirts/tshirt1.jpg"
+      "/images/women/western-wear/dresses/dress1.jpg"
     ],
     "description": "Elegant formal shirt for men.",
     "sizes": [
@@ -186,14 +186,14 @@ export const largeProducts = [
     "price": 2625,
     "originalPrice": 2950,
     "discountPercentage": 11,
-    "category": "Women",
+    "category": "Men",
     "brand": "Levis",
     "color": "Light Blue",
     "type": "Casual Shirts",
     "rating": 4.8,
     "review_count": 481,
     "images": [
-      "/images/women/western-wear/skirts/skirt1.jpg"
+      "/images/men/clothing/casual-shirts/shirt7.webp"
     ],
     "description": "Classic casual shirt from Levis.",
     "sizes": [
@@ -212,14 +212,14 @@ export const largeProducts = [
     "price": 1845,
     "originalPrice": 2500,
     "discountPercentage": 26,
-    "category": "Women",
+    "category": "Men",
     "brand": "Puma",
     "color": "White",
     "type": "Casual Shirts",
     "rating": 4.9,
     "review_count": 207,
     "images": [
-      "/images/women/indian-fusion-wear/kurtas/kurta1.jpg"
+      "/images/men/clothing/casual-shirts/shirt8.webp"
     ],
     "description": "Clean white casual shirt for any event.",
     "sizes": [
@@ -263,14 +263,14 @@ export const largeProducts = [
     "price": 4331,
     "originalPrice": 5680,
     "discountPercentage": 23,
-    "category": "Women",
+    "category": "Men",
     "brand": "Zara",
     "color": "Navy",
     "type": "Formal Shirts",
     "rating": 5,
     "review_count": 48,
     "images": [
-      "/images/women/western-wear/tshirts/tshirt1.jpg"
+      "/images/men/clothing/formal-shirts/fshirt1.webp"
     ],
     "description": "Luxurious formal shirt for special events.",
     "sizes": [
@@ -289,14 +289,14 @@ export const largeProducts = [
     "price": 718,
     "originalPrice": 790,
     "discountPercentage": 9,
-    "category": "Women",
+    "category": "Men",
     "brand": "Biba",
     "color": "Green",
     "type": "Formal Shirts",
     "rating": 4.7,
     "review_count": 187,
     "images": [
-      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
+      "/images/men/clothing/formal-shirts/fshirt10.webp"
     ],
     "description": "Premium formal shirt.",
     "sizes": [
@@ -314,14 +314,14 @@ export const largeProducts = [
     "price": 3408,
     "originalPrice": 4010,
     "discountPercentage": 15,
-    "category": "Women",
+    "category": "Men",
     "brand": "FabIndia",
     "color": "Maroon",
     "type": "Formal Shirts",
     "rating": 4.8,
     "review_count": 420,
     "images": [
-      "/images/women/indian-fusion-wear/kurtas/kurta1.jpg"
+      "/images/men/clothing/formal-shirts/fshirt2.webp"
     ],
     "description": "High-quality ethnic formal wear.",
     "sizes": [
@@ -339,14 +339,14 @@ export const largeProducts = [
     "price": 1166,
     "originalPrice": 2120,
     "discountPercentage": 45,
-    "category": "Women",
+    "category": "Men",
     "brand": "Allen Solly",
     "color": "Beige",
     "type": "Formal Shirts",
     "rating": 3.7,
     "review_count": 321,
     "images": [
-      "/images/women/western-wear/dresses/dress1.jpg"
+      "/images/men/clothing/formal-shirts/fshirt3.webp"
     ],
     "description": "Sharp formal shirt for work.",
     "sizes": [
@@ -364,14 +364,14 @@ export const largeProducts = [
     "price": 1146,
     "originalPrice": 1910,
     "discountPercentage": 40,
-    "category": "Women",
+    "category": "Men",
     "brand": "Puma",
     "color": "Black",
     "type": "Formal Shirts",
     "rating": 5,
     "review_count": 450,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/men/clothing/formal-shirts/fshirt4.webp"
     ],
     "description": "Clean black formal shirt.",
     "sizes": [
@@ -389,14 +389,14 @@ export const largeProducts = [
     "price": 808,
     "originalPrice": 940,
     "discountPercentage": 14,
-    "category": "Women",
+    "category": "Men",
     "brand": "H&M",
     "color": "Navy",
     "type": "Formal Shirts",
     "rating": 4.8,
     "review_count": 216,
     "images": [
-      "/images/women/western-wear/tshirts/tshirt1.jpg"
+      "/images/men/clothing/formal-shirts/fshirt5.webp"
     ],
     "description": "Modern fit formal shirt.",
     "sizes": [
@@ -414,14 +414,14 @@ export const largeProducts = [
     "price": 2499,
     "originalPrice": 3500,
     "discountPercentage": 28,
-    "category": "Women",
+    "category": "Men",
     "brand": "Zara",
     "color": "Blue",
     "type": "Jeans",
     "rating": 4.4,
     "review_count": 133,
     "images": [
-      "/images/women/western-wear/skirts/skirt1.jpg"
+      "/images/men/clothing/jeans/jeans1.webp"
     ],
     "description": "Stylish slim fit jeans.",
     "sizes": [
@@ -439,14 +439,14 @@ export const largeProducts = [
     "price": 3999,
     "originalPrice": 4500,
     "discountPercentage": 11,
-    "category": "Women",
+    "category": "Men",
     "brand": "Levis",
     "color": "Dark Blue",
     "type": "Jeans",
     "rating": 4.8,
     "review_count": 850,
     "images": [
-      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
+      "/images/men/clothing/jeans/jeans10.webp"
     ],
     "description": "The classic 511 slim fit.",
     "sizes": [
@@ -465,14 +465,14 @@ export const largeProducts = [
     "price": 1299,
     "originalPrice": 1999,
     "discountPercentage": 35,
-    "category": "Women",
+    "category": "Men",
     "brand": "Puma",
     "color": "Grey",
     "type": "T-Shirts",
     "rating": 4.7,
     "review_count": 120,
     "images": [
-      "/images/women/western-wear/dresses/dress1.jpg"
+      "/images/men/clothing/tshirts/tshirts1.webp"
     ],
     "description": "Breathable sport T-shirt.",
     "sizes": [
@@ -491,14 +491,14 @@ export const largeProducts = [
     "price": 2499,
     "originalPrice": 2999,
     "discountPercentage": 16,
-    "category": "Women",
+    "category": "Men",
     "brand": "Nike",
     "color": "Black",
     "type": "Track Pants",
     "rating": 4.9,
     "review_count": 360,
     "images": [
-      "/images/women/western-wear/tshirts/tshirt1.jpg"
+      "/images/men/clothing/track-pants/tpants1.webp"
     ],
     "description": "Comfortable track pants for workouts.",
     "sizes": [
@@ -518,7 +518,7 @@ export const largeProducts = [
     "discount_price": 2986,
     "discount": 37,
     "discountPercentage": 37,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Zara",
     "color": "Grey",
@@ -531,9 +531,9 @@ export const largeProducts = [
     "rating": 3.7,
     "review_count": 392,
     "images": [
-      "/images/women/indian-fusion-wear/kurtas/kurta1.jpg"
+      "/images/men/clothing/jeans/jeans2.webp"
     ],
-    "image": "/images/women/western-wear/tops/top1.jpg",
+    "image": "/images/men/clothing/jeans/jeans2.webp",
     "description": "A premium jeans designed for style and comfort.",
     "sizes": [
       "28",
@@ -558,7 +558,7 @@ export const largeProducts = [
     "discount_price": 1611,
     "discount": 19,
     "discountPercentage": 19,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Biba",
     "color": "White",
@@ -571,9 +571,9 @@ export const largeProducts = [
     "rating": 3.7,
     "review_count": 19,
     "images": [
-      "/images/women/western-wear/skirts/skirt1.jpg"
+      "/images/men/clothing/jeans/jeans3.webp"
     ],
-    "image": "/images/women/indian-fusion-wear/kurtas/kurta1.jpg",
+    "image": "/images/men/clothing/jeans/jeans3.webp",
     "description": "A premium jeans designed for style and comfort.",
     "sizes": [
       "28",
@@ -599,7 +599,7 @@ export const largeProducts = [
     "discount_price": 2172,
     "discount": 40,
     "discountPercentage": 40,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Sabyasachi",
     "color": "Yellow",
@@ -612,9 +612,9 @@ export const largeProducts = [
     "rating": 4.2,
     "review_count": 110,
     "images": [
-      "/images/women/western-wear/tshirts/tshirt1.jpg"
+      "/images/men/clothing/jeans/jeans4.webp"
     ],
-    "image": "/images/women/indian-fusion-wear/sarees/saree1.jpg",
+    "image": "/images/men/clothing/jeans/jeans4.webp",
     "description": "A premium jeans designed for style and comfort.",
     "sizes": [
       "28",
@@ -637,7 +637,7 @@ export const largeProducts = [
     "discount_price": 2729,
     "discount": 19,
     "discountPercentage": 19,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Sabyasachi",
     "color": "Beige",
@@ -650,9 +650,9 @@ export const largeProducts = [
     "rating": 4.8,
     "review_count": 293,
     "images": [
-      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
+      "/images/men/clothing/jeans/jeans5.webp"
     ],
-    "image": "/images/women/western-wear/dresses/dress1.jpg",
+    "image": "/images/men/clothing/jeans/jeans5.webp",
     "description": "A premium jeans designed for style and comfort.",
     "sizes": [
       "28",
@@ -675,7 +675,7 @@ export const largeProducts = [
     "discount_price": 2183,
     "discount": 43,
     "discountPercentage": 43,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Puma",
     "color": "White",
@@ -688,9 +688,9 @@ export const largeProducts = [
     "rating": 4.2,
     "review_count": 361,
     "images": [
-      "/images/women/western-wear/dresses/dress1.jpg"
+      "/images/men/clothing/jeans/jeans6.webp"
     ],
-    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
+    "image": "/images/men/clothing/jeans/jeans6.webp",
     "description": "A premium jeans designed for style and comfort.",
     "sizes": [
       "28",
@@ -717,7 +717,7 @@ export const largeProducts = [
     "discount_price": 1270,
     "discount": 29,
     "discountPercentage": 29,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Sabyasachi",
     "color": "Pink",
@@ -730,9 +730,9 @@ export const largeProducts = [
     "rating": 4.8,
     "review_count": 360,
     "images": [
-      "/images/women/western-wear/dresses/dress1.jpg"
+      "/images/men/clothing/jeans/jeans7.webp"
     ],
-    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
+    "image": "/images/men/clothing/jeans/jeans7.webp",
     "description": "A premium jeans designed for style and comfort.",
     "sizes": [
       "28",
@@ -759,7 +759,7 @@ export const largeProducts = [
     "discount_price": 4240,
     "discount": 0,
     "discountPercentage": 0,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Biba",
     "color": "Navy",
@@ -772,9 +772,9 @@ export const largeProducts = [
     "rating": 4.5,
     "review_count": 432,
     "images": [
-      "/images/women/western-wear/dresses/dress1.jpg"
+      "/images/men/clothing/jeans/jeans8.webp"
     ],
-    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
+    "image": "/images/men/clothing/jeans/jeans8.webp",
     "description": "A premium jeans designed for style and comfort.",
     "sizes": [
       "28",
@@ -798,7 +798,7 @@ export const largeProducts = [
     "discount_price": 1374,
     "discount": 42,
     "discountPercentage": 42,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Allen Solly",
     "color": "Beige",
@@ -811,9 +811,9 @@ export const largeProducts = [
     "rating": 3.9,
     "review_count": 355,
     "images": [
-      "/images/women/western-wear/skirts/skirt1.jpg"
+      "/images/men/clothing/jeans/jeans9.webp"
     ],
-    "image": "/images/women/indian-fusion-wear/kurtas/kurta1.jpg",
+    "image": "/images/men/clothing/jeans/jeans9.webp",
     "description": "A premium jeans designed for style and comfort.",
     "sizes": [
       "28",
@@ -839,7 +839,7 @@ export const largeProducts = [
     "discount_price": 2015,
     "discount": 38,
     "discountPercentage": 38,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Levis",
     "color": "Teal",
@@ -852,9 +852,9 @@ export const largeProducts = [
     "rating": 4.5,
     "review_count": 41,
     "images": [
-      "/images/women/western-wear/tshirts/tshirt1.jpg"
+      "/images/men/clothing/shorts/shorts1.webp"
     ],
-    "image": "/images/women/indian-fusion-wear/sarees/saree1.jpg",
+    "image": "/images/men/clothing/shorts/shorts1.webp",
     "description": "A premium shorts designed for style and comfort.",
     "sizes": [
       "28",
@@ -878,7 +878,7 @@ export const largeProducts = [
     "discount_price": 1283,
     "discount": 7,
     "discountPercentage": 7,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Raymond",
     "color": "Red",
@@ -891,9 +891,9 @@ export const largeProducts = [
     "rating": 4,
     "review_count": 310,
     "images": [
-      "/images/women/indian-fusion-wear/kurtas/kurta1.jpg"
+      "/images/men/clothing/shorts/shorts10.webp"
     ],
-    "image": "/images/women/western-wear/tops/top1.jpg",
+    "image": "/images/men/clothing/shorts/shorts10.webp",
     "description": "A premium shorts designed for style and comfort.",
     "sizes": [
       "28",
@@ -917,7 +917,7 @@ export const largeProducts = [
     "discount_price": 2948,
     "discount": 24,
     "discountPercentage": 24,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Puma",
     "color": "Yellow",
@@ -930,9 +930,9 @@ export const largeProducts = [
     "rating": 4.3,
     "review_count": 76,
     "images": [
-      "/images/women/western-wear/tshirts/tshirt1.jpg"
+      "/images/men/clothing/shorts/shorts2.webp"
     ],
-    "image": "/images/women/indian-fusion-wear/sarees/saree1.jpg",
+    "image": "/images/men/clothing/shorts/shorts2.webp",
     "description": "A premium shorts designed for style and comfort.",
     "sizes": [
       "28",
@@ -955,7 +955,7 @@ export const largeProducts = [
     "discount_price": 2067,
     "discount": 47,
     "discountPercentage": 47,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Puma",
     "color": "Yellow",
@@ -968,9 +968,9 @@ export const largeProducts = [
     "rating": 4.6,
     "review_count": 106,
     "images": [
-      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
+      "/images/men/clothing/shorts/shorts3.webp"
     ],
-    "image": "/images/women/western-wear/dresses/dress1.jpg",
+    "image": "/images/men/clothing/shorts/shorts3.webp",
     "description": "A premium shorts designed for style and comfort.",
     "sizes": [
       "28",
@@ -997,7 +997,7 @@ export const largeProducts = [
     "discount_price": 1034,
     "discount": 21,
     "discountPercentage": 21,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Raymond",
     "color": "Black",
@@ -1010,9 +1010,9 @@ export const largeProducts = [
     "rating": 4.6,
     "review_count": 99,
     "images": [
-      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
+      "/images/men/clothing/shorts/shorts4.webp"
     ],
-    "image": "/images/women/western-wear/dresses/dress1.jpg",
+    "image": "/images/men/clothing/shorts/shorts4.webp",
     "description": "A premium shorts designed for style and comfort.",
     "sizes": [
       "28",
@@ -1039,7 +1039,7 @@ export const largeProducts = [
     "discount_price": 3583,
     "discount": 18,
     "discountPercentage": 18,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Allen Solly",
     "color": "Teal",
@@ -1052,9 +1052,9 @@ export const largeProducts = [
     "rating": 3.9,
     "review_count": 254,
     "images": [
-      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
+      "/images/men/clothing/shorts/shorts5.webp"
     ],
-    "image": "/images/women/western-wear/dresses/dress1.jpg",
+    "image": "/images/men/clothing/shorts/shorts5.webp",
     "description": "A premium shorts designed for style and comfort.",
     "sizes": [
       "28",
@@ -1080,7 +1080,7 @@ export const largeProducts = [
     "discount_price": 1113,
     "discount": 47,
     "discountPercentage": 47,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Puma",
     "color": "Pink",
@@ -1093,9 +1093,9 @@ export const largeProducts = [
     "rating": 4.7,
     "review_count": 313,
     "images": [
-      "/images/women/western-wear/skirts/skirt1.jpg"
+      "/images/men/clothing/shorts/shorts6.webp"
     ],
-    "image": "/images/women/indian-fusion-wear/kurtas/kurta1.jpg",
+    "image": "/images/men/clothing/shorts/shorts6.webp",
     "description": "A premium shorts designed for style and comfort.",
     "sizes": [
       "28",
@@ -1135,9 +1135,9 @@ export const largeProducts = [
     "rating": 4.9,
     "review_count": 206,
     "images": [
-      "/images/women/western-wear/skirts/skirt1.jpg"
+      "/images/women/western-wear/dresses/dress1.jpg"
     ],
-    "image": "/images/women/indian-fusion-wear/kurtas/kurta1.jpg",
+    "image": "/images/women/western-wear/dresses/dress1.jpg",
     "description": "A premium shorts designed for style and comfort.",
     "sizes": [
       "28",
@@ -1162,7 +1162,7 @@ export const largeProducts = [
     "discount_price": 1074,
     "discount": 21,
     "discountPercentage": 21,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Allen Solly",
     "color": "Yellow",
@@ -1175,9 +1175,9 @@ export const largeProducts = [
     "rating": 4.9,
     "review_count": 450,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/men/clothing/shorts/shorts8.webp"
     ],
-    "image": "/images/women/western-wear/skirts/skirt1.jpg",
+    "image": "/images/men/clothing/shorts/shorts8.webp",
     "description": "A premium shorts designed for style and comfort.",
     "sizes": [
       "28",
@@ -1203,7 +1203,7 @@ export const largeProducts = [
     "discount_price": 964,
     "discount": 33,
     "discountPercentage": 33,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Raymond",
     "color": "Black",
@@ -1216,9 +1216,9 @@ export const largeProducts = [
     "rating": 4.7,
     "review_count": 112,
     "images": [
-      "/images/women/western-wear/dresses/dress1.jpg"
+      "/images/men/clothing/shorts/shorts9.webp"
     ],
-    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
+    "image": "/images/men/clothing/shorts/shorts9.webp",
     "description": "A premium shorts designed for style and comfort.",
     "sizes": [
       "28",
@@ -1244,7 +1244,7 @@ export const largeProducts = [
     "discount_price": 4287,
     "discount": 3,
     "discountPercentage": 3,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Levis",
     "color": "Grey",
@@ -1257,9 +1257,9 @@ export const largeProducts = [
     "rating": 3.9,
     "review_count": 378,
     "images": [
-      "/images/women/indian-fusion-wear/kurtas/kurta1.jpg"
+      "/images/men/clothing/track-pants/tpants10.webp"
     ],
-    "image": "/images/women/western-wear/tops/top1.jpg",
+    "image": "/images/men/clothing/track-pants/tpants10.webp",
     "description": "A premium track pants designed for style and comfort.",
     "sizes": [
       "28",
@@ -1285,7 +1285,7 @@ export const largeProducts = [
     "discount_price": 3304,
     "discount": 18,
     "discountPercentage": 18,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Allen Solly",
     "color": "Brown",
@@ -1298,9 +1298,9 @@ export const largeProducts = [
     "rating": 4.1,
     "review_count": 303,
     "images": [
-      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
+      "/images/men/clothing/track-pants/tpants2.webp"
     ],
-    "image": "/images/women/western-wear/dresses/dress1.jpg",
+    "image": "/images/men/clothing/track-pants/tpants2.webp",
     "description": "A premium track pants designed for style and comfort.",
     "sizes": [
       "28",
@@ -1325,7 +1325,7 @@ export const largeProducts = [
     "discount_price": 563,
     "discount": 12,
     "discountPercentage": 12,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Levis",
     "color": "Yellow",
@@ -1338,9 +1338,9 @@ export const largeProducts = [
     "rating": 3.8,
     "review_count": 351,
     "images": [
-      "/images/women/western-wear/tshirts/tshirt1.jpg"
+      "/images/men/clothing/track-pants/tpants3.webp"
     ],
-    "image": "/images/women/indian-fusion-wear/sarees/saree1.jpg",
+    "image": "/images/men/clothing/track-pants/tpants3.webp",
     "description": "A premium track pants designed for style and comfort.",
     "sizes": [
       "28",
@@ -1380,7 +1380,7 @@ export const largeProducts = [
     "images": [
       "/images/women/western-wear/dresses/dress1.jpg"
     ],
-    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
+    "image": "/images/women/western-wear/dresses/dress1.jpg",
     "description": "A premium track pants designed for style and comfort.",
     "sizes": [
       "28",
@@ -1407,7 +1407,7 @@ export const largeProducts = [
     "discount_price": 2988,
     "discount": 38,
     "discountPercentage": 38,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Nike",
     "color": "Brown",
@@ -1420,9 +1420,9 @@ export const largeProducts = [
     "rating": 5,
     "review_count": 16,
     "images": [
-      "/images/women/western-wear/dresses/dress1.jpg"
+      "/images/men/clothing/track-pants/tpants5.webp"
     ],
-    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
+    "image": "/images/men/clothing/track-pants/tpants5.webp",
     "description": "A premium track pants designed for style and comfort.",
     "sizes": [
       "28",
@@ -1447,7 +1447,7 @@ export const largeProducts = [
     "discount_price": 2415,
     "discount": 3,
     "discountPercentage": 3,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Levis",
     "color": "Maroon",
@@ -1460,9 +1460,9 @@ export const largeProducts = [
     "rating": 4.8,
     "review_count": 44,
     "images": [
-      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
+      "/images/men/clothing/track-pants/tpants6.webp"
     ],
-    "image": "/images/women/western-wear/dresses/dress1.jpg",
+    "image": "/images/men/clothing/track-pants/tpants6.webp",
     "description": "A premium track pants designed for style and comfort.",
     "sizes": [
       "28",
@@ -1489,7 +1489,7 @@ export const largeProducts = [
     "discount_price": 3635,
     "discount": 27,
     "discountPercentage": 27,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Zara",
     "color": "Grey",
@@ -1502,9 +1502,9 @@ export const largeProducts = [
     "rating": 4.8,
     "review_count": 438,
     "images": [
-      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
+      "/images/men/clothing/track-pants/tpants7.webp"
     ],
-    "image": "/images/women/western-wear/dresses/dress1.jpg",
+    "image": "/images/men/clothing/track-pants/tpants7.webp",
     "description": "A premium track pants designed for style and comfort.",
     "sizes": [
       "28",
@@ -1527,7 +1527,7 @@ export const largeProducts = [
     "discount_price": 4422,
     "discount": 9,
     "discountPercentage": 9,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Allen Solly",
     "color": "Blue",
@@ -1540,9 +1540,9 @@ export const largeProducts = [
     "rating": 3.8,
     "review_count": 329,
     "images": [
-      "/images/women/western-wear/dresses/dress1.jpg"
+      "/images/men/clothing/track-pants/tpants8.webp"
     ],
-    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
+    "image": "/images/men/clothing/track-pants/tpants8.webp",
     "description": "A premium track pants designed for style and comfort.",
     "sizes": [
       "28",
@@ -1567,7 +1567,7 @@ export const largeProducts = [
     "discount_price": 1339,
     "discount": 26,
     "discountPercentage": 26,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Levis",
     "color": "Olive",
@@ -1580,9 +1580,9 @@ export const largeProducts = [
     "rating": 4.3,
     "review_count": 313,
     "images": [
-      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
+      "/images/men/clothing/track-pants/tpants9.webp"
     ],
-    "image": "/images/women/western-wear/dresses/dress1.jpg",
+    "image": "/images/men/clothing/track-pants/tpants9.webp",
     "description": "A premium track pants designed for style and comfort.",
     "sizes": [
       "28",
@@ -1609,7 +1609,7 @@ export const largeProducts = [
     "discount_price": 595,
     "discount": 50,
     "discountPercentage": 50,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Zara",
     "color": "Green",
@@ -1622,9 +1622,9 @@ export const largeProducts = [
     "rating": 4.3,
     "review_count": 433,
     "images": [
-      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
+      "/images/men/clothing/tshirts/tshirts10.webp"
     ],
-    "image": "/images/women/western-wear/dresses/dress1.jpg",
+    "image": "/images/men/clothing/tshirts/tshirts10.webp",
     "description": "A premium tshirts designed for style and comfort.",
     "sizes": [
       "XS",
@@ -1649,7 +1649,7 @@ export const largeProducts = [
     "discount_price": 2380,
     "discount": 32,
     "discountPercentage": 32,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "H&M",
     "color": "White",
@@ -1662,9 +1662,9 @@ export const largeProducts = [
     "rating": 3.9,
     "review_count": 439,
     "images": [
-      "/images/women/western-wear/tshirts/tshirt1.jpg"
+      "/images/men/clothing/tshirts/tshirts2.webp"
     ],
-    "image": "/images/women/indian-fusion-wear/sarees/saree1.jpg",
+    "image": "/images/men/clothing/tshirts/tshirts2.webp",
     "description": "A premium tshirts designed for style and comfort.",
     "sizes": [
       "XS",
@@ -1691,7 +1691,7 @@ export const largeProducts = [
     "discount_price": 2287,
     "discount": 7,
     "discountPercentage": 7,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Puma",
     "color": "Brown",
@@ -1704,9 +1704,9 @@ export const largeProducts = [
     "rating": 4.5,
     "review_count": 370,
     "images": [
-      "/images/women/western-wear/tshirts/tshirt1.jpg"
+      "/images/men/clothing/tshirts/tshirts3.webp"
     ],
-    "image": "/images/women/indian-fusion-wear/sarees/saree1.jpg",
+    "image": "/images/men/clothing/tshirts/tshirts3.webp",
     "description": "A premium tshirts designed for style and comfort.",
     "sizes": [
       "XS",
@@ -1729,7 +1729,7 @@ export const largeProducts = [
     "discount_price": 2060,
     "discount": 44,
     "discountPercentage": 44,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "H&M",
     "color": "Olive",
@@ -1742,9 +1742,9 @@ export const largeProducts = [
     "rating": 4.9,
     "review_count": 186,
     "images": [
-      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
+      "/images/men/clothing/tshirts/tshirts4.webp"
     ],
-    "image": "/images/women/western-wear/dresses/dress1.jpg",
+    "image": "/images/men/clothing/tshirts/tshirts4.webp",
     "description": "A premium tshirts designed for style and comfort.",
     "sizes": [
       "XS",
@@ -1767,7 +1767,7 @@ export const largeProducts = [
     "discount_price": 1600,
     "discount": 47,
     "discountPercentage": 47,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "H&M",
     "color": "Green",
@@ -1780,9 +1780,9 @@ export const largeProducts = [
     "rating": 3.8,
     "review_count": 229,
     "images": [
-      "/images/women/western-wear/dresses/dress1.jpg"
+      "/images/men/clothing/tshirts/tshirts5.webp"
     ],
-    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
+    "image": "/images/men/clothing/tshirts/tshirts5.webp",
     "description": "A premium tshirts designed for style and comfort.",
     "sizes": [
       "XS",
@@ -1807,7 +1807,7 @@ export const largeProducts = [
     "discount_price": 579,
     "discount": 31,
     "discountPercentage": 31,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Zara",
     "color": "Black",
@@ -1820,9 +1820,9 @@ export const largeProducts = [
     "rating": 3.8,
     "review_count": 389,
     "images": [
-      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
+      "/images/men/clothing/tshirts/tshirts6.webp"
     ],
-    "image": "/images/women/western-wear/dresses/dress1.jpg",
+    "image": "/images/men/clothing/tshirts/tshirts6.webp",
     "description": "A premium tshirts designed for style and comfort.",
     "sizes": [
       "XS",
@@ -1849,7 +1849,7 @@ export const largeProducts = [
     "discount_price": 563,
     "discount": 12,
     "discountPercentage": 12,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "H&M",
     "color": "Green",
@@ -1862,9 +1862,9 @@ export const largeProducts = [
     "rating": 3.5,
     "review_count": 221,
     "images": [
-      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
+      "/images/men/clothing/tshirts/tshirts7.webp"
     ],
-    "image": "/images/women/western-wear/dresses/dress1.jpg",
+    "image": "/images/men/clothing/tshirts/tshirts7.webp",
     "description": "A premium tshirts designed for style and comfort.",
     "sizes": [
       "XS",
@@ -1891,7 +1891,7 @@ export const largeProducts = [
     "discount_price": 3146,
     "discount": 35,
     "discountPercentage": 35,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Raymond",
     "color": "White",
@@ -1904,9 +1904,9 @@ export const largeProducts = [
     "rating": 4.2,
     "review_count": 101,
     "images": [
-      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
+      "/images/men/clothing/tshirts/tshirts8.webp"
     ],
-    "image": "/images/women/western-wear/dresses/dress1.jpg",
+    "image": "/images/men/clothing/tshirts/tshirts8.webp",
     "description": "A premium tshirts designed for style and comfort.",
     "sizes": [
       "XS",
@@ -1929,7 +1929,7 @@ export const largeProducts = [
     "discount_price": 362,
     "discount": 29,
     "discountPercentage": 29,
-    "category": "Women",
+    "category": "Men",
     "subcategory": "Clothing",
     "brand": "Raymond",
     "color": "Yellow",
@@ -1942,9 +1942,9 @@ export const largeProducts = [
     "rating": 4.9,
     "review_count": 376,
     "images": [
-      "/images/women/western-wear/dresses/dress1.jpg"
+      "/images/men/clothing/tshirts/tshirts9.webp"
     ],
-    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
+    "image": "/images/men/clothing/tshirts/tshirts9.webp",
     "description": "A premium tshirts designed for style and comfort.",
     "sizes": [
       "XS",
