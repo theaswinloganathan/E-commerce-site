@@ -100,7 +100,8 @@ const generateAllFromLocal = () => {
     };
   });
   
-  return products;
+  // Shuffle products for a mixed initial view
+  return products.sort(() => Math.random() - 0.5);
 };
 
 const localProducts = generateAllFromLocal();

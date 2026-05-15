@@ -6,8 +6,8 @@ import ProductCard from '../components/ProductCard'
 import { largeProducts } from '../lib/largeProducts'
 
 const customCategories = [
-  { id: 1, name: 'Women', slug: 'women', image: '/images/men/clothing/formal-shirts/fshirt1.webp' },
-  { id: 2, name: 'Men', slug: 'men', image: '/images/men/clothing/casual-shirts/shirt1.webp' },
+  { id: 1, name: 'Women', slug: 'women', image: '/images/categories/women.jpg' },
+  { id: 2, name: 'Men', slug: 'men', image: '/images/categories/men.jpg' },
   { id: 3, name: 'Kids', slug: 'kids', image: '/images/categories/kids_new.jpg' },
   { id: 4, name: 'Party Wear', slug: 'party-wear', image: '/images/categories/party_wear.jpg' },
   { id: 5, name: 'New Arrivals', slug: 'new', image: '/images/men/clothing/casual-shirts/shirt2.webp' },
