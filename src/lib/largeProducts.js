@@ -7,8 +7,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Casual Shirts",
-    "rating": "4.8",
-    "review_count": 64,
+    "rating": "4.4",
+    "review_count": 24,
     "images": [
       "/images/men/clothing/casual-shirts/shirt1.webp"
     ],
@@ -32,8 +32,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Casual Shirts",
-    "rating": "4.9",
-    "review_count": 108,
+    "rating": "4.4",
+    "review_count": 40,
     "images": [
       "/images/men/clothing/casual-shirts/shirt10.webp"
     ],
@@ -57,8 +57,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Casual Shirts",
-    "rating": "4.1",
-    "review_count": 61,
+    "rating": "4.5",
+    "review_count": 92,
     "images": [
       "/images/men/clothing/casual-shirts/shirt2.webp"
     ],
@@ -82,8 +82,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Casual Shirts",
-    "rating": "4.0",
-    "review_count": 73,
+    "rating": "3.9",
+    "review_count": 60,
     "images": [
       "/images/men/clothing/casual-shirts/shirt3.webp"
     ],
@@ -107,8 +107,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Casual Shirts",
-    "rating": "4.6",
-    "review_count": 49,
+    "rating": "4.1",
+    "review_count": 10,
     "images": [
       "/images/men/clothing/casual-shirts/shirt4.webp"
     ],
@@ -132,8 +132,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Casual Shirts",
-    "rating": "4.6",
-    "review_count": 18,
+    "rating": "3.9",
+    "review_count": 97,
     "images": [
       "/images/men/clothing/casual-shirts/shirt5.webp"
     ],
@@ -158,7 +158,7 @@ export const largeProducts = [
     "subcategory": "Clothing",
     "type": "Casual Shirts",
     "rating": "4.2",
-    "review_count": 45,
+    "review_count": 23,
     "images": [
       "/images/men/clothing/casual-shirts/shirt6.webp"
     ],
@@ -182,8 +182,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Casual Shirts",
-    "rating": "4.1",
-    "review_count": 52,
+    "rating": "4.0",
+    "review_count": 89,
     "images": [
       "/images/men/clothing/casual-shirts/shirt7.webp"
     ],
@@ -207,8 +207,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Casual Shirts",
-    "rating": "3.9",
-    "review_count": 13,
+    "rating": "5.0",
+    "review_count": 53,
     "images": [
       "/images/men/clothing/casual-shirts/shirt8.webp"
     ],
@@ -232,8 +232,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Casual Shirts",
-    "rating": "4.7",
-    "review_count": 97,
+    "rating": "4.6",
+    "review_count": 10,
     "images": [
       "/images/men/clothing/casual-shirts/shirt9.webp"
     ],
@@ -257,7 +257,7 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Formal Shirts",
-    "rating": "4.7",
+    "rating": "4.6",
     "review_count": 97,
     "images": [
       "/images/men/clothing/formal-shirts/fshirt1.webp"
@@ -282,8 +282,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Formal Shirts",
-    "rating": "4.3",
-    "review_count": 59,
+    "rating": "4.4",
+    "review_count": 46,
     "images": [
       "/images/men/clothing/formal-shirts/fshirt10.webp"
     ],
@@ -307,8 +307,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Formal Shirts",
-    "rating": "4.0",
-    "review_count": 30,
+    "rating": "4.7",
+    "review_count": 82,
     "images": [
       "/images/men/clothing/formal-shirts/fshirt2.webp"
     ],
@@ -332,8 +332,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Formal Shirts",
-    "rating": "4.7",
-    "review_count": 107,
+    "rating": "4.2",
+    "review_count": 46,
     "images": [
       "/images/men/clothing/formal-shirts/fshirt3.webp"
     ],
@@ -357,8 +357,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Formal Shirts",
-    "rating": "4.0",
-    "review_count": 13,
+    "rating": "4.6",
+    "review_count": 104,
     "images": [
       "/images/men/clothing/formal-shirts/fshirt4.webp"
     ],
@@ -382,8 +382,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Formal Shirts",
-    "rating": "4.4",
-    "review_count": 84,
+    "rating": "4.1",
+    "review_count": 13,
     "images": [
       "/images/men/clothing/formal-shirts/fshirt5.webp"
     ],
@@ -407,8 +407,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Formal Shirts",
-    "rating": "3.9",
-    "review_count": 22,
+    "rating": "4.8",
+    "review_count": 97,
     "images": [
       "/images/men/clothing/formal-shirts/fshirt6.webp"
     ],
@@ -432,8 +432,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Formal Shirts",
-    "rating": "4.7",
-    "review_count": 29,
+    "rating": "4.9",
+    "review_count": 24,
     "images": [
       "/images/men/clothing/formal-shirts/fshirt7.webp"
     ],
@@ -457,8 +457,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Formal Shirts",
-    "rating": "4.6",
-    "review_count": 53,
+    "rating": "3.9",
+    "review_count": 30,
     "images": [
       "/images/men/clothing/formal-shirts/fshirt8.webp"
     ],
@@ -482,8 +482,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Formal Shirts",
-    "rating": "4.2",
-    "review_count": 80,
+    "rating": "4.3",
+    "review_count": 79,
     "images": [
       "/images/men/clothing/formal-shirts/fshirt9.webp"
     ],
@@ -507,8 +507,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Jeans",
-    "rating": "4.0",
-    "review_count": 20,
+    "rating": "4.5",
+    "review_count": 80,
     "images": [
       "/images/men/clothing/jeans/jeans1.webp"
     ],
@@ -532,8 +532,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Jeans",
-    "rating": "4.1",
-    "review_count": 79,
+    "rating": "5.0",
+    "review_count": 59,
     "images": [
       "/images/men/clothing/jeans/jeans10.webp"
     ],
@@ -557,8 +557,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Jeans",
-    "rating": "4.3",
-    "review_count": 80,
+    "rating": "4.7",
+    "review_count": 10,
     "images": [
       "/images/men/clothing/jeans/jeans2.webp"
     ],
@@ -582,8 +582,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Jeans",
-    "rating": "4.3",
-    "review_count": 19,
+    "rating": "4.0",
+    "review_count": 39,
     "images": [
       "/images/men/clothing/jeans/jeans3.webp"
     ],
@@ -607,8 +607,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Jeans",
-    "rating": "4.1",
-    "review_count": 25,
+    "rating": "4.9",
+    "review_count": 88,
     "images": [
       "/images/men/clothing/jeans/jeans4.webp"
     ],
@@ -632,8 +632,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Jeans",
-    "rating": "3.9",
-    "review_count": 85,
+    "rating": "4.0",
+    "review_count": 16,
     "images": [
       "/images/men/clothing/jeans/jeans5.webp"
     ],
@@ -657,8 +657,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Jeans",
-    "rating": "4.6",
-    "review_count": 81,
+    "rating": "4.0",
+    "review_count": 27,
     "images": [
       "/images/men/clothing/jeans/jeans6.webp"
     ],
@@ -682,8 +682,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Jeans",
-    "rating": "4.0",
-    "review_count": 19,
+    "rating": "4.1",
+    "review_count": 94,
     "images": [
       "/images/men/clothing/jeans/jeans7.webp"
     ],
@@ -707,8 +707,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Jeans",
-    "rating": "4.5",
-    "review_count": 38,
+    "rating": "4.2",
+    "review_count": 64,
     "images": [
       "/images/men/clothing/jeans/jeans8.webp"
     ],
@@ -732,8 +732,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Jeans",
-    "rating": "3.9",
-    "review_count": 27,
+    "rating": "4.2",
+    "review_count": 46,
     "images": [
       "/images/men/clothing/jeans/jeans9.webp"
     ],
@@ -757,8 +757,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Shorts",
-    "rating": "4.2",
-    "review_count": 75,
+    "rating": "4.3",
+    "review_count": 69,
     "images": [
       "/images/men/clothing/shorts/shorts1.webp"
     ],
@@ -782,8 +782,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Shorts",
-    "rating": "4.3",
-    "review_count": 29,
+    "rating": "4.6",
+    "review_count": 46,
     "images": [
       "/images/men/clothing/shorts/shorts10.webp"
     ],
@@ -807,8 +807,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Shorts",
-    "rating": "4.5",
-    "review_count": 25,
+    "rating": "4.3",
+    "review_count": 22,
     "images": [
       "/images/men/clothing/shorts/shorts2.webp"
     ],
@@ -832,8 +832,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Shorts",
-    "rating": "4.3",
-    "review_count": 94,
+    "rating": "4.0",
+    "review_count": 56,
     "images": [
       "/images/men/clothing/shorts/shorts3.webp"
     ],
@@ -857,8 +857,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Shorts",
-    "rating": "4.4",
-    "review_count": 52,
+    "rating": "4.1",
+    "review_count": 88,
     "images": [
       "/images/men/clothing/shorts/shorts4.webp"
     ],
@@ -882,8 +882,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Shorts",
-    "rating": "4.8",
-    "review_count": 49,
+    "rating": "4.6",
+    "review_count": 21,
     "images": [
       "/images/men/clothing/shorts/shorts5.webp"
     ],
@@ -907,8 +907,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Shorts",
-    "rating": "4.2",
-    "review_count": 71,
+    "rating": "4.5",
+    "review_count": 26,
     "images": [
       "/images/men/clothing/shorts/shorts6.webp"
     ],
@@ -932,8 +932,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Shorts",
-    "rating": "3.9",
-    "review_count": 73,
+    "rating": "4.0",
+    "review_count": 104,
     "images": [
       "/images/men/clothing/shorts/shorts7.webp"
     ],
@@ -957,8 +957,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Shorts",
-    "rating": "3.8",
-    "review_count": 56,
+    "rating": "4.1",
+    "review_count": 24,
     "images": [
       "/images/men/clothing/shorts/shorts8.webp"
     ],
@@ -982,8 +982,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Shorts",
-    "rating": "4.1",
-    "review_count": 79,
+    "rating": "4.5",
+    "review_count": 15,
     "images": [
       "/images/men/clothing/shorts/shorts9.webp"
     ],
@@ -1007,8 +1007,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Track Pants",
-    "rating": "4.2",
-    "review_count": 26,
+    "rating": "4.1",
+    "review_count": 91,
     "images": [
       "/images/men/clothing/track-pants/tpants1.webp"
     ],
@@ -1032,8 +1032,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Track Pants",
-    "rating": "4.1",
-    "review_count": 34,
+    "rating": "4.5",
+    "review_count": 80,
     "images": [
       "/images/men/clothing/track-pants/tpants10.webp"
     ],
@@ -1057,8 +1057,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Track Pants",
-    "rating": "4.1",
-    "review_count": 103,
+    "rating": "4.7",
+    "review_count": 89,
     "images": [
       "/images/men/clothing/track-pants/tpants2.webp"
     ],
@@ -1083,7 +1083,7 @@ export const largeProducts = [
     "subcategory": "Clothing",
     "type": "Track Pants",
     "rating": "4.6",
-    "review_count": 106,
+    "review_count": 71,
     "images": [
       "/images/men/clothing/track-pants/tpants3.webp"
     ],
@@ -1107,8 +1107,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Track Pants",
-    "rating": "5.0",
-    "review_count": 57,
+    "rating": "4.8",
+    "review_count": 98,
     "images": [
       "/images/men/clothing/track-pants/tpants4.webp"
     ],
@@ -1132,8 +1132,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Track Pants",
-    "rating": "4.1",
-    "review_count": 59,
+    "rating": "4.9",
+    "review_count": 43,
     "images": [
       "/images/men/clothing/track-pants/tpants5.webp"
     ],
@@ -1158,7 +1158,7 @@ export const largeProducts = [
     "subcategory": "Clothing",
     "type": "Track Pants",
     "rating": "4.0",
-    "review_count": 55,
+    "review_count": 89,
     "images": [
       "/images/men/clothing/track-pants/tpants6.webp"
     ],
@@ -1182,8 +1182,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Track Pants",
-    "rating": "3.8",
-    "review_count": 70,
+    "rating": "4.7",
+    "review_count": 62,
     "images": [
       "/images/men/clothing/track-pants/tpants7.webp"
     ],
@@ -1207,8 +1207,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Track Pants",
-    "rating": "3.8",
-    "review_count": 86,
+    "rating": "4.4",
+    "review_count": 30,
     "images": [
       "/images/men/clothing/track-pants/tpants8.webp"
     ],
@@ -1232,8 +1232,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Track Pants",
-    "rating": "4.1",
-    "review_count": 19,
+    "rating": "5.0",
+    "review_count": 78,
     "images": [
       "/images/men/clothing/track-pants/tpants9.webp"
     ],
@@ -1257,8 +1257,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Tshirts",
-    "rating": "4.9",
-    "review_count": 39,
+    "rating": "4.1",
+    "review_count": 15,
     "images": [
       "/images/men/clothing/tshirts/tshirts1.webp"
     ],
@@ -1282,8 +1282,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Tshirts",
-    "rating": "3.9",
-    "review_count": 99,
+    "rating": "4.5",
+    "review_count": 18,
     "images": [
       "/images/men/clothing/tshirts/tshirts10.webp"
     ],
@@ -1307,8 +1307,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Tshirts",
-    "rating": "4.8",
-    "review_count": 40,
+    "rating": "4.6",
+    "review_count": 106,
     "images": [
       "/images/men/clothing/tshirts/tshirts2.webp"
     ],
@@ -1332,8 +1332,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Tshirts",
-    "rating": "4.5",
-    "review_count": 10,
+    "rating": "4.4",
+    "review_count": 57,
     "images": [
       "/images/men/clothing/tshirts/tshirts3.webp"
     ],
@@ -1357,8 +1357,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Tshirts",
-    "rating": "3.9",
-    "review_count": 96,
+    "rating": "5.0",
+    "review_count": 12,
     "images": [
       "/images/men/clothing/tshirts/tshirts4.webp"
     ],
@@ -1382,8 +1382,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Tshirts",
-    "rating": "3.9",
-    "review_count": 10,
+    "rating": "4.0",
+    "review_count": 64,
     "images": [
       "/images/men/clothing/tshirts/tshirts5.webp"
     ],
@@ -1407,8 +1407,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Tshirts",
-    "rating": "4.3",
-    "review_count": 72,
+    "rating": "4.6",
+    "review_count": 91,
     "images": [
       "/images/men/clothing/tshirts/tshirts6.webp"
     ],
@@ -1432,8 +1432,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Tshirts",
-    "rating": "4.7",
-    "review_count": 32,
+    "rating": "4.2",
+    "review_count": 55,
     "images": [
       "/images/men/clothing/tshirts/tshirts7.webp"
     ],
@@ -1457,8 +1457,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Tshirts",
-    "rating": "3.9",
-    "review_count": 49,
+    "rating": "4.3",
+    "review_count": 64,
     "images": [
       "/images/men/clothing/tshirts/tshirts8.webp"
     ],
@@ -1482,8 +1482,8 @@ export const largeProducts = [
     "category": "Men",
     "subcategory": "Clothing",
     "type": "Tshirts",
-    "rating": "4.0",
-    "review_count": 30,
+    "rating": "4.3",
+    "review_count": 101,
     "images": [
       "/images/men/clothing/tshirts/tshirts9.webp"
     ],
@@ -1507,8 +1507,8 @@ export const largeProducts = [
     "category": "Women",
     "subcategory": "Indian & Fusion Wear",
     "type": "Dupattas",
-    "rating": "4.0",
-    "review_count": 38,
+    "rating": "4.9",
+    "review_count": 65,
     "images": [
       "/images/women/indian-fusion-wear/dupattas/dupatta1.webp"
     ],
@@ -1532,8 +1532,8 @@ export const largeProducts = [
     "category": "Women",
     "subcategory": "Indian & Fusion Wear",
     "type": "Dupattas",
-    "rating": "5.0",
-    "review_count": 78,
+    "rating": "4.1",
+    "review_count": 93,
     "images": [
       "/images/women/indian-fusion-wear/dupattas/dupatta2.webp"
     ],
@@ -1557,8 +1557,8 @@ export const largeProducts = [
     "category": "Women",
     "subcategory": "Indian & Fusion Wear",
     "type": "Dupattas",
-    "rating": "4.5",
-    "review_count": 77,
+    "rating": "4.1",
+    "review_count": 32,
     "images": [
       "/images/women/indian-fusion-wear/dupattas/dupatta3.webp"
     ],
@@ -1582,8 +1582,8 @@ export const largeProducts = [
     "category": "Women",
     "subcategory": "Indian & Fusion Wear",
     "type": "Dupattas",
-    "rating": "4.6",
-    "review_count": 75,
+    "rating": "4.0",
+    "review_count": 30,
     "images": [
       "/images/women/indian-fusion-wear/dupattas/dupatta4.webp"
     ],
@@ -1607,8 +1607,8 @@ export const largeProducts = [
     "category": "Women",
     "subcategory": "Indian & Fusion Wear",
     "type": "Dupattas",
-    "rating": "4.1",
-    "review_count": 98,
+    "rating": "4.2",
+    "review_count": 29,
     "images": [
       "/images/women/indian-fusion-wear/dupattas/dupatta5.webp"
     ],
@@ -1632,8 +1632,8 @@ export const largeProducts = [
     "category": "Women",
     "subcategory": "Indian & Fusion Wear",
     "type": "Ethnic Wear",
-    "rating": "4.9",
-    "review_count": 91,
+    "rating": "3.9",
+    "review_count": 45,
     "images": [
       "/images/women/indian-fusion-wear/ethnic-wear/ethnic1.webp"
     ],
@@ -1658,7 +1658,7 @@ export const largeProducts = [
     "subcategory": "Indian & Fusion Wear",
     "type": "Ethnic Wear",
     "rating": "4.4",
-    "review_count": 58,
+    "review_count": 61,
     "images": [
       "/images/women/indian-fusion-wear/ethnic-wear/ethnic2.webp"
     ],
@@ -1682,8 +1682,8 @@ export const largeProducts = [
     "category": "Women",
     "subcategory": "Indian & Fusion Wear",
     "type": "Ethnic Wear",
-    "rating": "4.8",
-    "review_count": 49,
+    "rating": "4.9",
+    "review_count": 34,
     "images": [
       "/images/women/indian-fusion-wear/ethnic-wear/ethnic3.webp"
     ],
@@ -1707,8 +1707,8 @@ export const largeProducts = [
     "category": "Women",
     "subcategory": "Indian & Fusion Wear",
     "type": "Ethnic Wear",
-    "rating": "4.6",
-    "review_count": 12,
+    "rating": "4.3",
+    "review_count": 54,
     "images": [
       "/images/women/indian-fusion-wear/ethnic-wear/ethnic4.webp"
     ],
@@ -1732,8 +1732,8 @@ export const largeProducts = [
     "category": "Women",
     "subcategory": "Indian & Fusion Wear",
     "type": "Ethnic Wear",
-    "rating": "4.5",
-    "review_count": 20,
+    "rating": "4.1",
+    "review_count": 83,
     "images": [
       "/images/women/indian-fusion-wear/ethnic-wear/ethnic5.webp"
     ],
@@ -1757,8 +1757,8 @@ export const largeProducts = [
     "category": "Women",
     "subcategory": "Indian & Fusion Wear",
     "type": "Kurtas",
-    "rating": "5.0",
-    "review_count": 87,
+    "rating": "4.6",
+    "review_count": 25,
     "images": [
       "/images/women/indian-fusion-wear/kurtas/kurta1.webp"
     ],
@@ -1782,8 +1782,8 @@ export const largeProducts = [
     "category": "Women",
     "subcategory": "Indian & Fusion Wear",
     "type": "Kurtas",
-    "rating": "4.9",
-    "review_count": 22,
+    "rating": "4.4",
+    "review_count": 86,
     "images": [
       "/images/women/indian-fusion-wear/kurtas/kurta2.webp"
     ],
@@ -1807,8 +1807,8 @@ export const largeProducts = [
     "category": "Women",
     "subcategory": "Indian & Fusion Wear",
     "type": "Kurtas",
-    "rating": "5.0",
-    "review_count": 21,
+    "rating": "4.7",
+    "review_count": 99,
     "images": [
       "/images/women/indian-fusion-wear/kurtas/kurta3.webp"
     ],
@@ -1832,8 +1832,8 @@ export const largeProducts = [
     "category": "Women",
     "subcategory": "Indian & Fusion Wear",
     "type": "Kurtas",
-    "rating": "5.0",
-    "review_count": 68,
+    "rating": "4.2",
+    "review_count": 22,
     "images": [
       "/images/women/indian-fusion-wear/kurtas/kurta4.webp"
     ],
@@ -1857,8 +1857,8 @@ export const largeProducts = [
     "category": "Women",
     "subcategory": "Indian & Fusion Wear",
     "type": "Kurtas",
-    "rating": "4.3",
-    "review_count": 105,
+    "rating": "3.9",
+    "review_count": 55,
     "images": [
       "/images/women/indian-fusion-wear/kurtas/kurta5.webp"
     ],
@@ -1882,8 +1882,8 @@ export const largeProducts = [
     "category": "Women",
     "subcategory": "Indian & Fusion Wear",
     "type": "Kurtis",
-    "rating": "3.9",
-    "review_count": 25,
+    "rating": "5.0",
+    "review_count": 28,
     "images": [
       "/images/women/indian-fusion-wear/kurtis/kurti1.webp"
     ],
@@ -1907,8 +1907,8 @@ export const largeProducts = [
     "category": "Women",
     "subcategory": "Indian & Fusion Wear",
     "type": "Kurtis",
-    "rating": "4.6",
-    "review_count": 69,
+    "rating": "3.9",
+    "review_count": 64,
     "images": [
       "/images/women/indian-fusion-wear/kurtis/kurti2.webp"
     ],
@@ -1933,7 +1933,7 @@ export const largeProducts = [
     "subcategory": "Indian & Fusion Wear",
     "type": "Kurtis",
     "rating": "4.4",
-    "review_count": 51,
+    "review_count": 46,
     "images": [
       "/images/women/indian-fusion-wear/kurtis/kurti3.webp"
     ],
@@ -1957,8 +1957,8 @@ export const largeProducts = [
     "category": "Women",
     "subcategory": "Indian & Fusion Wear",
     "type": "Palazzos",
-    "rating": "4.3",
-    "review_count": 60,
+    "rating": "4.7",
+    "review_count": 24,
     "images": [
       "/images/women/indian-fusion-wear/palazzos/palazzo1.webp"
     ],
@@ -1983,7 +1983,7 @@ export const largeProducts = [
     "subcategory": "Indian & Fusion Wear",
     "type": "Palazzos",
     "rating": "4.3",
-    "review_count": 47,
+    "review_count": 50,
     "images": [
       "/images/women/indian-fusion-wear/palazzos/palazzo2.webp"
     ],
@@ -2007,8 +2007,8 @@ export const largeProducts = [
     "category": "Women",
     "subcategory": "Indian & Fusion Wear",
     "type": "Palazzos",
-    "rating": "4.8",
-    "review_count": 79,
+    "rating": "4.4",
+    "review_count": 68,
     "images": [
       "/images/women/indian-fusion-wear/palazzos/palazzo3.webp"
     ],
@@ -2032,8 +2032,8 @@ export const largeProducts = [
     "category": "Women",
     "subcategory": "Indian & Fusion Wear",
     "type": "Sarees",
-    "rating": "4.0",
-    "review_count": 54,
+    "rating": "4.7",
+    "review_count": 10,
     "images": [
       "/images/women/indian-fusion-wear/sarees/saree1.webp"
     ],
@@ -2057,8 +2057,8 @@ export const largeProducts = [
     "category": "Women",
     "subcategory": "Indian & Fusion Wear",
     "type": "Sarees",
-    "rating": "3.9",
-    "review_count": 97,
+    "rating": "5.0",
+    "review_count": 71,
     "images": [
       "/images/women/indian-fusion-wear/sarees/saree2.webp"
     ],
@@ -2082,8 +2082,8 @@ export const largeProducts = [
     "category": "Women",
     "subcategory": "Indian & Fusion Wear",
     "type": "Sarees",
-    "rating": "4.4",
-    "review_count": 85,
+    "rating": "4.8",
+    "review_count": 103,
     "images": [
       "/images/women/indian-fusion-wear/sarees/saree3.webp"
     ],
