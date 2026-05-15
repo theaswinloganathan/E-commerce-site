@@ -8,8 +8,8 @@ import { largeProducts } from '../lib/largeProducts'
 const customCategories = [
   { id: 1, name: 'Women', slug: 'women', image: '/images/men/clothing/formal-shirts/fshirt1.webp' },
   { id: 2, name: 'Men', slug: 'men', image: '/images/men/clothing/casual-shirts/shirt1.webp' },
-  { id: 3, name: 'Kids', slug: 'kids', image: '/images/men/clothing/casual-shirts/shirt10.webp' },
-  { id: 4, name: 'Party Wear', slug: 'party-wear', image: '/images/men/clothing/formal-shirts/fshirt2.webp' },
+  { id: 3, name: 'Kids', slug: 'kids', image: '/images/categories/kids_new.jpg' },
+  { id: 4, name: 'Party Wear', slug: 'party-wear', image: '/images/categories/party_wear.jpg' },
   { id: 5, name: 'New Arrivals', slug: 'new', image: '/images/men/clothing/casual-shirts/shirt2.webp' },
   { id: 6, name: 'Offers', slug: 'offers', image: '/images/men/clothing/formal-shirts/fshirt3.webp' },
 ];

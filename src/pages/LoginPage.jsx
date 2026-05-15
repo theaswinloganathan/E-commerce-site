@@ -26,12 +26,25 @@ export default function LoginPage() {
         password,
       })
 
-      if (error) throw error
+      if (error) {
+        // Distinguish between unverified email and wrong credentials
+        const msg = error.message.toLowerCase()
+        if (msg.includes('email not confirmed') || msg.includes('verify your email')) {
+          setError('Please verify your email before signing in. We\'ve sent a link to your inbox.')
+        } else if (msg.includes('invalid login credentials')) {
+          setError('Invalid login credentials. Please check your email and password.')
+        } else {
+          setError(error.message)
+        }
+        return
+      }
       
-      setUser(data.user)
-      navigate('/')
+      if (data?.user) {
+        setUser(data.user)
+        navigate('/')
+      }
     } catch (err) {
-      setError(err.message)
+      setError('An unexpected error occurred. Please try again.')
     } finally {
       setIsLoading(false)
     }

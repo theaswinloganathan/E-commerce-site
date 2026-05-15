@@ -65,7 +65,15 @@ const generatePrice = (filename) => {
 
 const generateAllFromLocal = () => {
   const baseDir = 'public/images';
-  const allImageFiles = walkSync(baseDir);
+  const allImageFiles = walkSync(baseDir).filter(path => {
+    const p = path.toLowerCase().replace(/\\/g, '/');
+    return !p.includes('/hero/') && 
+           !p.includes('/promo/') && 
+           !p.includes('/categories/') && 
+           !p.includes('/banners/') &&
+           !p.includes('/logo/') &&
+           (p.includes('/men/') || p.includes('/women/') || p.includes('/kids/') || p.includes('/accessories/'));
+  });
   
   const products = allImageFiles.map((fullPath, index) => {
     const filename = fullPath.split(/[\\/]/).pop();

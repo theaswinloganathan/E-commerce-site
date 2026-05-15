@@ -154,20 +154,26 @@ export default function ShopPage() {
           const normalizedSlug = slug.replace(/\s+/g, '').toLowerCase();
           localResults = localResults.filter(p => {
             const imagePath = (p?.image || p?.images?.[0] || '').toLowerCase();
+            const pCategory = (p?.category || '').toLowerCase();
             
-            // Strict folder-based check for primary categories
-            if (normalizedSlug === 'men') return imagePath.includes('/men/');
-            if (normalizedSlug === 'women') return imagePath.includes('/women/');
-            if (normalizedSlug === 'kids') return imagePath.includes('/kids/');
-            if (normalizedSlug === 'accessories') return imagePath.includes('/accessories/');
+            // Strict check for primary categories
+            if (normalizedSlug === 'men') return imagePath.includes('/men/') || pCategory === 'men';
+            if (normalizedSlug === 'women') return imagePath.includes('/women/') || pCategory === 'women';
+            if (normalizedSlug === 'kids') return imagePath.includes('/kids/') || pCategory === 'kids';
+            if (normalizedSlug === 'accessories') return imagePath.includes('/accessories/') || pCategory === 'accessories';
             
             // For subcategories or specific types, use field matching
-            const cat = p?.category?.toLowerCase()?.replace(/[-\s]/g, '') || '';
             const sub = p?.subcategory?.toLowerCase()?.replace(/[-\s]/g, '') || '';
             const type = p?.type?.toLowerCase()?.replace(/[-\s]/g, '') || '';
-            return cat === normalizedSlug || sub === normalizedSlug || type === normalizedSlug;
+            return sub === normalizedSlug || type === normalizedSlug;
           });
         }
+
+        // Global safety: Always exclude hero/promo images from any product listing
+        localResults = localResults.filter(p => {
+          const imagePath = (p?.image || p?.images?.[0] || '').toLowerCase();
+          return !imagePath.includes('/hero/') && !imagePath.includes('/promo/') && !imagePath.includes('/categories/');
+        });
 
         if (activeSubcategory !== 'All' && activeSubcategory.toLowerCase() !== slug) {
           const subNorm = activeSubcategory.toLowerCase().replace(/[-\s]/g, '');
