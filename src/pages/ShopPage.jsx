@@ -8,6 +8,29 @@ import { motion, AnimatePresence } from 'framer-motion'
 import FilterSidebar from '../components/shop/FilterSidebar'
 import { useCartStore } from '../store/useStore'
 
+const categoryData = {
+  'Men': { 
+    image: 'https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?auto=format&fit=crop&q=80&w=2071',
+    description: 'Elevate your style with our premium menswear collection.'
+  },
+  'Women': { 
+    image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&q=80&w=2070',
+    description: 'Discover elegance and trends in our women\'s archive.'
+  },
+  'Kids': { 
+    image: 'https://images.unsplash.com/photo-1514090458221-65bb69cf63e6?auto=format&fit=crop&q=80&w=2070',
+    description: 'Playful styles for the next generation.'
+  },
+  'Accessories': { 
+    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=1999',
+    description: 'The perfect finishing touches for any look.'
+  },
+  'All': { 
+    image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=2070',
+    description: 'Explore our entire collection of premium quality pieces.'
+  }
+}
+
 export default function ShopPage() {
   const { categorySlug } = useParams()
   const navigate = useNavigate()
@@ -313,20 +336,23 @@ export default function ShopPage() {
             <div className="space-y-8">
               <div>
                 <h3 className="text-xs font-black uppercase tracking-[0.3em] text-brand-950 mb-6">Categories</h3>
-                <div className="flex flex-col space-y-2">
-                  {['All', 'Men', 'Women', 'Kids', 'Accessories'].map(cat => (
+                <div className="flex flex-col space-y-3">
+                  {Object.keys(categoryData).map(cat => (
                     <button 
                       key={cat}
                       onClick={() => handleCategoryClick(cat)}
                       className={cn(
-                        "text-left px-4 py-3 rounded-xl transition-all duration-300 font-medium text-sm flex items-center justify-between group",
+                        "text-left p-2 pr-4 rounded-2xl transition-all duration-300 font-medium text-sm flex items-center gap-3 group",
                         activeCategory === cat || (cat === 'All' && activeCategory === 'All')
-                          ? "bg-brand-950 text-white shadow-lg"
+                          ? "bg-brand-950 text-white shadow-xl scale-[1.02]"
                           : "text-brand-600 hover:bg-brand-50"
                       )}
                     >
-                      {cat}
-                      <ChevronRight size={14} className={cn("transition-transform", activeCategory === cat ? "translate-x-1" : "group-hover:translate-x-1")} />
+                      <div className="w-10 h-10 rounded-xl overflow-hidden bg-brand-100 flex-shrink-0 border border-brand-200/20">
+                        <img src={categoryData[cat].image} alt="" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                      </div>
+                      <span className="flex-1 truncate">{cat}</span>
+                      <ChevronRight size={14} className={cn("transition-transform opacity-0 group-hover:opacity-100", activeCategory === cat ? "translate-x-1 opacity-100" : "group-hover:translate-x-1")} />
                     </button>
                   ))}
                 </div>
@@ -338,6 +364,32 @@ export default function ShopPage() {
 
         {/* Product Grid */}
         <div className="flex-1">
+          {/* Category Banner */}
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            key={activeCategory}
+            className="mb-12 relative h-56 md:h-72 rounded-[2.5rem] overflow-hidden group shadow-2xl shadow-brand-950/10"
+          >
+            <img 
+              src={categoryData[activeCategory]?.image || categoryData['All'].image} 
+              alt={activeCategory}
+              className="w-full h-full object-cover transition-transform duration-[2s] group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-brand-950/90 via-brand-950/40 to-transparent flex flex-col justify-center px-10 md:px-16">
+              <motion.span 
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                className="text-[10px] font-black text-brand-200 uppercase tracking-[0.4em] mb-4"
+              >
+                Exclusive Collection
+              </motion.span>
+              <h2 className="text-4xl md:text-6xl font-serif font-black text-white mb-4 tracking-tight">{activeCategory}</h2>
+              <p className="text-brand-50/80 text-sm md:text-lg max-w-md font-medium leading-relaxed italic">
+                {categoryData[activeCategory]?.description || categoryData['All'].description}
+              </p>
+            </div>
+          </motion.div>
           {/* Active Filters / Desktop Sort */}
           <div className="hidden md:flex flex-col mb-10 pb-6 border-b border-brand-50 gap-6">
             <div className="flex justify-between items-center">
@@ -482,20 +534,23 @@ export default function ShopPage() {
               <div className="space-y-8">
                 <div>
                   <h3 className="text-xs font-black uppercase tracking-[0.3em] text-brand-950 mb-6">Categories</h3>
-                  <div className="flex flex-col space-y-2">
-                    {['All', 'Men', 'Women', 'Kids', 'Accessories'].map(cat => (
+                  <div className="flex flex-col space-y-3">
+                    {Object.keys(categoryData).map(cat => (
                       <button 
                         key={cat}
                         onClick={() => handleCategoryClick(cat)}
                         className={cn(
-                          "text-left px-4 py-3 rounded-xl transition-all duration-300 font-medium text-sm flex items-center justify-between group",
+                          "text-left p-3 rounded-2xl transition-all duration-300 font-medium text-sm flex items-center gap-4 group",
                           activeCategory === cat || (cat === 'All' && activeCategory === 'All')
-                            ? "bg-brand-950 text-white shadow-lg"
+                            ? "bg-brand-950 text-white shadow-xl"
                             : "text-brand-600 hover:bg-brand-50"
                         )}
                       >
-                        {cat}
-                        <ChevronRight size={14} className={cn("transition-transform", activeCategory === cat ? "translate-x-1" : "group-hover:translate-x-1")} />
+                        <div className="w-12 h-12 rounded-xl overflow-hidden bg-brand-100 flex-shrink-0">
+                          <img src={categoryData[cat].image} alt="" className="w-full h-full object-cover" />
+                        </div>
+                        <span className="flex-1 truncate font-bold">{cat}</span>
+                        <ChevronRight size={16} className={cn("transition-transform", activeCategory === cat ? "translate-x-1" : "")} />
                       </button>
                     ))}
                   </div>
