@@ -13,9 +13,9 @@ export const largeProducts = [
     "rating": 4.5,
     "review_count": 299,
     "images": [
-      "/images/women/indian-fusion-wear/kurtas/kurta1.jpg"
+      "/images/women/western-wear/skirts/skirt1.jpg"
     ],
-    "image": "/images/women/western-wear/dresses/dress1.jpg",
+    "image": "/images/women/indian-fusion-wear/kurtas/kurta1.jpg",
     "description": "Premium linen shirt for ultimate comfort.",
     "sizes": [
       "S",
@@ -42,7 +42,7 @@ export const largeProducts = [
     "images": [
       "/images/women/western-wear/dresses/dress1.jpg"
     ],
-    "image": "/images/women/western-wear/tops/top1.jpg",
+    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
     "description": "Elegant beige shirt with a perfect fit.",
     "sizes": [
       "M",
@@ -66,7 +66,7 @@ export const largeProducts = [
     "rating": 4.6,
     "review_count": 276,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/women/western-wear/tshirts/tshirt1.jpg"
     ],
     "description": "Premium cotton shirt for a classic look.",
     "sizes": [
@@ -92,7 +92,7 @@ export const largeProducts = [
     "rating": 4.7,
     "review_count": 418,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
     ],
     "description": "Modern black shirt for any occasion.",
     "sizes": [
@@ -117,7 +117,7 @@ export const largeProducts = [
     "rating": 4.9,
     "review_count": 68,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/women/indian-fusion-wear/kurtas/kurta1.jpg"
     ],
     "description": "Premium casual shirt for daily wear.",
     "sizes": [
@@ -142,7 +142,7 @@ export const largeProducts = [
     "rating": 4.7,
     "review_count": 473,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/women/western-wear/dresses/dress1.jpg"
     ],
     "description": "Stylish and comfortable casual shirt.",
     "sizes": [
@@ -168,7 +168,7 @@ export const largeProducts = [
     "rating": 4.6,
     "review_count": 182,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/women/western-wear/tshirts/tshirt1.jpg"
     ],
     "description": "Elegant formal shirt for men.",
     "sizes": [
@@ -193,7 +193,7 @@ export const largeProducts = [
     "rating": 4.8,
     "review_count": 481,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/women/western-wear/skirts/skirt1.jpg"
     ],
     "description": "Classic casual shirt from Levis.",
     "sizes": [
@@ -219,7 +219,7 @@ export const largeProducts = [
     "rating": 4.9,
     "review_count": 207,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/women/indian-fusion-wear/kurtas/kurta1.jpg"
     ],
     "description": "Clean white casual shirt for any event.",
     "sizes": [
@@ -244,7 +244,7 @@ export const largeProducts = [
     "rating": 4.5,
     "review_count": 100,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/women/western-wear/dresses/dress1.jpg"
     ],
     "description": "Stylish red casual shirt.",
     "sizes": [
@@ -270,7 +270,7 @@ export const largeProducts = [
     "rating": 5,
     "review_count": 48,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/women/western-wear/tshirts/tshirt1.jpg"
     ],
     "description": "Luxurious formal shirt for special events.",
     "sizes": [
@@ -296,7 +296,7 @@ export const largeProducts = [
     "rating": 4.7,
     "review_count": 187,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
     ],
     "description": "Premium formal shirt.",
     "sizes": [
@@ -321,7 +321,7 @@ export const largeProducts = [
     "rating": 4.8,
     "review_count": 420,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/women/indian-fusion-wear/kurtas/kurta1.jpg"
     ],
     "description": "High-quality ethnic formal wear.",
     "sizes": [
@@ -346,7 +346,7 @@ export const largeProducts = [
     "rating": 3.7,
     "review_count": 321,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/women/western-wear/dresses/dress1.jpg"
     ],
     "description": "Sharp formal shirt for work.",
     "sizes": [
@@ -396,7 +396,7 @@ export const largeProducts = [
     "rating": 4.8,
     "review_count": 216,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/women/western-wear/tshirts/tshirt1.jpg"
     ],
     "description": "Modern fit formal shirt.",
     "sizes": [
@@ -421,7 +421,7 @@ export const largeProducts = [
     "rating": 4.4,
     "review_count": 133,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/women/western-wear/skirts/skirt1.jpg"
     ],
     "description": "Stylish slim fit jeans.",
     "sizes": [
@@ -446,7 +446,7 @@ export const largeProducts = [
     "rating": 4.8,
     "review_count": 850,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
     ],
     "description": "The classic 511 slim fit.",
     "sizes": [
@@ -472,7 +472,7 @@ export const largeProducts = [
     "rating": 4.7,
     "review_count": 120,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/women/western-wear/dresses/dress1.jpg"
     ],
     "description": "Breathable sport T-shirt.",
     "sizes": [
@@ -498,7 +498,7 @@ export const largeProducts = [
     "rating": 4.9,
     "review_count": 360,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/women/western-wear/tshirts/tshirt1.jpg"
     ],
     "description": "Comfortable track pants for workouts.",
     "sizes": [
@@ -531,9 +531,9 @@ export const largeProducts = [
     "rating": 3.7,
     "review_count": 392,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/women/indian-fusion-wear/kurtas/kurta1.jpg"
     ],
-    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
+    "image": "/images/women/western-wear/tops/top1.jpg",
     "description": "A premium jeans designed for style and comfort.",
     "sizes": [
       "28",
@@ -571,9 +571,9 @@ export const largeProducts = [
     "rating": 3.7,
     "review_count": 19,
     "images": [
-      "/images/women/western-wear/tshirts/tshirt1.jpg"
+      "/images/women/western-wear/skirts/skirt1.jpg"
     ],
-    "image": "/images/women/western-wear/skirts/skirt1.jpg",
+    "image": "/images/women/indian-fusion-wear/kurtas/kurta1.jpg",
     "description": "A premium jeans designed for style and comfort.",
     "sizes": [
       "28",
@@ -612,7 +612,7 @@ export const largeProducts = [
     "rating": 4.2,
     "review_count": 110,
     "images": [
-      "/images/women/western-wear/skirts/skirt1.jpg"
+      "/images/women/western-wear/tshirts/tshirt1.jpg"
     ],
     "image": "/images/women/indian-fusion-wear/sarees/saree1.jpg",
     "description": "A premium jeans designed for style and comfort.",
@@ -652,7 +652,7 @@ export const largeProducts = [
     "images": [
       "/images/women/indian-fusion-wear/sarees/saree1.jpg"
     ],
-    "image": "/images/women/indian-fusion-wear/kurtas/kurta1.jpg",
+    "image": "/images/women/western-wear/dresses/dress1.jpg",
     "description": "A premium jeans designed for style and comfort.",
     "sizes": [
       "28",
@@ -688,9 +688,9 @@ export const largeProducts = [
     "rating": 4.2,
     "review_count": 361,
     "images": [
-      "/images/women/indian-fusion-wear/kurtas/kurta1.jpg"
+      "/images/women/western-wear/dresses/dress1.jpg"
     ],
-    "image": "/images/women/western-wear/dresses/dress1.jpg",
+    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
     "description": "A premium jeans designed for style and comfort.",
     "sizes": [
       "28",
@@ -732,7 +732,7 @@ export const largeProducts = [
     "images": [
       "/images/women/western-wear/dresses/dress1.jpg"
     ],
-    "image": "/images/women/western-wear/tops/top1.jpg",
+    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
     "description": "A premium jeans designed for style and comfort.",
     "sizes": [
       "28",
@@ -772,7 +772,7 @@ export const largeProducts = [
     "rating": 4.5,
     "review_count": 432,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/women/western-wear/dresses/dress1.jpg"
     ],
     "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
     "description": "A premium jeans designed for style and comfort.",
@@ -811,9 +811,9 @@ export const largeProducts = [
     "rating": 3.9,
     "review_count": 355,
     "images": [
-      "/images/women/western-wear/tshirts/tshirt1.jpg"
+      "/images/women/western-wear/skirts/skirt1.jpg"
     ],
-    "image": "/images/women/western-wear/skirts/skirt1.jpg",
+    "image": "/images/women/indian-fusion-wear/kurtas/kurta1.jpg",
     "description": "A premium jeans designed for style and comfort.",
     "sizes": [
       "28",
@@ -852,7 +852,7 @@ export const largeProducts = [
     "rating": 4.5,
     "review_count": 41,
     "images": [
-      "/images/women/western-wear/skirts/skirt1.jpg"
+      "/images/women/western-wear/tshirts/tshirt1.jpg"
     ],
     "image": "/images/women/indian-fusion-wear/sarees/saree1.jpg",
     "description": "A premium shorts designed for style and comfort.",
@@ -891,9 +891,9 @@ export const largeProducts = [
     "rating": 4,
     "review_count": 310,
     "images": [
-      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
+      "/images/women/indian-fusion-wear/kurtas/kurta1.jpg"
     ],
-    "image": "/images/women/indian-fusion-wear/kurtas/kurta1.jpg",
+    "image": "/images/women/western-wear/tops/top1.jpg",
     "description": "A premium shorts designed for style and comfort.",
     "sizes": [
       "28",
@@ -930,9 +930,9 @@ export const largeProducts = [
     "rating": 4.3,
     "review_count": 76,
     "images": [
-      "/images/women/indian-fusion-wear/kurtas/kurta1.jpg"
+      "/images/women/western-wear/tshirts/tshirt1.jpg"
     ],
-    "image": "/images/women/western-wear/dresses/dress1.jpg",
+    "image": "/images/women/indian-fusion-wear/sarees/saree1.jpg",
     "description": "A premium shorts designed for style and comfort.",
     "sizes": [
       "28",
@@ -968,9 +968,9 @@ export const largeProducts = [
     "rating": 4.6,
     "review_count": 106,
     "images": [
-      "/images/women/western-wear/dresses/dress1.jpg"
+      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
     ],
-    "image": "/images/women/western-wear/tops/top1.jpg",
+    "image": "/images/women/western-wear/dresses/dress1.jpg",
     "description": "A premium shorts designed for style and comfort.",
     "sizes": [
       "28",
@@ -1010,9 +1010,9 @@ export const largeProducts = [
     "rating": 4.6,
     "review_count": 99,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
     ],
-    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
+    "image": "/images/women/western-wear/dresses/dress1.jpg",
     "description": "A premium shorts designed for style and comfort.",
     "sizes": [
       "28",
@@ -1052,9 +1052,9 @@ export const largeProducts = [
     "rating": 3.9,
     "review_count": 254,
     "images": [
-      "/images/women/western-wear/tshirts/tshirt1.jpg"
+      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
     ],
-    "image": "/images/women/western-wear/skirts/skirt1.jpg",
+    "image": "/images/women/western-wear/dresses/dress1.jpg",
     "description": "A premium shorts designed for style and comfort.",
     "sizes": [
       "28",
@@ -1095,7 +1095,7 @@ export const largeProducts = [
     "images": [
       "/images/women/western-wear/skirts/skirt1.jpg"
     ],
-    "image": "/images/women/indian-fusion-wear/sarees/saree1.jpg",
+    "image": "/images/women/indian-fusion-wear/kurtas/kurta1.jpg",
     "description": "A premium shorts designed for style and comfort.",
     "sizes": [
       "28",
@@ -1135,7 +1135,7 @@ export const largeProducts = [
     "rating": 4.9,
     "review_count": 206,
     "images": [
-      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
+      "/images/women/western-wear/skirts/skirt1.jpg"
     ],
     "image": "/images/women/indian-fusion-wear/kurtas/kurta1.jpg",
     "description": "A premium shorts designed for style and comfort.",
@@ -1175,9 +1175,9 @@ export const largeProducts = [
     "rating": 4.9,
     "review_count": 450,
     "images": [
-      "/images/women/indian-fusion-wear/kurtas/kurta1.jpg"
+      "/images/women/western-wear/tops/top1.jpg"
     ],
-    "image": "/images/women/western-wear/dresses/dress1.jpg",
+    "image": "/images/women/western-wear/skirts/skirt1.jpg",
     "description": "A premium shorts designed for style and comfort.",
     "sizes": [
       "28",
@@ -1218,7 +1218,7 @@ export const largeProducts = [
     "images": [
       "/images/women/western-wear/dresses/dress1.jpg"
     ],
-    "image": "/images/women/western-wear/tops/top1.jpg",
+    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
     "description": "A premium shorts designed for style and comfort.",
     "sizes": [
       "28",
@@ -1257,9 +1257,9 @@ export const largeProducts = [
     "rating": 3.9,
     "review_count": 378,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/women/indian-fusion-wear/kurtas/kurta1.jpg"
     ],
-    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
+    "image": "/images/women/western-wear/tops/top1.jpg",
     "description": "A premium track pants designed for style and comfort.",
     "sizes": [
       "28",
@@ -1298,9 +1298,9 @@ export const largeProducts = [
     "rating": 4.1,
     "review_count": 303,
     "images": [
-      "/images/women/western-wear/tshirts/tshirt1.jpg"
+      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
     ],
-    "image": "/images/women/western-wear/skirts/skirt1.jpg",
+    "image": "/images/women/western-wear/dresses/dress1.jpg",
     "description": "A premium track pants designed for style and comfort.",
     "sizes": [
       "28",
@@ -1338,7 +1338,7 @@ export const largeProducts = [
     "rating": 3.8,
     "review_count": 351,
     "images": [
-      "/images/women/western-wear/skirts/skirt1.jpg"
+      "/images/women/western-wear/tshirts/tshirt1.jpg"
     ],
     "image": "/images/women/indian-fusion-wear/sarees/saree1.jpg",
     "description": "A premium track pants designed for style and comfort.",
@@ -1378,9 +1378,9 @@ export const largeProducts = [
     "rating": 4.4,
     "review_count": 298,
     "images": [
-      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
+      "/images/women/western-wear/dresses/dress1.jpg"
     ],
-    "image": "/images/women/indian-fusion-wear/kurtas/kurta1.jpg",
+    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
     "description": "A premium track pants designed for style and comfort.",
     "sizes": [
       "28",
@@ -1420,9 +1420,9 @@ export const largeProducts = [
     "rating": 5,
     "review_count": 16,
     "images": [
-      "/images/women/indian-fusion-wear/kurtas/kurta1.jpg"
+      "/images/women/western-wear/dresses/dress1.jpg"
     ],
-    "image": "/images/women/western-wear/dresses/dress1.jpg",
+    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
     "description": "A premium track pants designed for style and comfort.",
     "sizes": [
       "28",
@@ -1460,9 +1460,9 @@ export const largeProducts = [
     "rating": 4.8,
     "review_count": 44,
     "images": [
-      "/images/women/western-wear/dresses/dress1.jpg"
+      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
     ],
-    "image": "/images/women/western-wear/tops/top1.jpg",
+    "image": "/images/women/western-wear/dresses/dress1.jpg",
     "description": "A premium track pants designed for style and comfort.",
     "sizes": [
       "28",
@@ -1502,9 +1502,9 @@ export const largeProducts = [
     "rating": 4.8,
     "review_count": 438,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
     ],
-    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
+    "image": "/images/women/western-wear/dresses/dress1.jpg",
     "description": "A premium track pants designed for style and comfort.",
     "sizes": [
       "28",
@@ -1540,9 +1540,9 @@ export const largeProducts = [
     "rating": 3.8,
     "review_count": 329,
     "images": [
-      "/images/women/western-wear/tshirts/tshirt1.jpg"
+      "/images/women/western-wear/dresses/dress1.jpg"
     ],
-    "image": "/images/women/western-wear/skirts/skirt1.jpg",
+    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
     "description": "A premium track pants designed for style and comfort.",
     "sizes": [
       "28",
@@ -1580,9 +1580,9 @@ export const largeProducts = [
     "rating": 4.3,
     "review_count": 313,
     "images": [
-      "/images/women/western-wear/skirts/skirt1.jpg"
+      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
     ],
-    "image": "/images/women/indian-fusion-wear/sarees/saree1.jpg",
+    "image": "/images/women/western-wear/dresses/dress1.jpg",
     "description": "A premium track pants designed for style and comfort.",
     "sizes": [
       "28",
@@ -1624,7 +1624,7 @@ export const largeProducts = [
     "images": [
       "/images/women/indian-fusion-wear/sarees/saree1.jpg"
     ],
-    "image": "/images/women/indian-fusion-wear/kurtas/kurta1.jpg",
+    "image": "/images/women/western-wear/dresses/dress1.jpg",
     "description": "A premium tshirts designed for style and comfort.",
     "sizes": [
       "XS",
@@ -1662,9 +1662,9 @@ export const largeProducts = [
     "rating": 3.9,
     "review_count": 439,
     "images": [
-      "/images/women/indian-fusion-wear/kurtas/kurta1.jpg"
+      "/images/women/western-wear/tshirts/tshirt1.jpg"
     ],
-    "image": "/images/women/western-wear/dresses/dress1.jpg",
+    "image": "/images/women/indian-fusion-wear/sarees/saree1.jpg",
     "description": "A premium tshirts designed for style and comfort.",
     "sizes": [
       "XS",
@@ -1704,9 +1704,9 @@ export const largeProducts = [
     "rating": 4.5,
     "review_count": 370,
     "images": [
-      "/images/women/western-wear/dresses/dress1.jpg"
+      "/images/women/western-wear/tshirts/tshirt1.jpg"
     ],
-    "image": "/images/women/western-wear/tops/top1.jpg",
+    "image": "/images/women/indian-fusion-wear/sarees/saree1.jpg",
     "description": "A premium tshirts designed for style and comfort.",
     "sizes": [
       "XS",
@@ -1742,9 +1742,9 @@ export const largeProducts = [
     "rating": 4.9,
     "review_count": 186,
     "images": [
-      "/images/women/western-wear/tops/top1.jpg"
+      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
     ],
-    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
+    "image": "/images/women/western-wear/dresses/dress1.jpg",
     "description": "A premium tshirts designed for style and comfort.",
     "sizes": [
       "XS",
@@ -1780,9 +1780,9 @@ export const largeProducts = [
     "rating": 3.8,
     "review_count": 229,
     "images": [
-      "/images/women/western-wear/tshirts/tshirt1.jpg"
+      "/images/women/western-wear/dresses/dress1.jpg"
     ],
-    "image": "/images/women/western-wear/skirts/skirt1.jpg",
+    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
     "description": "A premium tshirts designed for style and comfort.",
     "sizes": [
       "XS",
@@ -1820,9 +1820,9 @@ export const largeProducts = [
     "rating": 3.8,
     "review_count": 389,
     "images": [
-      "/images/women/western-wear/skirts/skirt1.jpg"
+      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
     ],
-    "image": "/images/women/indian-fusion-wear/sarees/saree1.jpg",
+    "image": "/images/women/western-wear/dresses/dress1.jpg",
     "description": "A premium tshirts designed for style and comfort.",
     "sizes": [
       "XS",
@@ -1864,7 +1864,7 @@ export const largeProducts = [
     "images": [
       "/images/women/indian-fusion-wear/sarees/saree1.jpg"
     ],
-    "image": "/images/women/indian-fusion-wear/kurtas/kurta1.jpg",
+    "image": "/images/women/western-wear/dresses/dress1.jpg",
     "description": "A premium tshirts designed for style and comfort.",
     "sizes": [
       "XS",
@@ -1904,7 +1904,7 @@ export const largeProducts = [
     "rating": 4.2,
     "review_count": 101,
     "images": [
-      "/images/women/indian-fusion-wear/kurtas/kurta1.jpg"
+      "/images/women/indian-fusion-wear/sarees/saree1.jpg"
     ],
     "image": "/images/women/western-wear/dresses/dress1.jpg",
     "description": "A premium tshirts designed for style and comfort.",
@@ -1944,7 +1944,7 @@ export const largeProducts = [
     "images": [
       "/images/women/western-wear/dresses/dress1.jpg"
     ],
-    "image": "/images/women/western-wear/tops/top1.jpg",
+    "image": "/images/women/western-wear/tshirts/tshirt1.jpg",
     "description": "A premium tshirts designed for style and comfort.",
     "sizes": [
       "XS",
