@@ -1,1961 +1,1627 @@
 export const largeProducts = [
   {
     "id": "local_p_1",
-    "name": "Biba Casual Shirts",
-    "slug": "biba-casual-shirts-2",
-    "price": 1044,
-    "originalPrice": 1800,
-    "discountPercentage": 42,
+    "name": "Hero Hero",
+    "slug": "hero-hero-1",
+    "price": 858,
     "category": "Men",
-    "brand": "Biba",
-    "color": "Blue",
-    "type": "Casual Shirts",
-    "rating": 4.5,
-    "review_count": 299,
+    "subcategory": "Clothing",
+    "type": "Hero",
+    "rating": "4.9",
+    "review_count": 70,
     "images": [
-      "/images/men/clothing/casual-shirts/shirt1.webp"
+      "/images/hero/hero-1.jpg"
     ],
-    "image": "/images/men/clothing/casual-shirts/shirt1.webp",
-    "description": "Premium linen shirt for ultimate comfort.",
+    "description": "A premium hero hero designed for style and comfort.",
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
     ],
-    "stock": 12,
-    "featured": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_2",
-    "name": "Allen Solly Casual Shirts",
-    "slug": "allen-solly-casual-shirts-3",
-    "price": 3153,
-    "originalPrice": 3710,
-    "discountPercentage": 15,
+    "name": "Hero Hero",
+    "slug": "hero-hero-2",
+    "price": 1337,
     "category": "Men",
-    "brand": "Allen Solly",
-    "color": "Beige",
-    "type": "Casual Shirts",
-    "rating": 4.8,
-    "review_count": 27,
+    "subcategory": "Clothing",
+    "type": "Hero",
+    "rating": "4.1",
+    "review_count": 61,
     "images": [
-      "/images/men/clothing/casual-shirts/shirt10.webp"
+      "/images/hero/hero-2.jpg"
     ],
-    "image": "/images/men/clothing/casual-shirts/shirt10.webp",
-    "description": "Elegant beige shirt with a perfect fit.",
+    "description": "A premium hero hero designed for style and comfort.",
     "sizes": [
+      "S",
       "M",
       "L",
       "XL"
     ],
-    "stock": 15,
-    "featured": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_3",
-    "name": "Biba Casual Shirts",
-    "slug": "biba-casual-shirts-4",
-    "price": 1251,
-    "originalPrice": 1840,
-    "discountPercentage": 32,
+    "name": "Hero Hero",
+    "slug": "hero-hero-3",
+    "price": 1816,
     "category": "Men",
-    "brand": "Biba",
-    "color": "White",
-    "type": "Casual Shirts",
-    "rating": 4.6,
-    "review_count": 276,
+    "subcategory": "Clothing",
+    "type": "Hero",
+    "rating": "3.9",
+    "review_count": 67,
     "images": [
-      "/images/men/clothing/casual-shirts/shirt2.webp"
+      "/images/hero/hero-3.jpg"
     ],
-    "description": "Premium cotton shirt for a classic look.",
+    "description": "A premium hero hero designed for style and comfort.",
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
     ],
-    "stock": 5,
-    "isLimitedStock": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_4",
-    "name": "Zara Casual Shirts",
-    "slug": "zara-casual-shirts-5",
-    "price": 750,
-    "originalPrice": 1250,
-    "discountPercentage": 40,
+    "name": "Shirt Casual Shirt",
+    "slug": "shirt-casual-shirt-4",
+    "price": 1162,
     "category": "Men",
-    "brand": "Zara",
-    "color": "Black",
+    "subcategory": "Clothing",
     "type": "Casual Shirts",
-    "rating": 4.7,
-    "review_count": 418,
+    "rating": "4.9",
+    "review_count": 84,
     "images": [
-      "/images/men/clothing/casual-shirts/shirt3.webp"
+      "/images/men/clothing/casual-shirts/shirt1.webp"
     ],
-    "description": "Modern black shirt for any occasion.",
+    "description": "A premium shirt casual shirt designed for style and comfort.",
     "sizes": [
+      "S",
       "M",
       "L",
       "XL"
     ],
-    "stock": 10,
-    "featured": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_5",
-    "name": "Zara Casual Shirts",
-    "slug": "zara-casual-shirts-6",
-    "price": 2649,
-    "originalPrice": 2880,
-    "discountPercentage": 8,
+    "name": "Shirt Casual Shirt",
+    "slug": "shirt-casual-shirt-5",
+    "price": 1014,
     "category": "Men",
-    "brand": "Zara",
-    "color": "Green",
+    "subcategory": "Clothing",
     "type": "Casual Shirts",
-    "rating": 4.9,
-    "review_count": 68,
+    "rating": "4.1",
+    "review_count": 64,
     "images": [
-      "/images/men/clothing/casual-shirts/shirt4.webp"
+      "/images/men/clothing/casual-shirts/shirt10.webp"
     ],
-    "description": "Premium casual shirt for daily wear.",
+    "description": "A premium shirt casual shirt designed for style and comfort.",
     "sizes": [
       "S",
       "M",
-      "L"
+      "L",
+      "XL"
     ],
-    "stock": 14,
-    "bestseller": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_6",
-    "name": "Puma Casual Shirts",
-    "slug": "puma-casual-shirts-7",
-    "price": 3312,
-    "originalPrice": 4040,
-    "discountPercentage": 18,
+    "name": "Shirt Casual Shirt",
+    "slug": "shirt-casual-shirt-6",
+    "price": 2313,
     "category": "Men",
-    "brand": "Puma",
-    "color": "White",
+    "subcategory": "Clothing",
     "type": "Casual Shirts",
-    "rating": 4.7,
-    "review_count": 473,
+    "rating": "4.8",
+    "review_count": 12,
     "images": [
-      "/images/men/clothing/casual-shirts/shirt5.webp"
+      "/images/men/clothing/casual-shirts/shirt2.webp"
     ],
-    "description": "Stylish and comfortable casual shirt.",
+    "description": "A premium shirt casual shirt designed for style and comfort.",
     "sizes": [
       "S",
       "M",
-      "L"
+      "L",
+      "XL"
     ],
-    "stock": 3,
-    "isLimitedStock": true,
-    "new_arrival": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_7",
-    "name": "W for Woman Formal",
-    "slug": "w-woman-formal-1",
-    "price": 3723,
-    "originalPrice": 4280,
-    "discountPercentage": 13,
-    "category": "Women",
-    "brand": "W for Woman",
-    "color": "Beige",
-    "type": "Formal Shirts",
-    "rating": 4.6,
-    "review_count": 182,
+    "name": "Shirt Casual Shirt",
+    "slug": "shirt-casual-shirt-7",
+    "price": 1464,
+    "category": "Men",
+    "subcategory": "Clothing",
+    "type": "Casual Shirts",
+    "rating": "3.8",
+    "review_count": 73,
     "images": [
-      "/images/women/western-wear/dresses/dress1.jpg"
+      "/images/men/clothing/casual-shirts/shirt3.webp"
     ],
-    "description": "Elegant formal shirt for men.",
+    "description": "A premium shirt casual shirt designed for style and comfort.",
     "sizes": [
       "S",
       "M",
-      "L"
+      "L",
+      "XL"
     ],
-    "stock": 9,
-    "featured": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_8",
-    "name": "Levis Casual Shirts",
-    "slug": "levis-casual-shirts-9",
-    "price": 2625,
-    "originalPrice": 2950,
-    "discountPercentage": 11,
+    "name": "Shirt Casual Shirt",
+    "slug": "shirt-casual-shirt-8",
+    "price": 2615,
     "category": "Men",
-    "brand": "Levis",
-    "color": "Light Blue",
+    "subcategory": "Clothing",
     "type": "Casual Shirts",
-    "rating": 4.8,
-    "review_count": 481,
+    "rating": "4.9",
+    "review_count": 10,
     "images": [
-      "/images/men/clothing/casual-shirts/shirt7.webp"
+      "/images/men/clothing/casual-shirts/shirt4.webp"
     ],
-    "description": "Classic casual shirt from Levis.",
+    "description": "A premium shirt casual shirt designed for style and comfort.",
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
     ],
-    "stock": 7,
-    "bestseller": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_9",
-    "name": "Puma Casual Shirts",
-    "slug": "puma-casual-shirts-10",
-    "price": 1845,
-    "originalPrice": 2500,
-    "discountPercentage": 26,
+    "name": "Shirt Casual Shirt",
+    "slug": "shirt-casual-shirt-9",
+    "price": 1766,
     "category": "Men",
-    "brand": "Puma",
-    "color": "White",
+    "subcategory": "Clothing",
     "type": "Casual Shirts",
-    "rating": 4.9,
-    "review_count": 207,
+    "rating": "4.4",
+    "review_count": 96,
     "images": [
-      "/images/men/clothing/casual-shirts/shirt8.webp"
+      "/images/men/clothing/casual-shirts/shirt5.webp"
     ],
-    "description": "Clean white casual shirt for any event.",
+    "description": "A premium shirt casual shirt designed for style and comfort.",
     "sizes": [
-      "XS",
       "S",
-      "M"
+      "M",
+      "L",
+      "XL"
     ],
-    "stock": 13,
-    "featured": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_10",
-    "name": "W for Woman Casual",
-    "slug": "w-woman-casual-1",
-    "price": 1656,
-    "originalPrice": 2670,
-    "discountPercentage": 38,
-    "category": "Women",
-    "brand": "W for Woman",
-    "color": "Red",
+    "name": "Shirt Casual Shirt",
+    "slug": "shirt-casual-shirt-10",
+    "price": 917,
+    "category": "Men",
+    "subcategory": "Clothing",
     "type": "Casual Shirts",
-    "rating": 4.5,
-    "review_count": 100,
+    "rating": "3.9",
+    "review_count": 23,
     "images": [
-      "/images/women/western-wear/dresses/dress1.jpg"
+      "/images/men/clothing/casual-shirts/shirt6.webp"
     ],
-    "description": "Stylish red casual shirt.",
+    "description": "A premium shirt casual shirt designed for style and comfort.",
     "sizes": [
+      "S",
       "M",
       "L",
       "XL"
     ],
-    "stock": 2,
-    "isLimitedStock": true,
-    "new_arrival": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_11",
-    "name": "Zara Formal Shirts",
-    "slug": "zara-formal-1",
-    "price": 4331,
-    "originalPrice": 5680,
-    "discountPercentage": 23,
+    "name": "Shirt Casual Shirt",
+    "slug": "shirt-casual-shirt-11",
+    "price": 2068,
     "category": "Men",
-    "brand": "Zara",
-    "color": "Navy",
-    "type": "Formal Shirts",
-    "rating": 5,
-    "review_count": 48,
+    "subcategory": "Clothing",
+    "type": "Casual Shirts",
+    "rating": "3.9",
+    "review_count": 96,
     "images": [
-      "/images/men/clothing/formal-shirts/fshirt1.webp"
+      "/images/men/clothing/casual-shirts/shirt7.webp"
     ],
-    "description": "Luxurious formal shirt for special events.",
+    "description": "A premium shirt casual shirt designed for style and comfort.",
     "sizes": [
-      "XS",
       "S",
       "M",
-      "L"
+      "L",
+      "XL"
     ],
-    "stock": 5,
-    "featured": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_12",
-    "name": "Biba Formal Shirts",
-    "slug": "biba-formal-2",
-    "price": 718,
-    "originalPrice": 790,
-    "discountPercentage": 9,
+    "name": "Shirt Casual Shirt",
+    "slug": "shirt-casual-shirt-12",
+    "price": 1219,
     "category": "Men",
-    "brand": "Biba",
-    "color": "Green",
-    "type": "Formal Shirts",
-    "rating": 4.7,
-    "review_count": 187,
+    "subcategory": "Clothing",
+    "type": "Casual Shirts",
+    "rating": "4.2",
+    "review_count": 51,
     "images": [
-      "/images/men/clothing/formal-shirts/fshirt10.webp"
+      "/images/men/clothing/casual-shirts/shirt8.webp"
     ],
-    "description": "Premium formal shirt.",
+    "description": "A premium shirt casual shirt designed for style and comfort.",
     "sizes": [
       "S",
       "M",
-      "L"
+      "L",
+      "XL"
     ],
-    "stock": 15,
-    "featured": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_13",
-    "name": "FabIndia Formal",
-    "slug": "fabindia-formal-1",
-    "price": 3408,
-    "originalPrice": 4010,
-    "discountPercentage": 15,
+    "name": "Shirt Casual Shirt",
+    "slug": "shirt-casual-shirt-13",
+    "price": 2370,
     "category": "Men",
-    "brand": "FabIndia",
-    "color": "Maroon",
-    "type": "Formal Shirts",
-    "rating": 4.8,
-    "review_count": 420,
+    "subcategory": "Clothing",
+    "type": "Casual Shirts",
+    "rating": "4.0",
+    "review_count": 34,
     "images": [
-      "/images/men/clothing/formal-shirts/fshirt2.webp"
+      "/images/men/clothing/casual-shirts/shirt9.webp"
     ],
-    "description": "High-quality ethnic formal wear.",
+    "description": "A premium shirt casual shirt designed for style and comfort.",
     "sizes": [
+      "S",
       "M",
       "L",
       "XL"
     ],
-    "stock": 6,
-    "featured": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_14",
-    "name": "Allen Solly Formal",
-    "slug": "allen-solly-formal-1",
-    "price": 1166,
-    "originalPrice": 2120,
-    "discountPercentage": 45,
+    "name": "Fshirt Formal Shirt",
+    "slug": "fshirt-formal-shirt-14",
+    "price": 2082,
     "category": "Men",
-    "brand": "Allen Solly",
-    "color": "Beige",
+    "subcategory": "Clothing",
     "type": "Formal Shirts",
-    "rating": 3.7,
-    "review_count": 321,
+    "rating": "3.8",
+    "review_count": 52,
     "images": [
-      "/images/men/clothing/formal-shirts/fshirt3.webp"
+      "/images/men/clothing/formal-shirts/fshirt1.webp"
     ],
-    "description": "Sharp formal shirt for work.",
+    "description": "A premium fshirt formal shirt designed for style and comfort.",
     "sizes": [
       "S",
       "M",
-      "L"
+      "L",
+      "XL"
     ],
-    "stock": 7,
-    "bestseller": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_15",
-    "name": "Puma Formal Shirts",
-    "slug": "puma-formal-1",
-    "price": 1146,
-    "originalPrice": 1910,
-    "discountPercentage": 40,
+    "name": "Fshirt Formal Shirt",
+    "slug": "fshirt-formal-shirt-15",
+    "price": 2038,
     "category": "Men",
-    "brand": "Puma",
-    "color": "Black",
+    "subcategory": "Clothing",
     "type": "Formal Shirts",
-    "rating": 5,
-    "review_count": 450,
+    "rating": "4.3",
+    "review_count": 62,
     "images": [
-      "/images/men/clothing/formal-shirts/fshirt4.webp"
+      "/images/men/clothing/formal-shirts/fshirt10.webp"
     ],
-    "description": "Clean black formal shirt.",
+    "description": "A premium fshirt formal shirt designed for style and comfort.",
     "sizes": [
       "S",
       "M",
-      "L"
+      "L",
+      "XL"
     ],
-    "stock": 3,
-    "isLimitedStock": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_16",
-    "name": "H&M Formal Shirts",
-    "slug": "hm-formal-1",
-    "price": 808,
-    "originalPrice": 940,
-    "discountPercentage": 14,
+    "name": "Fshirt Formal Shirt",
+    "slug": "fshirt-formal-shirt-16",
+    "price": 931,
     "category": "Men",
-    "brand": "H&M",
-    "color": "Navy",
+    "subcategory": "Clothing",
     "type": "Formal Shirts",
-    "rating": 4.8,
-    "review_count": 216,
+    "rating": "3.9",
+    "review_count": 104,
     "images": [
-      "/images/men/clothing/formal-shirts/fshirt5.webp"
+      "/images/men/clothing/formal-shirts/fshirt2.webp"
     ],
-    "description": "Modern fit formal shirt.",
+    "description": "A premium fshirt formal shirt designed for style and comfort.",
     "sizes": [
       "S",
       "M",
-      "L"
+      "L",
+      "XL"
     ],
-    "stock": 11,
-    "featured": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_17",
-    "name": "Zara Jeans",
-    "slug": "zara-jeans-1",
-    "price": 2499,
-    "originalPrice": 3500,
-    "discountPercentage": 28,
+    "name": "Fshirt Formal Shirt",
+    "slug": "fshirt-formal-shirt-17",
+    "price": 1780,
     "category": "Men",
-    "brand": "Zara",
-    "color": "Blue",
-    "type": "Jeans",
-    "rating": 4.4,
-    "review_count": 133,
+    "subcategory": "Clothing",
+    "type": "Formal Shirts",
+    "rating": "4.1",
+    "review_count": 54,
     "images": [
-      "/images/men/clothing/jeans/jeans1.webp"
+      "/images/men/clothing/formal-shirts/fshirt3.webp"
     ],
-    "description": "Stylish slim fit jeans.",
+    "description": "A premium fshirt formal shirt designed for style and comfort.",
     "sizes": [
-      "30",
-      "32",
-      "34"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "stock": 12,
-    "featured": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_18",
-    "name": "Levis 511 Slim",
-    "slug": "levis-511-slim",
-    "price": 3999,
-    "originalPrice": 4500,
-    "discountPercentage": 11,
+    "name": "Fshirt Formal Shirt",
+    "slug": "fshirt-formal-shirt-18",
+    "price": 2629,
     "category": "Men",
-    "brand": "Levis",
-    "color": "Dark Blue",
-    "type": "Jeans",
-    "rating": 4.8,
-    "review_count": 850,
+    "subcategory": "Clothing",
+    "type": "Formal Shirts",
+    "rating": "4.2",
+    "review_count": 27,
     "images": [
-      "/images/men/clothing/jeans/jeans10.webp"
+      "/images/men/clothing/formal-shirts/fshirt4.webp"
     ],
-    "description": "The classic 511 slim fit.",
+    "description": "A premium fshirt formal shirt designed for style and comfort.",
     "sizes": [
-      "30",
-      "32",
-      "34",
-      "36"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "stock": 25,
-    "bestseller": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_19",
-    "name": "Puma Sport T-Shirt",
-    "slug": "puma-sport-tshirt",
-    "price": 1299,
-    "originalPrice": 1999,
-    "discountPercentage": 35,
+    "name": "Fshirt Formal Shirt",
+    "slug": "fshirt-formal-shirt-19",
+    "price": 1478,
     "category": "Men",
-    "brand": "Puma",
-    "color": "Grey",
-    "type": "T-Shirts",
-    "rating": 4.7,
-    "review_count": 120,
+    "subcategory": "Clothing",
+    "type": "Formal Shirts",
+    "rating": "4.3",
+    "review_count": 79,
     "images": [
-      "/images/men/clothing/tshirts/tshirts1.webp"
+      "/images/men/clothing/formal-shirts/fshirt5.webp"
     ],
-    "description": "Breathable sport T-shirt.",
+    "description": "A premium fshirt formal shirt designed for style and comfort.",
     "sizes": [
       "S",
       "M",
       "L",
       "XL"
     ],
-    "stock": 15,
-    "new_arrival": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_20",
-    "name": "Nike Track Pants",
-    "slug": "nike-track-pants",
-    "price": 2499,
-    "originalPrice": 2999,
-    "discountPercentage": 16,
+    "name": "Fshirt Formal Shirt",
+    "slug": "fshirt-formal-shirt-20",
+    "price": 2327,
     "category": "Men",
-    "brand": "Nike",
-    "color": "Black",
-    "type": "Track Pants",
-    "rating": 4.9,
-    "review_count": 360,
+    "subcategory": "Clothing",
+    "type": "Formal Shirts",
+    "rating": "4.3",
+    "review_count": 58,
     "images": [
-      "/images/men/clothing/track-pants/tpants1.webp"
+      "/images/men/clothing/formal-shirts/fshirt6.webp"
     ],
-    "description": "Comfortable track pants for workouts.",
+    "description": "A premium fshirt formal shirt designed for style and comfort.",
     "sizes": [
+      "S",
       "M",
       "L",
       "XL"
     ],
-    "stock": 9,
-    "featured": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
+  },
+  {
+    "id": "local_p_21",
+    "name": "Fshirt Formal Shirt",
+    "slug": "fshirt-formal-shirt-21",
+    "price": 1176,
+    "category": "Men",
+    "subcategory": "Clothing",
+    "type": "Formal Shirts",
+    "rating": "4.3",
+    "review_count": 25,
+    "images": [
+      "/images/men/clothing/formal-shirts/fshirt7.webp"
+    ],
+    "description": "A premium fshirt formal shirt designed for style and comfort.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
+  },
+  {
+    "id": "local_p_22",
+    "name": "Fshirt Formal Shirt",
+    "slug": "fshirt-formal-shirt-22",
+    "price": 2025,
+    "category": "Men",
+    "subcategory": "Clothing",
+    "type": "Formal Shirts",
+    "rating": "4.7",
+    "review_count": 97,
+    "images": [
+      "/images/men/clothing/formal-shirts/fshirt8.webp"
+    ],
+    "description": "A premium fshirt formal shirt designed for style and comfort.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_23",
-    "name": "Zara Jeans",
-    "slug": "zara-jeans-24",
-    "price": 2986,
-    "originalPrice": 4740,
-    "discount_price": 2986,
-    "discount": 37,
-    "discountPercentage": 37,
+    "name": "Fshirt Formal Shirt",
+    "slug": "fshirt-formal-shirt-23",
+    "price": 874,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Zara",
-    "color": "Grey",
-    "fabric": "Leather",
-    "type": "Jeans",
-    "pattern": "Floral",
-    "fit": "Tailored Fit",
-    "occasion": "Casual",
-    "collar": null,
-    "rating": 3.7,
-    "review_count": 392,
+    "type": "Formal Shirts",
+    "rating": "4.9",
+    "review_count": 36,
     "images": [
-      "/images/men/clothing/jeans/jeans2.webp"
+      "/images/men/clothing/formal-shirts/fshirt9.webp"
     ],
-    "image": "/images/men/clothing/jeans/jeans2.webp",
-    "description": "A premium jeans designed for style and comfort.",
+    "description": "A premium fshirt formal shirt designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32",
-      "34",
-      "36"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 0,
-    "isLimitedStock": false,
-    "featured": false,
-    "bestseller": false,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_24",
-    "name": "Biba Jeans",
-    "slug": "biba-jeans-25",
-    "price": 1611,
-    "originalPrice": 1990,
-    "discount_price": 1611,
-    "discount": 19,
-    "discountPercentage": 19,
+    "name": "Jeans Jean",
+    "slug": "jeans-jean-24",
+    "price": 2111,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Biba",
-    "color": "White",
-    "fabric": "Silk",
     "type": "Jeans",
-    "pattern": "Solid",
-    "fit": "Relaxed Fit",
-    "occasion": "Lounge",
-    "collar": null,
-    "rating": 3.7,
-    "review_count": 19,
+    "rating": "4.1",
+    "review_count": 43,
     "images": [
-      "/images/men/clothing/jeans/jeans3.webp"
+      "/images/men/clothing/jeans/jeans1.webp"
     ],
-    "image": "/images/men/clothing/jeans/jeans3.webp",
-    "description": "A premium jeans designed for style and comfort.",
+    "description": "A premium jeans jean designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32",
-      "34",
-      "36",
-      "38"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 13,
-    "isLimitedStock": false,
-    "featured": false,
-    "bestseller": false,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_25",
-    "name": "Sabyasachi Jeans",
-    "slug": "sabyasachi-jeans-26",
-    "price": 2172,
-    "originalPrice": 3620,
-    "discount_price": 2172,
-    "discount": 40,
-    "discountPercentage": 40,
+    "name": "Jeans Jean",
+    "slug": "jeans-jean-25",
+    "price": 1739,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Sabyasachi",
-    "color": "Yellow",
-    "fabric": "Georgette",
     "type": "Jeans",
-    "pattern": "Solid",
-    "fit": "Slim Fit",
-    "occasion": "Party",
-    "collar": null,
-    "rating": 4.2,
-    "review_count": 110,
+    "rating": "4.5",
+    "review_count": 86,
     "images": [
-      "/images/men/clothing/jeans/jeans4.webp"
+      "/images/men/clothing/jeans/jeans10.webp"
     ],
-    "image": "/images/men/clothing/jeans/jeans4.webp",
-    "description": "A premium jeans designed for style and comfort.",
+    "description": "A premium jeans jean designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 13,
-    "isLimitedStock": false,
-    "featured": true,
-    "bestseller": false,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_26",
-    "name": "Sabyasachi Jeans",
-    "slug": "sabyasachi-jeans-27",
-    "price": 2729,
-    "originalPrice": 3370,
-    "discount_price": 2729,
-    "discount": 19,
-    "discountPercentage": 19,
+    "name": "Jeans Jean",
+    "slug": "jeans-jean-26",
+    "price": 1262,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Sabyasachi",
-    "color": "Beige",
-    "fabric": "Rayon",
     "type": "Jeans",
-    "pattern": "Checked",
-    "fit": "Skinny Fit",
-    "occasion": "Formal",
-    "collar": null,
-    "rating": 4.8,
-    "review_count": 293,
+    "rating": "4.2",
+    "review_count": 77,
     "images": [
-      "/images/men/clothing/jeans/jeans5.webp"
+      "/images/men/clothing/jeans/jeans2.webp"
     ],
-    "image": "/images/men/clothing/jeans/jeans5.webp",
-    "description": "A premium jeans designed for style and comfort.",
+    "description": "A premium jeans jean designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 10,
-    "isLimitedStock": false,
-    "featured": false,
-    "bestseller": false,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_27",
-    "name": "Puma Jeans",
-    "slug": "puma-jeans-28",
-    "price": 2183,
-    "originalPrice": 3830,
-    "discount_price": 2183,
-    "discount": 43,
-    "discountPercentage": 43,
+    "name": "Jeans Jean",
+    "slug": "jeans-jean-27",
+    "price": 2413,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Puma",
-    "color": "White",
-    "fabric": "Leather",
     "type": "Jeans",
-    "pattern": "Printed",
-    "fit": "Oversized",
-    "occasion": "Formal",
-    "collar": null,
-    "rating": 4.2,
-    "review_count": 361,
+    "rating": "4.0",
+    "review_count": 89,
     "images": [
-      "/images/men/clothing/jeans/jeans6.webp"
+      "/images/men/clothing/jeans/jeans3.webp"
     ],
-    "image": "/images/men/clothing/jeans/jeans6.webp",
-    "description": "A premium jeans designed for style and comfort.",
+    "description": "A premium jeans jean designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 1,
-    "isLimitedStock": true,
-    "featured": false,
-    "bestseller": false,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_28",
-    "name": "Sabyasachi Jeans",
-    "slug": "sabyasachi-jeans-29",
-    "price": 1270,
-    "originalPrice": 1790,
-    "discount_price": 1270,
-    "discount": 29,
-    "discountPercentage": 29,
+    "name": "Jeans Jean",
+    "slug": "jeans-jean-28",
+    "price": 1564,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Sabyasachi",
-    "color": "Pink",
-    "fabric": "Satin",
     "type": "Jeans",
-    "pattern": "Striped",
-    "fit": "Tailored Fit",
-    "occasion": "Work",
-    "collar": null,
-    "rating": 4.8,
-    "review_count": 360,
+    "rating": "4.5",
+    "review_count": 82,
     "images": [
-      "/images/men/clothing/jeans/jeans7.webp"
+      "/images/men/clothing/jeans/jeans4.webp"
     ],
-    "image": "/images/men/clothing/jeans/jeans7.webp",
-    "description": "A premium jeans designed for style and comfort.",
+    "description": "A premium jeans jean designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 0,
-    "isLimitedStock": false,
-    "featured": false,
-    "bestseller": false,
-    "new_arrival": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_29",
-    "name": "Biba Jeans",
-    "slug": "biba-jeans-30",
-    "price": 4240,
-    "originalPrice": 4240,
-    "discount_price": 4240,
-    "discount": 0,
-    "discountPercentage": 0,
+    "name": "Jeans Jean",
+    "slug": "jeans-jean-29",
+    "price": 715,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Biba",
-    "color": "Navy",
-    "fabric": "Leather",
     "type": "Jeans",
-    "pattern": "Plaid",
-    "fit": "Regular Fit",
-    "occasion": "Festive",
-    "collar": null,
-    "rating": 4.5,
-    "review_count": 432,
+    "rating": "3.9",
+    "review_count": 19,
     "images": [
-      "/images/men/clothing/jeans/jeans8.webp"
+      "/images/men/clothing/jeans/jeans5.webp"
     ],
-    "image": "/images/men/clothing/jeans/jeans8.webp",
-    "description": "A premium jeans designed for style and comfort.",
+    "description": "A premium jeans jean designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32",
-      "34"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 2,
-    "isLimitedStock": true,
-    "featured": true,
-    "bestseller": false,
-    "new_arrival": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_30",
-    "name": "Allen Solly Jeans",
-    "slug": "allen-solly-jeans-31",
-    "price": 1374,
-    "originalPrice": 2370,
-    "discount_price": 1374,
-    "discount": 42,
-    "discountPercentage": 42,
+    "name": "Jeans Jean",
+    "slug": "jeans-jean-30",
+    "price": 1866,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Allen Solly",
-    "color": "Beige",
-    "fabric": "Georgette",
     "type": "Jeans",
-    "pattern": "Striped",
-    "fit": "Slim Fit",
-    "occasion": "Party",
-    "collar": null,
-    "rating": 3.9,
-    "review_count": 355,
+    "rating": "4.9",
+    "review_count": 28,
     "images": [
-      "/images/men/clothing/jeans/jeans9.webp"
+      "/images/men/clothing/jeans/jeans6.webp"
     ],
-    "image": "/images/men/clothing/jeans/jeans9.webp",
-    "description": "A premium jeans designed for style and comfort.",
+    "description": "A premium jeans jean designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32",
-      "34",
-      "36",
-      "38"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 5,
-    "isLimitedStock": true,
-    "featured": false,
-    "bestseller": true,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_31",
-    "name": "Levis Shorts",
-    "slug": "levis-shorts-32",
-    "price": 2015,
-    "originalPrice": 3250,
-    "discount_price": 2015,
-    "discount": 38,
-    "discountPercentage": 38,
+    "name": "Jeans Jean",
+    "slug": "jeans-jean-31",
+    "price": 1677,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Levis",
-    "color": "Teal",
-    "fabric": "Nylon",
-    "type": "Shorts",
-    "pattern": "Abstract",
-    "fit": "Oversized",
-    "occasion": "Formal",
-    "collar": null,
-    "rating": 4.5,
-    "review_count": 41,
+    "type": "Jeans",
+    "rating": "3.8",
+    "review_count": 97,
     "images": [
-      "/images/men/clothing/shorts/shorts1.webp"
+      "/images/men/clothing/jeans/jeans7.webp"
     ],
-    "image": "/images/men/clothing/shorts/shorts1.webp",
-    "description": "A premium shorts designed for style and comfort.",
+    "description": "A premium jeans jean designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32",
-      "34"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 8,
-    "isLimitedStock": false,
-    "featured": false,
-    "bestseller": false,
-    "new_arrival": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_32",
-    "name": "Raymond Shorts",
-    "slug": "raymond-shorts-33",
-    "price": 1283,
-    "originalPrice": 1380,
-    "discount_price": 1283,
-    "discount": 7,
-    "discountPercentage": 7,
+    "name": "Jeans Jean",
+    "slug": "jeans-jean-32",
+    "price": 2526,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Raymond",
-    "color": "Red",
-    "fabric": "Nylon",
-    "type": "Shorts",
-    "pattern": "Embroidered",
-    "fit": "Oversized",
-    "occasion": "Party",
-    "collar": null,
-    "rating": 4,
-    "review_count": 310,
+    "type": "Jeans",
+    "rating": "4.2",
+    "review_count": 22,
     "images": [
-      "/images/men/clothing/shorts/shorts10.webp"
+      "/images/men/clothing/jeans/jeans8.webp"
     ],
-    "image": "/images/men/clothing/shorts/shorts10.webp",
-    "description": "A premium shorts designed for style and comfort.",
+    "description": "A premium jeans jean designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32",
-      "34"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 8,
-    "isLimitedStock": false,
-    "featured": false,
-    "bestseller": false,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_33",
-    "name": "Puma Shorts",
-    "slug": "puma-shorts-34",
-    "price": 2948,
-    "originalPrice": 3880,
-    "discount_price": 2948,
-    "discount": 24,
-    "discountPercentage": 24,
+    "name": "Jeans Jean",
+    "slug": "jeans-jean-33",
+    "price": 1375,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Puma",
-    "color": "Yellow",
-    "fabric": "Leather",
-    "type": "Shorts",
-    "pattern": "Polka Dots",
-    "fit": "Relaxed Fit",
-    "occasion": "Work",
-    "collar": null,
-    "rating": 4.3,
-    "review_count": 76,
+    "type": "Jeans",
+    "rating": "4.0",
+    "review_count": 78,
     "images": [
-      "/images/men/clothing/shorts/shorts2.webp"
+      "/images/men/clothing/jeans/jeans9.webp"
     ],
-    "image": "/images/men/clothing/shorts/shorts2.webp",
-    "description": "A premium shorts designed for style and comfort.",
+    "description": "A premium jeans jean designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 9,
-    "isLimitedStock": false,
-    "featured": false,
-    "bestseller": true,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_34",
-    "name": "Puma Shorts",
-    "slug": "puma-shorts-35",
-    "price": 2067,
-    "originalPrice": 3900,
-    "discount_price": 2067,
-    "discount": 47,
-    "discountPercentage": 47,
+    "name": "Shorts Short",
+    "slug": "shorts-short-34",
+    "price": 2603,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Puma",
-    "color": "Yellow",
-    "fabric": "Leather",
     "type": "Shorts",
-    "pattern": "Plaid",
-    "fit": "Oversized",
-    "occasion": "Casual",
-    "collar": null,
-    "rating": 4.6,
-    "review_count": 106,
+    "rating": "4.5",
+    "review_count": 101,
     "images": [
-      "/images/men/clothing/shorts/shorts3.webp"
+      "/images/men/clothing/shorts/shorts1.webp"
     ],
-    "image": "/images/men/clothing/shorts/shorts3.webp",
-    "description": "A premium shorts designed for style and comfort.",
+    "description": "A premium shorts short designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 3,
-    "isLimitedStock": true,
-    "featured": false,
-    "bestseller": false,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_35",
-    "name": "Raymond Shorts",
-    "slug": "raymond-shorts-36",
-    "price": 1034,
-    "originalPrice": 1310,
-    "discount_price": 1034,
-    "discount": 21,
-    "discountPercentage": 21,
+    "name": "Shorts Short",
+    "slug": "shorts-short-35",
+    "price": 2199,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Raymond",
-    "color": "Black",
-    "fabric": "Crepe",
     "type": "Shorts",
-    "pattern": "Striped",
-    "fit": "Oversized",
-    "occasion": "Vacation",
-    "collar": null,
-    "rating": 4.6,
-    "review_count": 99,
+    "rating": "4.4",
+    "review_count": 100,
     "images": [
-      "/images/men/clothing/shorts/shorts4.webp"
+      "/images/men/clothing/shorts/shorts10.webp"
     ],
-    "image": "/images/men/clothing/shorts/shorts4.webp",
-    "description": "A premium shorts designed for style and comfort.",
+    "description": "A premium shorts short designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 5,
-    "isLimitedStock": true,
-    "featured": false,
-    "bestseller": false,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_36",
-    "name": "Allen Solly Shorts",
-    "slug": "allen-solly-shorts-37",
-    "price": 3583,
-    "originalPrice": 4370,
-    "discount_price": 3583,
-    "discount": 18,
-    "discountPercentage": 18,
+    "name": "Shorts Short",
+    "slug": "shorts-short-36",
+    "price": 1754,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Allen Solly",
-    "color": "Teal",
-    "fabric": "Wool",
     "type": "Shorts",
-    "pattern": "Striped",
-    "fit": "Relaxed Fit",
-    "occasion": "Vacation",
-    "collar": null,
-    "rating": 3.9,
-    "review_count": 254,
+    "rating": "4.1",
+    "review_count": 14,
     "images": [
-      "/images/men/clothing/shorts/shorts5.webp"
+      "/images/men/clothing/shorts/shorts2.webp"
     ],
-    "image": "/images/men/clothing/shorts/shorts5.webp",
-    "description": "A premium shorts designed for style and comfort.",
+    "description": "A premium shorts short designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32",
-      "34",
-      "36",
-      "38"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 5,
-    "isLimitedStock": true,
-    "featured": false,
-    "bestseller": true,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_37",
-    "name": "Puma Shorts",
-    "slug": "puma-shorts-38",
-    "price": 1113,
-    "originalPrice": 2100,
-    "discount_price": 1113,
-    "discount": 47,
-    "discountPercentage": 47,
+    "name": "Shorts Short",
+    "slug": "shorts-short-37",
+    "price": 905,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Puma",
-    "color": "Pink",
-    "fabric": "Crepe",
     "type": "Shorts",
-    "pattern": "Striped",
-    "fit": "Tailored Fit",
-    "occasion": "Festive",
-    "collar": null,
-    "rating": 4.7,
-    "review_count": 313,
+    "rating": "4.8",
+    "review_count": 71,
     "images": [
-      "/images/men/clothing/shorts/shorts6.webp"
+      "/images/men/clothing/shorts/shorts3.webp"
     ],
-    "image": "/images/men/clothing/shorts/shorts6.webp",
-    "description": "A premium shorts designed for style and comfort.",
+    "description": "A premium shorts short designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 2,
-    "isLimitedStock": true,
-    "featured": true,
-    "bestseller": false,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_38",
-    "name": "W for Woman Shorts",
-    "slug": "w-for woman-shorts-39",
-    "price": 1927,
-    "originalPrice": 2640,
-    "discount_price": 1927,
-    "discount": 27,
-    "discountPercentage": 27,
-    "category": "Women",
+    "name": "Shorts Short",
+    "slug": "shorts-short-38",
+    "price": 2638,
+    "category": "Men",
     "subcategory": "Clothing",
-    "brand": "W for Woman",
-    "color": "Navy",
-    "fabric": "Silk",
     "type": "Shorts",
-    "pattern": "Checked",
-    "fit": "Slim Fit",
-    "occasion": "Wedding",
-    "collar": null,
-    "rating": 4.9,
-    "review_count": 206,
+    "rating": "4.9",
+    "review_count": 19,
     "images": [
-      "/images/women/western-wear/dresses/dress1.jpg"
+      "/images/men/clothing/shorts/shorts4.webp"
     ],
-    "image": "/images/women/western-wear/dresses/dress1.jpg",
-    "description": "A premium shorts designed for style and comfort.",
+    "description": "A premium shorts short designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32",
-      "34",
-      "36"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 14,
-    "isLimitedStock": false,
-    "featured": false,
-    "bestseller": false,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_39",
-    "name": "Allen Solly Shorts",
-    "slug": "allen-solly-shorts-40",
-    "price": 1074,
-    "originalPrice": 1360,
-    "discount_price": 1074,
-    "discount": 21,
-    "discountPercentage": 21,
+    "name": "Shorts Short",
+    "slug": "shorts-short-39",
+    "price": 1487,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Allen Solly",
-    "color": "Yellow",
-    "fabric": "Linen",
     "type": "Shorts",
-    "pattern": "Polka Dots",
-    "fit": "Regular Fit",
-    "occasion": "Party",
-    "collar": null,
-    "rating": 4.9,
-    "review_count": 450,
+    "rating": "4.6",
+    "review_count": 70,
     "images": [
-      "/images/men/clothing/shorts/shorts8.webp"
+      "/images/men/clothing/shorts/shorts5.webp"
     ],
-    "image": "/images/men/clothing/shorts/shorts8.webp",
-    "description": "A premium shorts designed for style and comfort.",
+    "description": "A premium shorts short designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32",
-      "34",
-      "36",
-      "38"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 5,
-    "isLimitedStock": true,
-    "featured": false,
-    "bestseller": false,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_40",
-    "name": "Raymond Shorts",
-    "slug": "raymond-shorts-41",
-    "price": 964,
-    "originalPrice": 1440,
-    "discount_price": 964,
-    "discount": 33,
-    "discountPercentage": 33,
+    "name": "Shorts Short",
+    "slug": "shorts-short-40",
+    "price": 2336,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Raymond",
-    "color": "Black",
-    "fabric": "Satin",
     "type": "Shorts",
-    "pattern": "Checked",
-    "fit": "Oversized",
-    "occasion": "Work",
-    "collar": null,
-    "rating": 4.7,
-    "review_count": 112,
+    "rating": "3.9",
+    "review_count": 86,
     "images": [
-      "/images/men/clothing/shorts/shorts9.webp"
+      "/images/men/clothing/shorts/shorts6.webp"
     ],
-    "image": "/images/men/clothing/shorts/shorts9.webp",
-    "description": "A premium shorts designed for style and comfort.",
+    "description": "A premium shorts short designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32",
-      "34",
-      "36",
-      "38"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 3,
-    "isLimitedStock": true,
-    "featured": false,
-    "bestseller": true,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
+  },
+  {
+    "id": "local_p_41",
+    "name": "Shorts Short",
+    "slug": "shorts-short-41",
+    "price": 1185,
+    "category": "Men",
+    "subcategory": "Clothing",
+    "type": "Shorts",
+    "rating": "4.4",
+    "review_count": 54,
+    "images": [
+      "/images/men/clothing/shorts/shorts7.webp"
+    ],
+    "description": "A premium shorts short designed for style and comfort.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_42",
-    "name": "Levis Track Pants",
-    "slug": "levis-track-pants-43",
-    "price": 4287,
-    "originalPrice": 4420,
-    "discount_price": 4287,
-    "discount": 3,
-    "discountPercentage": 3,
+    "name": "Shorts Short",
+    "slug": "shorts-short-42",
+    "price": 2034,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Levis",
-    "color": "Grey",
-    "fabric": "Georgette",
-    "type": "Track Pants",
-    "pattern": "Embroidered",
-    "fit": "Slim Fit",
-    "occasion": "Festive",
-    "collar": null,
-    "rating": 3.9,
-    "review_count": 378,
+    "type": "Shorts",
+    "rating": "4.3",
+    "review_count": 60,
     "images": [
-      "/images/men/clothing/track-pants/tpants10.webp"
+      "/images/men/clothing/shorts/shorts8.webp"
     ],
-    "image": "/images/men/clothing/track-pants/tpants10.webp",
-    "description": "A premium track pants designed for style and comfort.",
+    "description": "A premium shorts short designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32",
-      "34",
-      "36",
-      "38"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 1,
-    "isLimitedStock": true,
-    "featured": false,
-    "bestseller": false,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_43",
-    "name": "Allen Solly Track Pants",
-    "slug": "allen-solly-track-pants-44",
-    "price": 3304,
-    "originalPrice": 4030,
-    "discount_price": 3304,
-    "discount": 18,
-    "discountPercentage": 18,
+    "name": "Shorts Short",
+    "slug": "shorts-short-43",
+    "price": 883,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Allen Solly",
-    "color": "Brown",
-    "fabric": "Velvet",
-    "type": "Track Pants",
-    "pattern": "Polka Dots",
-    "fit": "Slim Fit",
-    "occasion": "Lounge",
-    "collar": null,
-    "rating": 4.1,
-    "review_count": 303,
+    "type": "Shorts",
+    "rating": "4.1",
+    "review_count": 61,
     "images": [
-      "/images/men/clothing/track-pants/tpants2.webp"
+      "/images/men/clothing/shorts/shorts9.webp"
     ],
-    "image": "/images/men/clothing/track-pants/tpants2.webp",
-    "description": "A premium track pants designed for style and comfort.",
+    "description": "A premium shorts short designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32",
-      "34",
-      "36"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 11,
-    "isLimitedStock": false,
-    "featured": false,
-    "bestseller": true,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_44",
-    "name": "Levis Track Pants",
-    "slug": "levis-track-pants-45",
-    "price": 563,
-    "originalPrice": 640,
-    "discount_price": 563,
-    "discount": 12,
-    "discountPercentage": 12,
+    "name": "Tpants Track Pant",
+    "slug": "tpants-track-pant-44",
+    "price": 2026,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Levis",
-    "color": "Yellow",
-    "fabric": "Cotton",
     "type": "Track Pants",
-    "pattern": "Checked",
-    "fit": "Regular Fit",
-    "occasion": "Vacation",
-    "collar": null,
-    "rating": 3.8,
-    "review_count": 351,
+    "rating": "4.1",
+    "review_count": 12,
     "images": [
-      "/images/men/clothing/track-pants/tpants3.webp"
+      "/images/men/clothing/track-pants/tpants1.webp"
     ],
-    "image": "/images/men/clothing/track-pants/tpants3.webp",
-    "description": "A premium track pants designed for style and comfort.",
+    "description": "A premium tpants track pant designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32",
-      "34",
-      "36"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 15,
-    "isLimitedStock": false,
-    "featured": false,
-    "bestseller": false,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_45",
-    "name": "W for Woman Track Pants",
-    "slug": "w-for woman-track-pants-46",
-    "price": 1803,
-    "originalPrice": 2470,
-    "discount_price": 1803,
-    "discount": 27,
-    "discountPercentage": 27,
-    "category": "Women",
+    "name": "Tpants Track Pant",
+    "slug": "tpants-track-pant-45",
+    "price": 2510,
+    "category": "Men",
     "subcategory": "Clothing",
-    "brand": "W for Woman",
-    "color": "Green",
-    "fabric": "Cotton",
     "type": "Track Pants",
-    "pattern": "Embroidered",
-    "fit": "Oversized",
-    "occasion": "Work",
-    "collar": null,
-    "rating": 4.4,
-    "review_count": 298,
+    "rating": "4.7",
+    "review_count": 31,
     "images": [
-      "/images/women/western-wear/dresses/dress1.jpg"
+      "/images/men/clothing/track-pants/tpants10.webp"
     ],
-    "image": "/images/women/western-wear/dresses/dress1.jpg",
-    "description": "A premium track pants designed for style and comfort.",
+    "description": "A premium tpants track pant designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 4,
-    "isLimitedStock": true,
-    "featured": false,
-    "bestseller": false,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_46",
-    "name": "Nike Track Pants",
-    "slug": "nike-track-pants-47",
-    "price": 2988,
-    "originalPrice": 4820,
-    "discount_price": 2988,
-    "discount": 38,
-    "discountPercentage": 38,
+    "name": "Tpants Track Pant",
+    "slug": "tpants-track-pant-46",
+    "price": 875,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Nike",
-    "color": "Brown",
-    "fabric": "Wool",
     "type": "Track Pants",
-    "pattern": "Plaid",
-    "fit": "Tailored Fit",
-    "occasion": "Party",
-    "collar": null,
-    "rating": 5,
-    "review_count": 16,
+    "rating": "4.7",
+    "review_count": 105,
     "images": [
-      "/images/men/clothing/track-pants/tpants5.webp"
+      "/images/men/clothing/track-pants/tpants2.webp"
     ],
-    "image": "/images/men/clothing/track-pants/tpants5.webp",
-    "description": "A premium track pants designed for style and comfort.",
+    "description": "A premium tpants track pant designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32",
-      "34",
-      "36"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 1,
-    "isLimitedStock": true,
-    "featured": false,
-    "bestseller": false,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_47",
-    "name": "Levis Track Pants",
-    "slug": "levis-track-pants-48",
-    "price": 2415,
-    "originalPrice": 2490,
-    "discount_price": 2415,
-    "discount": 3,
-    "discountPercentage": 3,
+    "name": "Tpants Track Pant",
+    "slug": "tpants-track-pant-47",
+    "price": 1724,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Levis",
-    "color": "Maroon",
-    "fabric": "Nylon",
     "type": "Track Pants",
-    "pattern": "Embroidered",
-    "fit": "Skinny Fit",
-    "occasion": "Festive",
-    "collar": null,
-    "rating": 4.8,
-    "review_count": 44,
+    "rating": "4.6",
+    "review_count": 63,
     "images": [
-      "/images/men/clothing/track-pants/tpants6.webp"
+      "/images/men/clothing/track-pants/tpants3.webp"
     ],
-    "image": "/images/men/clothing/track-pants/tpants6.webp",
-    "description": "A premium track pants designed for style and comfort.",
+    "description": "A premium tpants track pant designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 7,
-    "isLimitedStock": false,
-    "featured": true,
-    "bestseller": false,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_48",
-    "name": "Zara Track Pants",
-    "slug": "zara-track-pants-49",
-    "price": 3635,
-    "originalPrice": 4980,
-    "discount_price": 3635,
-    "discount": 27,
-    "discountPercentage": 27,
+    "name": "Tpants Track Pant",
+    "slug": "tpants-track-pant-48",
+    "price": 2573,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Zara",
-    "color": "Grey",
-    "fabric": "Satin",
     "type": "Track Pants",
-    "pattern": "Striped",
-    "fit": "Oversized",
-    "occasion": "Vacation",
-    "collar": null,
-    "rating": 4.8,
-    "review_count": 438,
+    "rating": "4.9",
+    "review_count": 83,
     "images": [
-      "/images/men/clothing/track-pants/tpants7.webp"
+      "/images/men/clothing/track-pants/tpants4.webp"
     ],
-    "image": "/images/men/clothing/track-pants/tpants7.webp",
-    "description": "A premium track pants designed for style and comfort.",
+    "description": "A premium tpants track pant designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 9,
-    "isLimitedStock": false,
-    "featured": false,
-    "bestseller": false,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_49",
-    "name": "Allen Solly Track Pants",
-    "slug": "allen-solly-track-pants-50",
-    "price": 4422,
-    "originalPrice": 4860,
-    "discount_price": 4422,
-    "discount": 9,
-    "discountPercentage": 9,
+    "name": "Tpants Track Pant",
+    "slug": "tpants-track-pant-49",
+    "price": 1422,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Allen Solly",
-    "color": "Blue",
-    "fabric": "Crepe",
     "type": "Track Pants",
-    "pattern": "Abstract",
-    "fit": "Tailored Fit",
-    "occasion": "Party",
-    "collar": null,
-    "rating": 3.8,
-    "review_count": 329,
+    "rating": "4.2",
+    "review_count": 34,
     "images": [
-      "/images/men/clothing/track-pants/tpants8.webp"
+      "/images/men/clothing/track-pants/tpants5.webp"
     ],
-    "image": "/images/men/clothing/track-pants/tpants8.webp",
-    "description": "A premium track pants designed for style and comfort.",
+    "description": "A premium tpants track pant designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32",
-      "34",
-      "36"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 5,
-    "isLimitedStock": true,
-    "featured": true,
-    "bestseller": false,
-    "new_arrival": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_50",
-    "name": "Levis Track Pants",
-    "slug": "levis-track-pants-51",
-    "price": 1339,
-    "originalPrice": 1810,
-    "discount_price": 1339,
-    "discount": 26,
-    "discountPercentage": 26,
+    "name": "Tpants Track Pant",
+    "slug": "tpants-track-pant-50",
+    "price": 2271,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Levis",
-    "color": "Olive",
-    "fabric": "Crepe",
     "type": "Track Pants",
-    "pattern": "Solid",
-    "fit": "Oversized",
-    "occasion": "Work",
-    "collar": null,
-    "rating": 4.3,
-    "review_count": 313,
+    "rating": "4.9",
+    "review_count": 75,
     "images": [
-      "/images/men/clothing/track-pants/tpants9.webp"
+      "/images/men/clothing/track-pants/tpants6.webp"
     ],
-    "image": "/images/men/clothing/track-pants/tpants9.webp",
-    "description": "A premium track pants designed for style and comfort.",
+    "description": "A premium tpants track pant designed for style and comfort.",
     "sizes": [
-      "28",
-      "30",
-      "32",
-      "34",
-      "36",
-      "38",
-      "40"
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "28",
-    "stock": 4,
-    "isLimitedStock": true,
-    "featured": false,
-    "bestseller": false,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
+  },
+  {
+    "id": "local_p_51",
+    "name": "Tpants Track Pant",
+    "slug": "tpants-track-pant-51",
+    "price": 1120,
+    "category": "Men",
+    "subcategory": "Clothing",
+    "type": "Track Pants",
+    "rating": "4.1",
+    "review_count": 46,
+    "images": [
+      "/images/men/clothing/track-pants/tpants7.webp"
+    ],
+    "description": "A premium tpants track pant designed for style and comfort.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_52",
-    "name": "Zara Tshirts",
-    "slug": "zara-tshirts-53",
-    "price": 595,
-    "originalPrice": 1190,
-    "discount_price": 595,
-    "discount": 50,
-    "discountPercentage": 50,
+    "name": "Tpants Track Pant",
+    "slug": "tpants-track-pant-52",
+    "price": 1969,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Zara",
-    "color": "Green",
-    "fabric": "Georgette",
-    "type": "Tshirts",
-    "pattern": "Abstract",
-    "fit": "Loose Fit",
-    "occasion": "Casual",
-    "collar": "Button-Down",
-    "rating": 4.3,
-    "review_count": 433,
+    "type": "Track Pants",
+    "rating": "4.2",
+    "review_count": 21,
     "images": [
-      "/images/men/clothing/tshirts/tshirts10.webp"
+      "/images/men/clothing/track-pants/tpants8.webp"
     ],
-    "image": "/images/men/clothing/tshirts/tshirts10.webp",
-    "description": "A premium tshirts designed for style and comfort.",
+    "description": "A premium tpants track pant designed for style and comfort.",
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
       "XL"
     ],
-    "size": "XS",
-    "stock": 11,
-    "isLimitedStock": false,
-    "featured": true,
-    "bestseller": false,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_53",
-    "name": "H&M Tshirts",
-    "slug": "h&m-tshirts-54",
-    "price": 2380,
-    "originalPrice": 3500,
-    "discount_price": 2380,
-    "discount": 32,
-    "discountPercentage": 32,
+    "name": "Tpants Track Pant",
+    "slug": "tpants-track-pant-53",
+    "price": 818,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "H&M",
-    "color": "White",
-    "fabric": "Cotton",
-    "type": "Tshirts",
-    "pattern": "Printed",
-    "fit": "Tailored Fit",
-    "occasion": "Party",
-    "collar": "Turtleneck",
-    "rating": 3.9,
-    "review_count": 439,
+    "type": "Track Pants",
+    "rating": "4.7",
+    "review_count": 48,
     "images": [
-      "/images/men/clothing/tshirts/tshirts2.webp"
+      "/images/men/clothing/track-pants/tpants9.webp"
     ],
-    "image": "/images/men/clothing/tshirts/tshirts2.webp",
-    "description": "A premium tshirts designed for style and comfort.",
+    "description": "A premium tpants track pant designed for style and comfort.",
     "sizes": [
-      "XS",
-      "S",
-      "M",
-      "L",
-      "XL",
-      "XXL",
-      "3XL"
-    ],
-    "size": "XS",
-    "stock": 5,
-    "isLimitedStock": true,
-    "featured": false,
-    "bestseller": true,
-    "new_arrival": false
-  },
-  {
-    "id": "local_p_54",
-    "name": "Puma Tshirts",
-    "slug": "puma-tshirts-55",
-    "price": 2287,
-    "originalPrice": 2460,
-    "discount_price": 2287,
-    "discount": 7,
-    "discountPercentage": 7,
-    "category": "Men",
-    "subcategory": "Clothing",
-    "brand": "Puma",
-    "color": "Brown",
-    "fabric": "Cotton",
-    "type": "Tshirts",
-    "pattern": "Polka Dots",
-    "fit": "Relaxed Fit",
-    "occasion": "Festive",
-    "collar": "Button-Down",
-    "rating": 4.5,
-    "review_count": 370,
-    "images": [
-      "/images/men/clothing/tshirts/tshirts3.webp"
-    ],
-    "image": "/images/men/clothing/tshirts/tshirts3.webp",
-    "description": "A premium tshirts designed for style and comfort.",
-    "sizes": [
-      "XS",
-      "S",
-      "M"
-    ],
-    "size": "XS",
-    "stock": 11,
-    "isLimitedStock": false,
-    "featured": true,
-    "bestseller": true,
-    "new_arrival": false
-  },
-  {
-    "id": "local_p_55",
-    "name": "H&M Tshirts",
-    "slug": "h&m-tshirts-56",
-    "price": 2060,
-    "originalPrice": 3680,
-    "discount_price": 2060,
-    "discount": 44,
-    "discountPercentage": 44,
-    "category": "Men",
-    "subcategory": "Clothing",
-    "brand": "H&M",
-    "color": "Olive",
-    "fabric": "Velvet",
-    "type": "Tshirts",
-    "pattern": "Printed",
-    "fit": "Tailored Fit",
-    "occasion": "Casual",
-    "collar": "Boat Neck",
-    "rating": 4.9,
-    "review_count": 186,
-    "images": [
-      "/images/men/clothing/tshirts/tshirts4.webp"
-    ],
-    "image": "/images/men/clothing/tshirts/tshirts4.webp",
-    "description": "A premium tshirts designed for style and comfort.",
-    "sizes": [
-      "XS",
-      "S",
-      "M"
-    ],
-    "size": "XS",
-    "stock": 4,
-    "isLimitedStock": true,
-    "featured": true,
-    "bestseller": false,
-    "new_arrival": false
-  },
-  {
-    "id": "local_p_56",
-    "name": "H&M Tshirts",
-    "slug": "h&m-tshirts-57",
-    "price": 1600,
-    "originalPrice": 3020,
-    "discount_price": 1600,
-    "discount": 47,
-    "discountPercentage": 47,
-    "category": "Men",
-    "subcategory": "Clothing",
-    "brand": "H&M",
-    "color": "Green",
-    "fabric": "Chiffon",
-    "type": "Tshirts",
-    "pattern": "Printed",
-    "fit": "Loose Fit",
-    "occasion": "Lounge",
-    "collar": "Spread",
-    "rating": 3.8,
-    "review_count": 229,
-    "images": [
-      "/images/men/clothing/tshirts/tshirts5.webp"
-    ],
-    "image": "/images/men/clothing/tshirts/tshirts5.webp",
-    "description": "A premium tshirts designed for style and comfort.",
-    "sizes": [
-      "XS",
       "S",
       "M",
       "L",
       "XL"
     ],
-    "size": "XS",
-    "stock": 7,
-    "isLimitedStock": false,
-    "featured": false,
-    "bestseller": false,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
+  },
+  {
+    "id": "local_p_54",
+    "name": "Tshirts Tshirt",
+    "slug": "tshirts-tshirt-54",
+    "price": 1505,
+    "category": "Men",
+    "subcategory": "Clothing",
+    "type": "Tshirts",
+    "rating": "4.9",
+    "review_count": 92,
+    "images": [
+      "/images/men/clothing/tshirts/tshirts1.webp"
+    ],
+    "description": "A premium tshirts tshirt designed for style and comfort.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
+  },
+  {
+    "id": "local_p_55",
+    "name": "Tshirts Tshirt",
+    "slug": "tshirts-tshirt-55",
+    "price": 2405,
+    "category": "Men",
+    "subcategory": "Clothing",
+    "type": "Tshirts",
+    "rating": "4.7",
+    "review_count": 68,
+    "images": [
+      "/images/men/clothing/tshirts/tshirts10.webp"
+    ],
+    "description": "A premium tshirts tshirt designed for style and comfort.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
+  },
+  {
+    "id": "local_p_56",
+    "name": "Tshirts Tshirt",
+    "slug": "tshirts-tshirt-56",
+    "price": 2354,
+    "category": "Men",
+    "subcategory": "Clothing",
+    "type": "Tshirts",
+    "rating": "4.6",
+    "review_count": 81,
+    "images": [
+      "/images/men/clothing/tshirts/tshirts2.webp"
+    ],
+    "description": "A premium tshirts tshirt designed for style and comfort.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_57",
-    "name": "Zara Tshirts",
-    "slug": "zara-tshirts-58",
-    "price": 579,
-    "originalPrice": 840,
-    "discount_price": 579,
-    "discount": 31,
-    "discountPercentage": 31,
+    "name": "Tshirts Tshirt",
+    "slug": "tshirts-tshirt-57",
+    "price": 1203,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Zara",
-    "color": "Black",
-    "fabric": "Nylon",
     "type": "Tshirts",
-    "pattern": "Striped",
-    "fit": "Loose Fit",
-    "occasion": "Vacation",
-    "collar": "Boat Neck",
-    "rating": 3.8,
-    "review_count": 389,
+    "rating": "4.7",
+    "review_count": 83,
     "images": [
-      "/images/men/clothing/tshirts/tshirts6.webp"
+      "/images/men/clothing/tshirts/tshirts3.webp"
     ],
-    "image": "/images/men/clothing/tshirts/tshirts6.webp",
-    "description": "A premium tshirts designed for style and comfort.",
+    "description": "A premium tshirts tshirt designed for style and comfort.",
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
-      "XL",
-      "XXL",
-      "3XL"
+      "XL"
     ],
-    "size": "XS",
-    "stock": 9,
-    "isLimitedStock": false,
-    "featured": false,
-    "bestseller": false,
-    "new_arrival": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_58",
-    "name": "H&M Tshirts",
-    "slug": "h&m-tshirts-59",
-    "price": 563,
-    "originalPrice": 640,
-    "discount_price": 563,
-    "discount": 12,
-    "discountPercentage": 12,
+    "name": "Tshirts Tshirt",
+    "slug": "tshirts-tshirt-58",
+    "price": 2052,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "H&M",
-    "color": "Green",
-    "fabric": "Crepe",
     "type": "Tshirts",
-    "pattern": "Floral",
-    "fit": "Regular Fit",
-    "occasion": "Festive",
-    "collar": "Henley",
-    "rating": 3.5,
-    "review_count": 221,
+    "rating": "4.8",
+    "review_count": 88,
     "images": [
-      "/images/men/clothing/tshirts/tshirts7.webp"
+      "/images/men/clothing/tshirts/tshirts4.webp"
     ],
-    "image": "/images/men/clothing/tshirts/tshirts7.webp",
-    "description": "A premium tshirts designed for style and comfort.",
+    "description": "A premium tshirts tshirt designed for style and comfort.",
     "sizes": [
-      "XS",
       "S",
       "M",
       "L",
-      "XL",
-      "XXL",
-      "3XL"
+      "XL"
     ],
-    "size": "XS",
-    "stock": 3,
-    "isLimitedStock": true,
-    "featured": true,
-    "bestseller": false,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_59",
-    "name": "Raymond Tshirts",
-    "slug": "raymond-tshirts-60",
-    "price": 3146,
-    "originalPrice": 4840,
-    "discount_price": 3146,
-    "discount": 35,
-    "discountPercentage": 35,
+    "name": "Tshirts Tshirt",
+    "slug": "tshirts-tshirt-59",
+    "price": 901,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Raymond",
-    "color": "White",
-    "fabric": "Georgette",
     "type": "Tshirts",
-    "pattern": "Striped",
-    "fit": "Tailored Fit",
-    "occasion": "Formal",
-    "collar": "V-Neck",
-    "rating": 4.2,
-    "review_count": 101,
+    "rating": "4.3",
+    "review_count": 77,
     "images": [
-      "/images/men/clothing/tshirts/tshirts8.webp"
+      "/images/men/clothing/tshirts/tshirts5.webp"
     ],
-    "image": "/images/men/clothing/tshirts/tshirts8.webp",
-    "description": "A premium tshirts designed for style and comfort.",
+    "description": "A premium tshirts tshirt designed for style and comfort.",
     "sizes": [
-      "XS",
       "S",
-      "M"
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "XS",
-    "stock": 1,
-    "isLimitedStock": true,
-    "featured": true,
-    "bestseller": false,
-    "new_arrival": true
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   },
   {
     "id": "local_p_60",
-    "name": "Raymond Tshirts",
-    "slug": "raymond-tshirts-61",
-    "price": 362,
-    "originalPrice": 510,
-    "discount_price": 362,
-    "discount": 29,
-    "discountPercentage": 29,
+    "name": "Tshirts Tshirt",
+    "slug": "tshirts-tshirt-60",
+    "price": 1750,
     "category": "Men",
     "subcategory": "Clothing",
-    "brand": "Raymond",
-    "color": "Yellow",
-    "fabric": "Linen",
     "type": "Tshirts",
-    "pattern": "Printed",
-    "fit": "Loose Fit",
-    "occasion": "Wedding",
-    "collar": "Spread",
-    "rating": 4.9,
-    "review_count": 376,
+    "rating": "4.3",
+    "review_count": 39,
+    "images": [
+      "/images/men/clothing/tshirts/tshirts6.webp"
+    ],
+    "description": "A premium tshirts tshirt designed for style and comfort.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
+  },
+  {
+    "id": "local_p_61",
+    "name": "Tshirts Tshirt",
+    "slug": "tshirts-tshirt-61",
+    "price": 2599,
+    "category": "Men",
+    "subcategory": "Clothing",
+    "type": "Tshirts",
+    "rating": "4.0",
+    "review_count": 83,
+    "images": [
+      "/images/men/clothing/tshirts/tshirts7.webp"
+    ],
+    "description": "A premium tshirts tshirt designed for style and comfort.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
+  },
+  {
+    "id": "local_p_62",
+    "name": "Tshirts Tshirt",
+    "slug": "tshirts-tshirt-62",
+    "price": 1448,
+    "category": "Men",
+    "subcategory": "Clothing",
+    "type": "Tshirts",
+    "rating": "5.0",
+    "review_count": 108,
+    "images": [
+      "/images/men/clothing/tshirts/tshirts8.webp"
+    ],
+    "description": "A premium tshirts tshirt designed for style and comfort.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
+  },
+  {
+    "id": "local_p_63",
+    "name": "Tshirts Tshirt",
+    "slug": "tshirts-tshirt-63",
+    "price": 2297,
+    "category": "Men",
+    "subcategory": "Clothing",
+    "type": "Tshirts",
+    "rating": "4.3",
+    "review_count": 109,
     "images": [
       "/images/men/clothing/tshirts/tshirts9.webp"
     ],
-    "image": "/images/men/clothing/tshirts/tshirts9.webp",
-    "description": "A premium tshirts designed for style and comfort.",
+    "description": "A premium tshirts tshirt designed for style and comfort.",
     "sizes": [
-      "XS",
       "S",
-      "M"
+      "M",
+      "L",
+      "XL"
     ],
-    "size": "XS",
-    "stock": 10,
-    "isLimitedStock": false,
-    "featured": false,
-    "bestseller": false,
-    "new_arrival": false
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
+  },
+  {
+    "id": "local_p_64",
+    "name": "Promo Promo",
+    "slug": "promo-promo-64",
+    "price": 2152,
+    "category": "Men",
+    "subcategory": "Clothing",
+    "type": "Promo",
+    "rating": "4.6",
+    "review_count": 30,
+    "images": [
+      "/images/promo/promo1.png"
+    ],
+    "description": "A premium promo promo designed for style and comfort.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
+  },
+  {
+    "id": "local_p_65",
+    "name": "Promo Promo",
+    "slug": "promo-promo-65",
+    "price": 1673,
+    "category": "Men",
+    "subcategory": "Clothing",
+    "type": "Promo",
+    "rating": "4.0",
+    "review_count": 32,
+    "images": [
+      "/images/promo/promo2.png"
+    ],
+    "description": "A premium promo promo designed for style and comfort.",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Neutral"
+    ],
+    "stock": 50
   }
 ];

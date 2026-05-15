@@ -37,7 +37,9 @@ const getProductDetails = (fullPath) => {
   let type = 'T-Shirts';
 
   if (parts.includes('women')) category = 'Women';
-  if (parts.includes('kids')) category = 'Kids';
+  else if (parts.includes('kids')) category = 'Kids';
+  else if (parts.includes('accessories') || parts.includes('Accessories')) category = 'Accessories';
+  else if (parts.includes('men')) category = 'Men';
 
   // Subcategory detection
   if (parts.includes('indian-fusion-wear')) subcategory = 'Indian & Fusion Wear';

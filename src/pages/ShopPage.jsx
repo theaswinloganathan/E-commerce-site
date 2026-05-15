@@ -151,14 +151,20 @@ export default function ShopPage() {
         
         // Base category filtering - make it more precise
         if (slug !== 'all') {
-          const normalizedSlug = slug.replace(/\s+/g, '');
+          const normalizedSlug = slug.replace(/\s+/g, '').toLowerCase();
           localResults = localResults.filter(p => {
+            const imagePath = (p?.image || p?.images?.[0] || '').toLowerCase();
+            
+            // Strict folder-based check for primary categories
+            if (normalizedSlug === 'men') return imagePath.includes('/men/');
+            if (normalizedSlug === 'women') return imagePath.includes('/women/');
+            if (normalizedSlug === 'kids') return imagePath.includes('/kids/');
+            if (normalizedSlug === 'accessories') return imagePath.includes('/accessories/');
+            
+            // For subcategories or specific types, use field matching
             const cat = p?.category?.toLowerCase()?.replace(/[-\s]/g, '') || '';
             const sub = p?.subcategory?.toLowerCase()?.replace(/[-\s]/g, '') || '';
             const type = p?.type?.toLowerCase()?.replace(/[-\s]/g, '') || '';
-            const name = p?.name?.toLowerCase()?.replace(/[-\s]/g, '') || '';
-            
-            // Check for exact matches in hierarchy first, then name
             return cat === normalizedSlug || sub === normalizedSlug || type === normalizedSlug;
           });
         }
@@ -491,7 +497,7 @@ export default function ShopPage() {
             <div className="text-center py-40 bg-brand-50/30 rounded-3xl border-2 border-dashed border-brand-100">
               <div className="max-w-md mx-auto px-6">
                 <Search size={48} className="mx-auto text-brand-200 mb-6" />
-                <h3 className="text-3xl font-serif font-bold text-brand-950 mb-4">No pieces found</h3>
+                <h3 className="text-3xl font-serif font-bold text-brand-950 mb-4">No products found</h3>
                 <p className="text-brand-500 mb-8 leading-relaxed font-medium">We couldn't find any products matching your current filters. Try adjusting your selection or reset all filters.</p>
                 <button 
                   onClick={handleClearAllFilters}
