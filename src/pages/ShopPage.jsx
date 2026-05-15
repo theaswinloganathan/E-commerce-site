@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { useSearchParams, Link, useParams, useNavigate } from 'react-router-dom'
-import { SlidersHorizontal, X, Star, Search } from 'lucide-react'
+import { SlidersHorizontal, X, Star, Search, ChevronRight } from 'lucide-react'
 import ProductCard from '../components/ProductCard'
 import { products as allProducts } from '../lib/mockData'
 import { cn } from '../lib/utils'
@@ -107,7 +107,7 @@ export default function ShopPage() {
     if (category === 'All') {
       navigate('/shop')
     } else {
-      navigate(`/category/\${category.toLowerCase().replace(/ /g, '-')}`)
+      navigate(`/category/${category.toLowerCase().replace(/ /g, '-')}`)
     }
   }
 
