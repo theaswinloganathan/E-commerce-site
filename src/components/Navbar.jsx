@@ -386,11 +386,11 @@ export default function Navbar() {
                 </form>
 
                 <p className="text-[10px] font-bold text-brand-400 uppercase tracking-[0.2em] mb-4">Navigation</p>
-                <Link to="/" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium">Home <ChevronRight size={16}/></Link>
-                <Link to="/shop" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium">Shop Collection <ChevronRight size={16}/></Link>
-                <Link to="/shop?category=women" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium">Women <ChevronRight size={16}/></Link>
-                <Link to="/shop?category=men" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium">Men <ChevronRight size={16}/></Link>
-                <Link to="/shop?category=kids" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium">Kids <ChevronRight size={16}/></Link>
+                <Link to="/" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium" onClick={() => setIsMobileMenuOpen(false)}>Home <ChevronRight size={16}/></Link>
+                <Link to="/shop" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium" onClick={() => setIsMobileMenuOpen(false)}>Shop Collection <ChevronRight size={16}/></Link>
+                <Link to="/shop?category=women" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium" onClick={() => setIsMobileMenuOpen(false)}>Women <ChevronRight size={16}/></Link>
+                <Link to="/shop?category=men" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium" onClick={() => setIsMobileMenuOpen(false)}>Men <ChevronRight size={16}/></Link>
+                <Link to="/shop?category=kids" className="flex items-center justify-between p-3 rounded-xl hover:bg-brand-50 transition-colors font-medium" onClick={() => setIsMobileMenuOpen(false)}>Kids <ChevronRight size={16}/></Link>
                 
                 <p className="text-[10px] font-bold text-brand-400 uppercase tracking-[0.2em] mt-8 mb-4">Account</p>
                 {user ? (

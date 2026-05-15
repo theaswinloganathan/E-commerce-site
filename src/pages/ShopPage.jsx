@@ -103,6 +103,7 @@ export default function ShopPage() {
     setActiveSubcategory('All')
     setActiveType('All')
     handleClearAllFilters() // Clear complex filters on category change
+    setIsMobileFilterOpen(false)
     if (category === 'All') {
       navigate('/shop')
     } else {
@@ -309,12 +310,28 @@ export default function ShopPage() {
           <div className="sticky top-24 pr-4 max-h-[calc(100vh-120px)] overflow-y-auto custom-scrollbar">
             
 
-            <FilterSidebar 
-              availableFilters={availableFilters}
-              activeFilters={activeFilters}
-              onFilterChange={handleFilterChange}
-              onClearAll={handleClearAllFilters}
-            />
+            <div className="space-y-8">
+              <div>
+                <h3 className="text-xs font-black uppercase tracking-[0.3em] text-brand-950 mb-6">Categories</h3>
+                <div className="flex flex-col space-y-2">
+                  {['All', 'Men', 'Women', 'Kids', 'Accessories'].map(cat => (
+                    <button 
+                      key={cat}
+                      onClick={() => handleCategoryClick(cat)}
+                      className={cn(
+                        "text-left px-4 py-3 rounded-xl transition-all duration-300 font-medium text-sm flex items-center justify-between group",
+                        activeCategory === cat || (cat === 'All' && activeCategory === 'All')
+                          ? "bg-brand-950 text-white shadow-lg"
+                          : "text-brand-600 hover:bg-brand-50"
+                      )}
+                    >
+                      {cat}
+                      <ChevronRight size={14} className={cn("transition-transform", activeCategory === cat ? "translate-x-1" : "group-hover:translate-x-1")} />
+                    </button>
+                  ))}
+                </div>
+              </div>
+            </div>
 
           </div>
         </aside>
@@ -462,12 +479,28 @@ export default function ShopPage() {
               </div>
               
 
-              <FilterSidebar 
-                availableFilters={availableFilters}
-                activeFilters={activeFilters}
-                onFilterChange={handleFilterChange}
-                onClearAll={handleClearAllFilters}
-              />
+              <div className="space-y-8">
+                <div>
+                  <h3 className="text-xs font-black uppercase tracking-[0.3em] text-brand-950 mb-6">Categories</h3>
+                  <div className="flex flex-col space-y-2">
+                    {['All', 'Men', 'Women', 'Kids', 'Accessories'].map(cat => (
+                      <button 
+                        key={cat}
+                        onClick={() => handleCategoryClick(cat)}
+                        className={cn(
+                          "text-left px-4 py-3 rounded-xl transition-all duration-300 font-medium text-sm flex items-center justify-between group",
+                          activeCategory === cat || (cat === 'All' && activeCategory === 'All')
+                            ? "bg-brand-950 text-white shadow-lg"
+                            : "text-brand-600 hover:bg-brand-50"
+                        )}
+                      >
+                        {cat}
+                        <ChevronRight size={14} className={cn("transition-transform", activeCategory === cat ? "translate-x-1" : "group-hover:translate-x-1")} />
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              </div>
               
               <div className="sticky bottom-0 bg-white pt-4 pb-2 border-t border-brand-100 mt-8">
                 <button 
